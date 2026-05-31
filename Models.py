@@ -36,7 +36,7 @@ class LLM():
 
 #### testing outputs
    
-# response = LLM.gemma4("hi")
+# response = LLM.dolphin("hi")
 # print(type(response))
 # print(response.status_code)
 # print(response.text)
