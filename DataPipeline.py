@@ -5,16 +5,16 @@ from google import genai
 from google.genai.errors import ClientError
 from Models import LLM
 from TTS import GenAudio
+import random
 import time
 from os import getenv
 load_dotenv()
 
 client=genai.Client(api_key=f"{getenv("GEMINI_API_KEY")}")
 
-start=time.perf_counter()
 doc_flag=False
 patient_flag=True
-memory={"conversation_id:":0,
+memory={"conversation_id":0,
         
         "source":"synthetic",
 
@@ -79,7 +79,7 @@ class jsonFunc():
             json.dump(features,f,indent=4)
 
     def loadDis():
-        with open("features.json","r") as f:
+        with open("disease.json","r") as f:
             global disease_dict
             disease_dict=json.load(f)
 
@@ -95,7 +95,7 @@ class jsonFunc():
         with open("dialogue_dataset.json","r") as f:
             total_generation=json.load(f)
             total_generation["total_dialogues"]+=1
-            memory["conversation_id:"]=total_generation["total_dialogues"]
+            memory["conversation_id"]=total_generation["total_dialogues"]
 
 
 
@@ -114,7 +114,7 @@ def diseaseSelecter():
         logging("selecting disease....\n")
         start_d=time.perf_counter()
 
-        response=LLM.qwen3_5_4B(prompt)
+        response=LLM.llama3(prompt)
         # if model==0:
             # response=LLM.qwen3_5_4B(prompt)  ### testing 2 models for task 
         # elif model==1:
@@ -187,11 +187,12 @@ def doctorAgent(query):
 
         end_d=time.perf_counter()
         logging(str(end_d-start_d)+'\n')
-
         return response
+
     
     except json.decoder.JSONDecodeError:
-        doctorAgent(query)
+        response=doctorAgent(query)
+        return response
 
 def patientAgent(prompt):
    print("calling patientAgent....")
@@ -219,7 +220,8 @@ def patientAgent(prompt):
        patientAgent(prompt)
    
     
-def orchestrator(turn):
+def orchestrator():
+    start=time.perf_counter()
     
     global doc_flag
     global patient_flag
@@ -227,9 +229,12 @@ def orchestrator(turn):
     jsonFunc.loadDis()
     jsonFunc.loadFeat()
     
+    scenario=scenarioGen(diseaseSelecter())
+
+    turn=turnCalc(scenario)
+
     memory["turns"]=turn
 
-    scenario=scenarioGen(diseaseSelecter())
 
     for i in range(1,turn+1):
 
@@ -262,11 +267,11 @@ def orchestrator(turn):
     jsonFunc.appendFeat()
     
     end=time.perf_counter()
-    logging("ended in"+str(end-start)+'\n')
+    logging("ended in...."+str(end-start)+'\n\n')
 
     print(end-start)
 
-    memory={"conversation_id:":0,
+    memory={"conversation_id":0,
         
         "source":"synthetic",
 
@@ -280,6 +285,20 @@ def orchestrator(turn):
 
         "readiness_turn":-1
         }
+
+def turnCalc(scenario):
+    severity=scenario["severity"]
+
+    if severity=="mild":
+        turns=[9,10]
+        turn=random.choice(turns)
+    elif severity=="moderate":
+        turns=[10,11]
+        turn=random.choice(turns)
+    elif severity=="severe":
+        turns=[11,12]
+        turn=random.choice(turns)
+    return turn
 
 
 

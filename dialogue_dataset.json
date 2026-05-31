@@ -1,5 +1,5 @@
 {
-    "total_dialogues": 8,
+    "total_dialogues": 10,
     "dialogues": [
         {
             "conversation_id:": 1,
@@ -1150,6 +1150,320 @@
                     "turn_id": 8,
                     "role": "doctor",
                     "content": "Thank you for sharing those details about your bowel habits; it sounds very uncomfortable. Regarding that intense burning pain you described\u2014does the pain tend to be worse when your stomach is empty, or is it more painful when you've actually eaten something?",
+                    "label": 0
+                }
+            ],
+            "readiness_turn": -1
+        },
+        {
+            "conversation_id": 9,
+            "source": "synthetic",
+            "turns": 9,
+            "disease": "migraine",
+            "scenario": {
+                "disease": "migraine",
+                "age": 35,
+                "age_group": "adult",
+                "sex": "male",
+                "severity": "mild",
+                "duration": "started yesterday evening, off and on since",
+                "visible_symptoms": [
+                    "looks slightly fatigued",
+                    "squints subtly when looking towards a bright window but doesn't acknowledge it"
+                ],
+                "hidden_symptoms": [
+                    "dull throbbing sensation behind his left eye, comes and goes",
+                    "mild nausea that he's been ignoring",
+                    "feels 'a bit off' and unusually irritable",
+                    "has been avoiding bright screens"
+                ],
+                "emotional_state": "mildly irritable, trying to appear unbothered, dismissive of discomfort",
+                "communication_style": "minimizing_patient",
+                "medical_history": [
+                    "history of infrequent 'stress headaches' since his mid-20s, never diagnosed or treated professionally",
+                    "no known allergies"
+                ],
+                "lifestyle_context": "recently pulling long hours at his desk job, skipped dinner last night, been drinking more coffee than usual",
+                "patient_goal": "wants reassurance that it's nothing serious and perhaps a quick fix to 'get back to normal' without making a big deal out of it",
+                "contradictions": [
+                    "initially describes the headache as 'just a dull ache,' but when specifically asked if it throbs, he grudgingly admits, 'well, sometimes a bit, yeah'",
+                    "denies light sensitivity until prompted, then says 'maybe a tiny bit, but it's not a big deal, I can manage'"
+                ],
+                "additional_notes": "patient avoids eye contact frequently and gives short, unelaborated answers, often ending with 'it's fine' or 'no big deal'."
+            },
+            "dialogue": [
+                {
+                    "turn_id": 1,
+                    "role": "patient",
+                    "content": "Oh, nah, I mean, I'm alright. Just pretty tired, I guess. All these long hours at the desk, you know? It's probably just that.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 1,
+                    "role": "doctor",
+                    "content": "I hear you about the long hours and the fatigue, that can really take a toll. But setting aside the tiredness for a moment, can you describe that dull ache or throbbing sensation you mentioned? What does it feel like when it comes on?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 2,
+                    "role": "patient",
+                    "content": "Oh, uh, it's just sort of... a dull ache, mostly. But yeah, when I think about it, sometimes it kind of throbs, yeah. But honestly, it's nothing big deal.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 2,
+                    "role": "doctor",
+                    "content": "I appreciate you being honest about that. Thinking about the headache itself, were there any other symptoms that tend to come with it? Sometimes with headaches, people notice things like sensitivity to light, or maybe difficulty with sound, or even any nausea.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 3,
+                    "role": "patient",
+                    "content": "Nah, no trouble with the sound, I guess. And light? I mean, maybe a tiny bit, but honestly, I can manage. As for nausea, I probably just skipped dinner last night, so it's probably nothing. It's fine.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 3,
+                    "role": "doctor",
+                    "content": "Alright. It sounds like the fatigue and long hours are definitely contributing. Just thinking about the headache itself\u2014is there anything you notice that seems to make the throbbing feel worse, or anything you do that seems to trigger it?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 4,
+                    "role": "patient",
+                    "content": "Hmm. Maybe screens for too long? Or maybe just when I'm skipping meals, I guess. But honestly, I mean, I've been running around and drinking a lot of coffee, so it's probably just that. It's fine.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 4,
+                    "role": "doctor",
+                    "content": "I hear you about the coffee and the long hours\u2014it sounds like a lot has been happening lately. Just to wrap up the symptoms for a moment: when that throbbing feeling does come on, is there anything you've tried or found that seems to make it better, even if it's only slightly?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 5,
+                    "role": "patient",
+                    "content": "Oh, nothing really major, I guess. Maybe just lying down for a while, or taking one of those headache pills. But honestly, I mean, it usually just passes. It's nothing to worry about, really.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 5,
+                    "role": "doctor",
+                    "content": "I understand. Since these episodes seem to pass, it's helpful to know the pattern. Thinking back over the last few weeks or months, how often have you typically experienced headaches like this, and how long do they usually last?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 6,
+                    "role": "patient",
+                    "content": "Oh, I don't know. It's not really a set pattern, honestly. Maybe every couple of weeks, sometimes. And they're nothing major, they tend to pass pretty quickly, usually not for too long. It's just... whatever, I guess.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 6,
+                    "role": "doctor",
+                    "content": "I understand it can feel episodic and relatively mild. But when one of these episodes does hit, and it's at its absolute worst, what is it that keeps you from doing your normal day-to-day activities?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 7,
+                    "role": "patient",
+                    "content": "Honestly, nothing major, I guess. Like, I just feel pretty foggy, or I have to slow everything down. It makes me sluggish, you know? But I mean, I can still function. It's nothing I can't handle.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 7,
+                    "role": "doctor",
+                    "content": "Being foggy or sluggish is definitely a common complaint with bad headaches. But just to clarify one thing: if you were to imagine the absolute worst moment of this throbbing, was there any time when it was so severe that it kept you completely still or prevented you from doing anything at all?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 8,
+                    "role": "patient",
+                    "content": "No, I mean, not really. I can still get up and go about things, I guess. I just feel pretty foggy or slow, but I don't have to stop everything, you know? It's nothing that keeps me completely still, honestly.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 8,
+                    "role": "doctor",
+                    "content": "I appreciate you detailing how functional you feel, even when it\u2019s difficult. Now, switching gears slightly\u2014have you taken any specific medication, whether it's an over-the-counter pain reliever or something else, when these headaches start, or for any other health concern recently?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 9,
+                    "role": "patient",
+                    "content": "Oh, yeah, probably just the standard pain pills, paracetamol kind of thing. But honestly, I don't take them often, and even when I do, they just seem to help a little bit, if that. I mean, it\u2019s probably just stress or something I ate, you know. It\u2019s fine.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 9,
+                    "role": "doctor",
+                    "content": "I understand that you feel it's primarily stress-related, and those pills help a little, but I want to make sure we aren't missing anything. Since you mentioned feeling foggy when this throbbing gets worse, have you noticed any unusual visual changes at all\u2014like flashing lights, spots, or maybe things seeming wavy?",
+                    "label": 0
+                }
+            ],
+            "readiness_turn": -1
+        },
+        {
+            "conversation_id": 10,
+            "source": "synthetic",
+            "turns": 10,
+            "disease": "gastritis",
+            "scenario": {
+                "disease": "gastritis",
+                "age": 28,
+                "age_group": "young_adult",
+                "sex": "female",
+                "severity": "moderate",
+                "duration": "about 2 weeks, worsening significantly in the last 3 days",
+                "visible_symptoms": [
+                    "fidgeting nervously",
+                    "pale complexion",
+                    "frequent grimaces of discomfort",
+                    "clutching her upper abdomen occasionally"
+                ],
+                "hidden_symptoms": [
+                    "burning pain in the upper abdomen (epigastric region)",
+                    "nausea, especially after eating",
+                    "bloating and feeling full very quickly",
+                    "loss of appetite",
+                    "mild heartburn sensation sometimes",
+                    "general fatigue"
+                ],
+                "emotional_state": "high_anxiety",
+                "communication_style": "anxious_patient",
+                "medical_history": [
+                    "no chronic conditions",
+                    "no surgeries",
+                    "occasional tension headaches treated with ibuprofen (OTC)",
+                    "never had stomach issues like this before"
+                ],
+                "lifestyle_context": "works a demanding job in marketing with long hours, often skips breakfast, relies on coffee throughout the day, eats fast food frequently, recently under high stress due to a major project deadline.",
+                "patient_goal": "wants to know what's wrong, fears it's something serious like an ulcer or even worse, wants the pain to stop so she can get back to work and normal life.",
+                "contradictions": [
+                    "initially states she 'eats fairly healthy' but later reveals daily coffee consumption and frequent fast-food meals when pressed about diet.",
+                    "doesn't initially mention regular ibuprofen use for headaches until asked about medication history."
+                ],
+                "additional_notes": "The patient is clearly very worried and will likely ask many questions about the seriousness of her condition, potentially fixating on worst-case scenarios she's googled."
+            },
+            "dialogue": [
+                {
+                    "turn_id": 1,
+                    "role": "patient",
+                    "content": "Do you think... is this just stress, or is it something really bad? I saw online, and some things sound awful.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 1,
+                    "role": "doctor",
+                    "content": "It's understandable that you're worried, especially seeing things online. We need to work through this carefully to figure out exactly what's going on. Thinking back to the burning pain you mentioned, does the pain seem to change at all when you are empty, or is it worse right after you eat a meal?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 2,
+                    "role": "patient",
+                    "content": "Oh, um... I think it's... it's definitely worse when I eat, especially like an hour or so after. But when my stomach is empty, it's still kind of like this low, persistent burning feeling, right there in the middle.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 2,
+                    "role": "doctor",
+                    "content": "I see. So it's a persistent burning sensation even when nothing is in your stomach, but it flares up noticeably after you eat. Besides the pain, are there any particular foods, beverages, or even activities that seem to make the discomfort feel worse, or conversely, anything that helps it ease up?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 3,
+                    "role": "patient",
+                    "content": "Oh... I don't know, maybe acidic drinks? And definitely coffee, I think it's really bad for it. It's really hard to say what helps, honestly, but it seems to get really worse when I'm super stressed out, too.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 3,
+                    "role": "doctor",
+                    "content": "Thank you for sharing that. It gives us some very helpful clues regarding what seems to trigger the discomfort. To help us paint a complete picture of what's happening in your gut, can you tell me a little about your bowel movements? Are they generally regular, or have you noticed any changes in frequency or how they feel?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 4,
+                    "role": "patient",
+                    "content": "Oh, uh... I guess they're pretty irregular. Sometimes I feel really bloated, and I don't know if it's the pain or something else, but they aren't super steady. I've just been feeling generally nauseous and really full, even if I haven't eaten much.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 4,
+                    "role": "doctor",
+                    "content": "I appreciate you telling me about the bloating and irregularity; that is helpful to know. Now, just to make sure we get a complete picture of what might be irritating your gut, can you tell me about any other medications you take? I mean anything at all\u2014whether it's a prescription, an over-the-counter supplement, or even something for your vitamins, because those can sometimes play a role.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 5,
+                    "role": "patient",
+                    "content": "Um, no, nothing serious, I don't think. Maybe... I occasionally take ibuprofen for tension headaches, but I only do that maybe once every month or so, and it's just for the head, I don't take anything else.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 5,
+                    "role": "doctor",
+                    "content": "I appreciate you letting me know about the ibuprofen. To round out the picture, I also want to ask about how your stomach feels when you are sleeping. Have you woken up at night recently because of this burning pain, or any discomfort?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 6,
+                    "role": "patient",
+                    "content": "Hmm. I don't know... maybe sometimes. I usually just feel really uncomfortable and have to wake up, but it's not always really bad. It's just this dull ache that keeps me from sleeping properly, I think.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 6,
+                    "role": "doctor",
+                    "content": "I see. Having discomfort that disrupts sleep is really draining. Given that you've mentioned stress and fatigue, and also your work schedule, could you describe for me what your typical meals look like on those particularly demanding or high-stress work days?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 7,
+                    "role": "patient",
+                    "content": "Oh gosh, um... well, when I'm really busy, I barely eat breakfast, maybe just a cup of coffee. And for lunch and dinner, I usually just grab something fast, like a sandwich or fast food, honestly. I just... I don't really have time to cook anything.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 7,
+                    "role": "doctor",
+                    "content": "I understand. It sounds like when your schedule gets overwhelming, your stomach really takes a hit. Given how much stress and inconsistent eating you've been under, I do need to ask about your bowel movements one more time. Have you noticed any changes in the color of your stool\u2014has it been unusually dark, like black coffee grounds, or perhaps tarry?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 8,
+                    "role": "patient",
+                    "content": "Oh, um... no. I... I don't think so. They look pretty normal, I guess. Just maybe a little lighter than usual? It's hard to tell, honestly, since they're so inconsistent.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 8,
+                    "role": "doctor",
+                    "content": "I appreciate you describing your bowel movements for me. Just one more thing about the pain itself\u2014when that burning sensation hits, does it feel confined to your upper middle stomach, or does it seem to move or spread to any other area, like your chest or upper back?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 9,
+                    "role": "patient",
+                    "content": "It's mostly... right here, in the middle, like in my upper stomach area. It feels pretty confined, I guess. But when it's really bad, it sometimes just feels like a tight ache that almost makes me feel it in my upper chest, but it's really more stomach-based.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 9,
+                    "role": "doctor",
+                    "content": "I understand. It sounds very uncomfortable, and I appreciate you explaining where it feels most focused. Since the burning sensation sometimes moves up toward your chest, I also need to ask if you've noticed any instances where sour-tasting liquid, or acid, seems to creep back up into your throat or mouth, especially when lying down or bending over?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 10,
+                    "role": "patient",
+                    "content": "Oh... yeah, maybe. It's not a lot, but sometimes, especially if I lie down after dinner, I feel this really sour taste, almost like it's in my throat. It's pretty sudden, which makes me even more worried about what it means.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 10,
+                    "role": "doctor",
+                    "content": "Thank you for describing that sour taste; it\u2019s important we track all these symptoms. Just to clarify the nausea\u2014have you actually been vomiting at all, or is it mostly just the feeling of sickness in your stomach?",
                     "label": 0
                 }
             ],
