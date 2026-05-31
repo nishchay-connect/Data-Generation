@@ -8,7 +8,6 @@ from TTS import GenAudio
 import time
 from os import getenv
 load_dotenv()
-import random
 
 client=genai.Client(api_key=f"{getenv("GEMINI_API_KEY")}")
 
@@ -138,13 +137,6 @@ def diseaseSelecter():
     except json.JSONDecodeError:
 
         diseaseSelecter()
-# while True:
-#     diseaseSelecter(0)
-#     diseaseSelecter(1)
-#     jsonFunc.appendDis()
-#     print(disease_dict)
-
-
 
 def scenarioGen(disease):
     try:
@@ -176,16 +168,7 @@ def scenarioGen(disease):
         print(e,"still continuing")
         # time.sleep(5)
         scenarioGen(disease)
-# x=int(input("how many iter"))
 
-# while x>0:
-#     print(scenarioGen(diseaseSelecter()))
-#     print(disease_dict)
-#     print(features)
-#     x-=1
-
-# jsonFunc.appendDis()
-# jsonFunc.appendFeat()
 
 
 def doctorAgent(query):
@@ -241,38 +224,12 @@ def orchestrator(turn):
     global doc_flag
     global patient_flag
     global memory
+    jsonFunc.loadDis()
+    jsonFunc.loadFeat()
     
     memory["turns"]=turn
 
     scenario=scenarioGen(diseaseSelecter())
-
-#     scenario={
-#     "disease": "migraine",
-#     "age": 27,
-#     "age_group":"young_adult",
-#     "sex": "female",
-#     "severity": "moderate",
-#     "duration": "2 days",
-#     "visible_symptoms": [
-#       "headache on one side",
-#       "sensitivity to light",
-#       "nausea"
-#     ],
-#     "hidden_symptoms": [
-#       "blurred vision before headache"
-#     ],
-#     "emotional_state": "frustrated",
-#     "communication_style": "impatient",
-#     "medical_history": [
-#       "previous migraine episodes during stress"
-#     ],
-#     "lifestyle_context": "working long hours with poor sleep recently",
-#     "patient_goal": "wants fast relief to continue work",
-#     "contradictions": [
-#       "initially says headache is normal but later admits pain is severe"
-#     ],
-#     "additional_notes": "patient minimizes symptoms initially"
-#   }
 
     for i in range(1,turn+1):
 
@@ -283,8 +240,6 @@ def orchestrator(turn):
                 prompt=Prompt.InitpatientRolePrompt(scenario)
                 response=patientAgent(prompt)
 
-                
-        
             else:
                 prompt=Prompt.patientRolePrompt(scenario,memory)
                 response=patientAgent(prompt)
@@ -303,10 +258,14 @@ def orchestrator(turn):
         
 
     jsonFunc.saveDialogue()
+    jsonFunc.appendDis()
+    jsonFunc.appendFeat()
     
     end=time.perf_counter()
     logging("ended in"+str(end-start)+'\n')
+
     print(end-start)
+
     memory={"conversation_id:":0,
         
         "source":"synthetic",
@@ -322,20 +281,11 @@ def orchestrator(turn):
         "readiness_turn":-1
         }
 
-x=15
-turns=[7,8,9,10,11]
 
-while x>0:
-    jsonFunc.loadDis()
-    jsonFunc.loadFeat()
+
     
-    turn=random.choice(turns)
 
-    orchestrator(turn)
-
-    jsonFunc.appendDis()
-    jsonFunc.appendFeat()
-    x-=1
+    
 
            
 
