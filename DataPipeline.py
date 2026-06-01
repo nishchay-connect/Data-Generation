@@ -40,7 +40,10 @@ memory={"conversation_id":0,
 
         "generated_on":"",
 
-        "usable":1
+        "usable":1,
+
+        "annotator_id":""
+
         }
 total_generation={"total_dialogues":0,"dialogues":[memory]}
 
@@ -70,7 +73,13 @@ def logging(content):
         f.write(content)
 
 def memoryUpdate(role,content,turn_id):
-    memory["dialogue"].append({"turn_id":turn_id,"role":role,"content":content,"label":0})
+    memory["dialogue"].append({"turn_id":turn_id,"role":role,"content":content,"annotation_data":{
+
+                "label": 0,
+    "current_diagnosis": "",
+    "diagnostic_confidence": 0,
+    "diagnosis_changed": False,
+    "emergency_detected": False}})
 
 def featuresUpdate(response):
     sex=response["sex"]
@@ -324,7 +333,9 @@ def orchestrator():
 
         "generated_on":"",
 
-        "usable":1
+        "usable":1,
+
+        "annotator_id":""
 
         }
 
