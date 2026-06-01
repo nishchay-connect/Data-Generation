@@ -1,5 +1,5 @@
 {
-    "total_dialogues": 24,
+    "total_dialogues": 30,
     "dialogues": [
         {
             "conversation_id:": 1,
@@ -149,7 +149,11 @@
                     "label": 0
                 }
             ],
-            "readiness_turn": -1
+            "readiness_turn": -1,
+            "usable": 101,
+            "model_used": "gemma4",
+            "annotator_confidence (%)": 0,
+            "language": "en"
         },
         {
             "conversation_id:": 2,
@@ -276,7 +280,11 @@
                     "label": 0
                 }
             ],
-            "readiness_turn": -1
+            "readiness_turn": -1,
+            "usable": 101,
+            "model_used": "gemma4",
+            "annotator_confidence (%)": 0,
+            "language": "en"
         },
         {
             "conversation_id:": 3,
@@ -420,7 +428,11 @@
                     "label": 0
                 }
             ],
-            "readiness_turn": -1
+            "readiness_turn": -1,
+            "usable": 101,
+            "model_used": "gemma4",
+            "annotator_confidence (%)": 0,
+            "language": "en"
         },
         {
             "conversation_id:": 4,
@@ -543,7 +555,11 @@
                     "label": 0
                 }
             ],
-            "readiness_turn": -1
+            "readiness_turn": -1,
+            "usable": 101,
+            "model_used": "gemma4",
+            "annotator_confidence (%)": 0,
+            "language": "en"
         },
         {
             "conversation_id:": 5,
@@ -714,7 +730,11 @@
                     "label": 0
                 }
             ],
-            "readiness_turn": -1
+            "readiness_turn": -1,
+            "usable": 101,
+            "model_used": "gemma4",
+            "annotator_confidence (%)": 0,
+            "language": "en"
         },
         {
             "conversation_id:": 6,
@@ -889,7 +909,11 @@
                     "label": 0
                 }
             ],
-            "readiness_turn": -1
+            "readiness_turn": -1,
+            "usable": 101,
+            "model_used": "gemma4",
+            "annotator_confidence (%)": 0,
+            "language": "en"
         },
         {
             "conversation_id:": 7,
@@ -1012,7 +1036,11 @@
                     "label": 0
                 }
             ],
-            "readiness_turn": -1
+            "readiness_turn": -1,
+            "usable": 101,
+            "model_used": "gemma4",
+            "annotator_confidence (%)": 0,
+            "language": "en"
         },
         {
             "conversation_id:": 8,
@@ -1153,7 +1181,11 @@
                     "label": 0
                 }
             ],
-            "readiness_turn": -1
+            "readiness_turn": -1,
+            "usable": 101,
+            "model_used": "gemma4",
+            "annotator_confidence (%)": 0,
+            "language": "en"
         },
         {
             "conversation_id": 9,
@@ -1301,7 +1333,11 @@
                     "label": 0
                 }
             ],
-            "readiness_turn": -1
+            "readiness_turn": -1,
+            "usable": 1,
+            "model_used": "gemma4",
+            "annotator_confidence (%)": 0,
+            "language": "en"
         },
         {
             "conversation_id": 10,
@@ -1467,7 +1503,11 @@
                     "label": 0
                 }
             ],
-            "readiness_turn": -1
+            "readiness_turn": -1,
+            "usable": 1,
+            "model_used": "gemma4",
+            "annotator_confidence (%)": 0,
+            "language": "en"
         },
         {
             "conversation_id": 11,
@@ -1663,7 +1703,9 @@
             ],
             "readiness_turn": -1,
             "model_used": "gemma4",
-            "annotator_confidence (%)": 0
+            "annotator_confidence (%)": 0,
+            "usable": 1,
+            "language": "en"
         },
         {
             "conversation_id": 12,
@@ -1830,7 +1872,9 @@
             ],
             "readiness_turn": -1,
             "model_used": "gemma4",
-            "annotator_confidence (%)": 0
+            "annotator_confidence (%)": 0,
+            "usable": 1,
+            "language": "en"
         },
         {
             "conversation_id": 13,
@@ -2033,7 +2077,9 @@
             ],
             "readiness_turn": -1,
             "model_used": "gemma4",
-            "annotator_confidence (%)": 0
+            "annotator_confidence (%)": 0,
+            "usable": 1,
+            "language": "en"
         },
         {
             "conversation_id": 14,
@@ -2214,7 +2260,8 @@
             "readiness_turn": -1,
             "model_used": "gemma4",
             "annotator_confidence (%)": 0,
-            "language": "en"
+            "language": "en",
+            "usable": 1
         },
         {
             "conversation_id": 15,
@@ -2386,7 +2433,8 @@
             "readiness_turn": -1,
             "model_used": "gemma4",
             "annotator_confidence (%)": 0,
-            "language": "en"
+            "language": "en",
+            "usable": 1
         },
         {
             "conversation_id": 16,
@@ -2567,7 +2615,8 @@
             "readiness_turn": -1,
             "model_used": "gemma4",
             "annotator_confidence (%)": 0,
-            "language": "en"
+            "language": "en",
+            "usable": 1
         },
         {
             "conversation_id": 17,
@@ -2774,7 +2823,8 @@
             "model_used": "gemma4",
             "annotator_confidence (%)": 0,
             "language": "en",
-            "generated_on": "2026-06-01 16:50:06.456600"
+            "generated_on": "2026-06-01 16:50:06.456600",
+            "usable": 1
         },
         {
             "conversation_id": 18,
@@ -2943,7 +2993,8 @@
             "model_used": "gemma4",
             "annotator_confidence (%)": 0,
             "language": "en",
-            "generated_on": "2026-06-01 17:42:09.520958"
+            "generated_on": "2026-06-01 17:42:09.520958",
+            "usable": 1
         },
         {
             "conversation_id": 19,
@@ -3136,7 +3187,8 @@
             "model_used": "gemma4",
             "annotator_confidence (%)": 0,
             "language": "en",
-            "generated_on": "2026-06-01 17:58:54.162462"
+            "generated_on": "2026-06-01 17:58:54.162462",
+            "usable": 1
         },
         {
             "conversation_id": 20,
@@ -3344,7 +3396,8 @@
             "model_used": "gemma4",
             "annotator_confidence (%)": 0,
             "language": "en",
-            "generated_on": "2026-06-01 18:14:28.944904"
+            "generated_on": "2026-06-01 18:14:28.944904",
+            "usable": 1
         },
         {
             "conversation_id": 21,
@@ -3510,7 +3563,8 @@
             "model_used": "gemma4",
             "annotator_confidence (%)": 0,
             "language": "en",
-            "generated_on": "2026-06-01 18:25:30.150584"
+            "generated_on": "2026-06-01 18:25:30.150584",
+            "usable": 1
         },
         {
             "conversation_id": 22,
@@ -3693,7 +3747,8 @@
             "model_used": "gemma4",
             "annotator_confidence (%)": 0,
             "language": "en",
-            "generated_on": "2026-06-01 18:37:14.250149"
+            "generated_on": "2026-06-01 18:37:14.250149",
+            "usable": 1
         },
         {
             "conversation_id": 23,
@@ -3892,7 +3947,8 @@
             "model_used": "gemma4",
             "annotator_confidence (%)": 0,
             "language": "en",
-            "generated_on": "2026-06-01 18:51:25.620619"
+            "generated_on": "2026-06-01 18:51:25.620619",
+            "usable": 1
         },
         {
             "conversation_id": 24,
@@ -4076,7 +4132,1159 @@
             "model_used": "gemma4",
             "annotator_confidence (%)": 0,
             "language": "en",
-            "generated_on": "2026-06-01 19:03:52.555641"
+            "generated_on": "2026-06-01 19:03:52.555641",
+            "usable": 1
+        },
+        {
+            "conversation_id": 25,
+            "source": "synthetic",
+            "turns": 10,
+            "disease": "gastroenteritis",
+            "scenario": {
+                "disease": "gastroenteritis",
+                "age": 72,
+                "age_group": "elderly",
+                "sex": "female",
+                "severity": "mild",
+                "duration": "1 day",
+                "visible_symptoms": [
+                    "looks a bit tired and pale",
+                    "frequent hurried trips to the restroom"
+                ],
+                "hidden_symptoms": [
+                    "abdominal rumbling and cramping that comes and goes, mostly lower abdomen",
+                    "loose, watery stools, about 5-6 times since yesterday evening",
+                    "mild nausea without vomiting, mostly after eating",
+                    "loss of appetite, couldn't finish dinner last night",
+                    "general feeling of weakness, especially in the legs when standing up quickly",
+                    "slight headache at the back of my head that started this morning"
+                ],
+                "emotional_state": "weary and slightly concerned",
+                "communication_style": "detail-oriented",
+                "medical_history": [
+                    "controlled hypertension for 15 years, takes amlodipine 5mg daily",
+                    "no known allergies",
+                    "no recent hospitalizations"
+                ],
+                "lifestyle_context": "Lives with her son's family in an apartment. Symptoms started a few hours after attending a large family gathering where she ate various dishes. She's usually very active, going for walks daily.",
+                "patient_goal": "Wants to understand what caused this upset stomach and how to stop the frequent bathroom trips so she can get back to her normal routine without feeling drained. She's also concerned about her blood pressure with the weakness.",
+                "contradictions": [
+                    "Initially mentions it as just a 'stomach bug' but then meticulously describes the color, consistency, and frequency of her bowel movements when asked."
+                ],
+                "additional_notes": "Patient is usually very meticulous about her health and diet. She suspects something she ate at the family function, but can't pinpoint it.",
+                "cultural_context": {
+                    "region": "Maharashtra, urban Mumbai",
+                    "socioeconomic_status": "medium",
+                    "health_literacy": "medium",
+                    "deference_level": "medium"
+                },
+                "doctor_profile": {
+                    "type": "private_MBBS",
+                    "experience_years": 15,
+                    "setting": "private_clinic",
+                    "consultation_time_pressure": "moderate",
+                    "communication_style": "empathetic",
+                    "explanation_tendency": "moderate",
+                    "empathy_level": "high",
+                    "family_involvement_approach": "manages"
+                }
+            },
+            "dialogue": [
+                {
+                    "turn_id": 1,
+                    "role": "patient",
+                    "content": "Honestly, Doctor, I just feel generally very tired. And my stomach... it's been giving me so much trouble since yesterday evening. I keep having these urgent trips to the restroom.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 1,
+                    "role": "doctor",
+                    "content": "I understand completely, Madam. Feeling constantly tired and dealing with frequent stomach issues must be very distressing. Don't worry, we will figure out what is going on. Could you please tell me a little more about these watery stools? For instance, what was the color, and was there any solid material mixed in with them?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 2,
+                    "role": "patient",
+                    "content": "Oh, yes, they are quite watery. They are mostly light, Doctor, almost pale, and there's nothing solid in them, just... very loose. It's been happening about five or six times since yesterday evening.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 2,
+                    "role": "doctor",
+                    "content": "I see. Dealing with that constant urge must be quite draining. You also mentioned abdominal rumbling and cramping, which usually comes and goes, is that pain localized anywhere, or does it feel more like a dull discomfort all over?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 3,
+                    "role": "patient",
+                    "content": "It's mostly down here, Doctor, in my lower belly. It doesn't feel like one constant pain, it's more of a cramping feeling that comes and goes, very restless. It's quite uncomfortable, especially when I'm lying down.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 3,
+                    "role": "doctor",
+                    "content": "I appreciate you describing the cramping so thoroughly. It helps pinpoint the area. Given all these frequent watery stools and the feeling of weakness, it sounds like you might be losing a lot of fluids, which is very common. Have you been keeping up with enough fluids and electrolytes, like buttermilk or ORS, since yesterday?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 4,
+                    "role": "patient",
+                    "content": "Oh, I... I tried drinking some water, Doctor, and my son gave me some thin broth. I think I had a little buttermilk yesterday, but honestly, I haven't been drinking much today because of the general weakness. And I also just haven't had any proper appetite, so I haven't been eating much either.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 4,
+                    "role": "doctor",
+                    "content": "I see, so your appetite is low and your fluid intake is limited. That makes sense, given how upset your stomach is. Madam, you also mentioned feeling weak, particularly when standing up quickly. When this happens, do you feel any dizziness, or perhaps like your vision goes blurry for a moment, like you might faint?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 5,
+                    "role": "patient",
+                    "content": "Oh, yes, a little bit. When I get up too quickly, my head feels light, Doctor, and I feel a bit unsteady in my legs. It's not like I pass out, but I definitely feel like I might spin around for a moment.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 5,
+                    "role": "doctor",
+                    "content": "I understand how worrying that feeling of unsteadiness must be, especially when you are usually very active. Now, since we are concerned about this weakness and the watery stools, have you noticed any other symptoms like a fever, or perhaps if your urine colour has changed and become darker than usual?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 6,
+                    "role": "patient",
+                    "content": "A fever, no, I haven't actually checked, but I don't feel hot at all, just generally weak. As for the urine, I don't know... I haven't looked closely, but since I haven't been drinking much, it might look darker than usual, I think.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 6,
+                    "role": "doctor",
+                    "content": "I understand. It's very common for the urine to look darker when we are dehydrated, so we definitely need to focus on getting your fluids back up. Madam, since this weakness and feeling unsteady is concerning you, could you tell me if this tiredness or lightheaded feeling is worse at a particular time of day, or after you have been doing any specific activity?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 7,
+                    "role": "patient",
+                    "content": "Oh, I don't know... I think it happens most when I stand up quickly, Doctor, or if I try to walk across the room too fast. Yesterday, after I was helping my son clean up, it felt quite bad. And honestly, since my stomach has been doing so much trouble, I feel generally weak all the time, so maybe that's making it worse.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 7,
+                    "role": "doctor",
+                    "content": "I understand, Madam. So it's definitely linked to getting up too fast, which is common when the body is struggling with weakness. Since you mentioned taking Amlodipine for your blood pressure, can you tell me if there are any other medicines you take regularly for anything else, or even any supplements? It's important to ensure nothing is interacting with your body right now.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 8,
+                    "role": "patient",
+                    "content": "No, no, Doctor. Just the Amlodipine, only for my blood pressure. Nothing else, I haven't started any supplements. But really, this stomach problem is just making me feel so weak, and I'm worried about my BP because of it.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 8,
+                    "role": "doctor",
+                    "content": "I hear your concern about your blood pressure, and it's completely understandable that all these symptoms are making you worried. Since we've established that you are quite dehydrated right now, that is often the primary cause of weakness and lightheadedness. Regarding the slight headache at the back of your head, has that headache been present since you first felt the weakness, or did it start at a different time?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 9,
+                    "role": "patient",
+                    "content": "Oh, no, Doctor. It didn't start when the stomach trouble began. The loose stools started yesterday evening, but this slight headache at the back of my head only started this morning, when I woke up. Maybe it's just because I've been so weak?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 9,
+                    "role": "doctor",
+                    "content": "Thank you, Madam, for clarifying that. Given how weak you feel, it's quite normal for small symptoms like headaches to appear. Could you describe the headache a little more? For example, is it throbbing, or is it more of a constant pressure, and does anything specific, like bending over or moving, seem to make it worse?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 10,
+                    "role": "patient",
+                    "content": "It's not really throbbing, Doctor. More like a constant, dull pressure at the back of my head, like something is pulling a little bit. And yes, when I move my neck or when I stand up quickly, it feels a little tighter, but it's not unbearable, honestly. Maybe it's just because I feel so generally weak these days.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 10,
+                    "role": "doctor",
+                    "content": "I appreciate you describing that headache pattern. So, keeping in mind all this weakness and the recent stomach trouble, Madam, I need to understand how this is impacting your day-to-day life. Are you finding it difficult to manage any daily activities, like walking to the kitchen, or climbing stairs?",
+                    "label": 0
+                }
+            ],
+            "readiness_turn": -1,
+            "model_used": "gemma4",
+            "annotator_confidence (%)": 0,
+            "language": "en",
+            "generated_on": "2026-06-01 19:36:59.579465",
+            "usable": 1
+        },
+        {
+            "conversation_id": 26,
+            "source": "synthetic",
+            "turns": 11,
+            "disease": "peptic_ulcer",
+            "scenario": {
+                "disease": "peptic_ulcer",
+                "age": 48,
+                "age_group": "adult",
+                "sex": "male",
+                "severity": "moderate",
+                "duration": "About three weeks, on and off.",
+                "visible_symptoms": [],
+                "hidden_symptoms": [
+                    "Burning pain in upper stomach, usually in the center",
+                    "Pain is often worse between meals or at night",
+                    "Sometimes wakes him up from sleep",
+                    "Feels better for a while after eating or taking an antacid"
+                ],
+                "emotional_state": "Neutral, slightly bothered.",
+                "communication_style": "Direct, low-detail.",
+                "medical_history": [
+                    "Occasional heartburn in the past, treated with over-the-counter antacids sometimes."
+                ],
+                "lifestyle_context": "Works long hours in an office job. Reports a generally busy schedule. Smokes half a pack of cigarettes a day and drinks 2-3 cups of strong tea/coffee daily.",
+                "patient_goal": "Wants the stomach pain to stop completely.",
+                "contradictions": [
+                    "States the pain is 'manageable' but admits it wakes him up at night and affects his sleep."
+                ],
+                "additional_notes": "Patient seeks a straightforward solution to relieve his symptoms quickly.",
+                "cultural_context": {
+                    "region": "Mumbai, Maharashtra",
+                    "socioeconomic_status": "medium",
+                    "health_literacy": "medium",
+                    "deference_level": "medium"
+                },
+                "doctor_profile": {
+                    "type": "private_MBBS",
+                    "experience_years": 10,
+                    "setting": "private_clinic",
+                    "consultation_time_pressure": "moderate",
+                    "communication_style": "collaborative",
+                    "explanation_tendency": "moderate",
+                    "empathy_level": "moderate",
+                    "family_involvement_approach": "manages"
+                }
+            },
+            "dialogue": [
+                {
+                    "turn_id": 1,
+                    "role": "patient",
+                    "content": "Yes, Doctor. It's this pain in my stomach. It's been bothering me for about three weeks now, mostly. Nothing seems to help it fully.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 1,
+                    "role": "doctor",
+                    "content": "I understand. To help me get a clearer picture of what you are experiencing, can you tell me if the pain changes depending on whether you have eaten recently, or if it tends to be worse at certain times of the day?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 2,
+                    "role": "patient",
+                    "content": "Yeah, it seems to be worse when I haven't eaten for a while, especially in the mornings or at night. But once I have something, or if I take an antacid, it usually feels a bit better for a time.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 2,
+                    "role": "doctor",
+                    "content": "I see. This pattern of relief after eating or taking antacids is quite helpful. Just to clarify, when you feel this burning pain, does it ever feel like it moves up into your chest or perhaps into your throat?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 3,
+                    "role": "patient",
+                    "content": "Not exactly up into the chest, but it's right in that upper area, around the stomach. Sometimes it feels quite tight there, just general burning.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 3,
+                    "role": "doctor",
+                    "content": "I see. Given that this burning feeling is localized right in the upper stomach, I need to understand if there are any other digestive issues accompanying it, like bloating, discomfort after passing gas, or if you've noticed any changes in your bowel movements lately?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 4,
+                    "role": "patient",
+                    "content": "No, nothing with my bowels, they are fine. I don't really feel bloated, or any discomfort when I pass gas either.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 4,
+                    "role": "doctor",
+                    "content": "I see, no bowel changes, thank you for clarifying that. Since you mentioned the pain feels worse when you haven't eaten for a while, could you tell me if there are any specific foods, or maybe even certain kinds of drinks, that seem to reliably trigger this burning pain?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 5,
+                    "role": "patient",
+                    "content": "I drink a lot of strong tea and coffee throughout the day, I guess those make it quite bad. Smoking also seems to bother it a bit, especially when I have a few cigarettes.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 5,
+                    "role": "doctor",
+                    "content": "Thank you for sharing that, it gives us a good idea of what might be irritating your stomach. Just so I have a complete picture, are you currently taking any regular medications for anything else, or even any supplements or vitamins that you take daily?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 6,
+                    "role": "patient",
+                    "content": "No, Doctor. Nothing regular, no pills or supplements I take every day. Only sometimes, when it gets really bad, I pick up some antacids from the chemist.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 6,
+                    "role": "doctor",
+                    "content": "I understand. Since your work schedule is quite demanding, I wonder if we could talk a little more about your eating schedule. Do you tend to skip any meals, or are your meals usually eaten quite quickly throughout the day?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 7,
+                    "role": "patient",
+                    "content": "Oh, I don't know... I try to eat, but usually I'm rushing. Sometimes I just grab something quickly at the office. I guess I just don't have much time, honestly.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 7,
+                    "role": "doctor",
+                    "content": "I appreciate you explaining your routine; that does give us some context. We've talked a lot about the triggers, but I'd like to understand the timing even better. Does the burning pain tend to happen more when you are lying down at night, or is it more noticeable when you are awake and active during the day?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 8,
+                    "role": "patient",
+                    "content": "Hmm, it's usually worst at night, Doctor. Like when I am lying down, it feels quite bad. Sometimes it even wakes me up, honestly.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 8,
+                    "role": "doctor",
+                    "content": "I see. When the pain is bad, have you noticed any unusual changes in your stools, like if they appear very dark, almost black, or if you have vomited anything unusual, like blood or anything resembling coffee grounds?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 9,
+                    "role": "patient",
+                    "content": "No, Doctor. Nothing like that, I haven't noticed any unusual color or anything bloody, either in my stools or if I've vomited anything. Everything is generally normal.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 9,
+                    "role": "doctor",
+                    "content": "I appreciate you confirming that, Doctor. Now, just to help me understand the pattern better, can you tell me a little bit about what you usually eat during your day? For example, when you are rushing, what kind of breakfast or lunch do you generally grab?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 10,
+                    "role": "patient",
+                    "content": "Usually, if I am in a rush, it's something very simple. Maybe some toast or a pastry from the office, or if I am at home, maybe just some leftovers. I try to eat, but it's never a proper meal, you know?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 10,
+                    "role": "doctor",
+                    "content": "I understand. Since you are eating on the go, I wonder if there are any other types of food, maybe something spicy, oily, or really acidic, that you find yourself consuming, and if those seem to make the pain feel worse?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 11,
+                    "role": "patient",
+                    "content": "Oh, maybe oily things, yes. Or if I have anything really spicy, like some street food sometimes. But honestly, it's not like I eat those things every day; it's mainly the quick, simple food when I'm in a rush.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 11,
+                    "role": "doctor",
+                    "content": "I see. So it's more about the combination of speed and the lack of a proper meal. Just one more thing regarding the pain itself\u2014when an episode starts, can you tell me roughly how long it tends to last? Is it quick discomfort, or does it build up over a long period?",
+                    "label": 0
+                }
+            ],
+            "readiness_turn": -1,
+            "model_used": "gemma4",
+            "annotator_confidence (%)": 0,
+            "language": "en",
+            "generated_on": "2026-06-01 19:55:04.035283",
+            "usable": 1
+        },
+        {
+            "conversation_id": 27,
+            "source": "synthetic",
+            "turns": 9,
+            "disease": "chronic_kidney_disease",
+            "scenario": {
+                "disease": "chronic_kidney_disease",
+                "age": 68,
+                "age_group": "elderly",
+                "sex": "male",
+                "severity": "mild",
+                "duration": "several months, with noticeable worsening in the last 2-3 weeks",
+                "visible_symptoms": [
+                    "mild swelling in feet and ankles",
+                    "pale skin (subtle)"
+                ],
+                "hidden_symptoms": [
+                    "generalized weakness",
+                    "reduced appetite",
+                    "frequent urination, especially at night (nocturia)",
+                    "occasional muscle cramps",
+                    "fatigue"
+                ],
+                "emotional_state": "Slightly weary and confused, but generally calm and resigned, attributing symptoms to old age.",
+                "communication_style": "Vague and indirect, prone to minimizing discomfort, focuses on general malaise rather than specific symptoms.",
+                "medical_history": [
+                    "Diagnosed with hypertension 10 years ago, takes medication inconsistently.",
+                    "Diagnosed with diabetes 5 years ago, follows diet sporadically, doesn't monitor blood sugar regularly.",
+                    "Reports having had 'stones' in the past, but unsure when or what kind."
+                ],
+                "lifestyle_context": "Retired farmer from a rural village. Diet typically high in salt, homemade pickles, and occasional fried foods. Has limited physical activity now. Does not believe in frequent doctor visits and prefers home remedies for minor issues. Has adult children who live nearby and encouraged him to visit.",
+                "patient_goal": "Wants to feel a bit more energetic and less tired. Thinks it's just 'buddhape' (old age) but hopes for something to 'strengthen' him so he can help with household chores again.",
+                "contradictions": [
+                    "Initially dismisses the swelling as 'just normal for old age,' but later admits his shoes feel tighter than before.",
+                    "Says he takes his blood pressure medicine 'when I remember,' but can't recall the name or last dose.",
+                    "Claims he's 'not that weak,' but admits he needs help getting up from sitting positions."
+                ],
+                "additional_notes": "Patient might struggle to understand complex medical terminology. He is accompanied by his son who might interject with additional observations.",
+                "cultural_context": {
+                    "region": "Rural Uttar Pradesh",
+                    "socioeconomic_status": "low",
+                    "health_literacy": "low",
+                    "deference_level": "high"
+                },
+                "doctor_profile": {
+                    "type": "rural_PHC",
+                    "experience_years": 5,
+                    "setting": "primary_health_centre",
+                    "consultation_time_pressure": "very_high",
+                    "communication_style": "paternalistic",
+                    "explanation_tendency": "low",
+                    "empathy_level": "moderate",
+                    "family_involvement_approach": "accepts"
+                }
+            },
+            "dialogue": [
+                {
+                    "turn_id": 1,
+                    "role": "patient",
+                    "content": "Oh, it's just... I feel slow, Sahib. It is the years, you know. I used to work the fields, and now I just feel tired easily, especially when I have to walk much.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 1,
+                    "role": "doctor",
+                    "content": "I see. Being tired is common, especially when you work hard. But I need to know if this weakness is constant, or is it worse at a specific time of the day, for instance, morning or evening?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 2,
+                    "role": "patient",
+                    "content": "It is everywhere, Sahib. It's not like it's only in the morning or evening. But when I do some work, like carrying things or walking up the steps, then I really feel the drag, yes.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 2,
+                    "role": "doctor",
+                    "content": "I see. So the effort you put in makes the weakness noticeable. Tell me, about the urination\u2014are you finding that you have to go to the bathroom many times during the night?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 3,
+                    "role": "patient",
+                    "content": "Oh, yes... it is a little frequent, Sahib. I used to go maybe once, if that, but now I wake up, sometimes, maybe three times. It is just the years, I think. Getting up in the night is hard enough.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 3,
+                    "role": "doctor",
+                    "content": "I understand. This is all quite draining, especially getting up so many times. Tell me, about that swelling you mentioned, is that only around your ankles and feet, or do you notice it anywhere else, perhaps in your hands or even your stomach?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 4,
+                    "role": "patient",
+                    "content": "Mostly, Sahib, it is down here, in the feet and ankles. There, yes. My hands, I do not think... no, those are fine. I do not feel it anywhere else, no.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 4,
+                    "role": "doctor",
+                    "content": "I see. Swelling in the feet can be due to many things. But tell me, when you are lying down flat, or when you climb stairs, do you ever feel like you are struggling to breathe, or does your chest feel tight?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 5,
+                    "role": "patient",
+                    "content": "Oh, sometimes, Sahib. Especially when I climb up the stairs quickly, I feel a little short of breath. But I think that is just because I am moving too fast, you know. It's just the years making everything hard.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 5,
+                    "role": "doctor",
+                    "content": "I understand that. Being short of breath when moving quickly can be worrying. Now, regarding this swelling in your ankles, do you notice that it gets worse throughout the day? For instance, is it more swollen by the evening time compared to when you first wake up?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 6,
+                    "role": "patient",
+                    "content": "Oh... yes, Sahib. It seems like when the day ends, and I have walked around, the swelling... it just feels heavier. It is like it keeps swelling more, especially when I rest in the evening.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 6,
+                    "role": "doctor",
+                    "content": "I see. This worsening at night is important to know. Now, tell me something else about your day\u2014how much water, or any kind of liquid, do you usually drink throughout the whole day?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 7,
+                    "role": "patient",
+                    "content": "Oh, I... well, I drink what is there, Sahib. Maybe a little water when I feel thirsty, and sometimes a cup of chai. But not much, truthfully. Sometimes I forget.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 7,
+                    "role": "doctor",
+                    "content": "I understand. Since you have been managing both high blood pressure and diabetes for a while, can you tell me, roughly, how many pills, or what kind of medicines, do you usually take at home every day for these things?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 8,
+                    "role": "patient",
+                    "content": "Oh, medicines... I take some, Sahib. For the blood pressure, I take something, but honestly, I don't remember the name, or always if I took it. For the sugar, I just try to remember to take it sometimes. I try to keep it regular, but... sometimes, the days get confusing, you know.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 8,
+                    "role": "doctor",
+                    "content": "I see, it sounds like things are very confusing these days. But Sahib, managing these medicines, especially for blood pressure and sugar, is very important for your kidneys, because they are already working hard. When we talk about your diet, can you tell me if you still eat those pickles and if you use much salt when cooking your meals these days?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 9,
+                    "role": "patient",
+                    "content": "Oh, pickles... yes, we still use them sometimes, Sahib. And for the salt, I don't know much. My wife prepares the food; we just use what we usually do. We eat what we have, really.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 9,
+                    "role": "doctor",
+                    "content": "I see. High salt and pickles are hard to avoid sometimes. But tell me, sahib, when you are resting\u2014whether lying down or sitting\u2014do you ever feel like your heart is fluttering, or beating too fast, or doing a strange rhythm?",
+                    "label": 0
+                }
+            ],
+            "readiness_turn": -1,
+            "model_used": "gemma4",
+            "annotator_confidence (%)": 0,
+            "language": "en",
+            "generated_on": "2026-06-01 20:05:50.238431",
+            "usable": 1
+        },
+        {
+            "conversation_id": 28,
+            "source": "synthetic",
+            "turns": 11,
+            "disease": "hypertension",
+            "scenario": {
+                "disease": "hypertension",
+                "age": 55,
+                "age_group": "adult",
+                "sex": "female",
+                "severity": "severe",
+                "duration": "past few weeks, but general malaise for months",
+                "visible_symptoms": [
+                    "general fatigue",
+                    "frequent headaches (patient might rub temples)",
+                    "slightly flushed appearance (subtle)"
+                ],
+                "hidden_symptoms": [
+                    "occasional dizziness, especially when standing up quickly",
+                    "intermittent blurred vision (brief moments)",
+                    "a feeling of 'pressure' or 'heaviness' in the chest, not sharp pain",
+                    "shortness of breath with mild exertion (e.g., climbing one flight of stairs)",
+                    "occasional ringing in the ears",
+                    "no regular blood pressure checks in years"
+                ],
+                "emotional_state": "neutral, slightly weary and confused",
+                "communication_style": "vague",
+                "medical_history": [
+                    "no known chronic conditions",
+                    "last full check-up was over 10 years ago",
+                    "occasional joint pains, attributed to 'age'",
+                    "never smoked, occasional social alcohol (once a month or less)"
+                ],
+                "lifestyle_context": "Homemaker in a joint family, responsible for cooking and household chores. Often eats rich, traditional Indian food, high in salt and oil, due to family preferences. Doesn't get much dedicated exercise, attributes exhaustion to daily tasks. Experiences moderate family stress.",
+                "patient_goal": "wants to stop feeling so 'off' and tired, get some relief from headaches, able to do daily chores without discomfort. Doesn't suspect anything serious, just wants a 'tonic' or simple remedy.",
+                "contradictions": [
+                    "initially states she feels 'mostly fine, just a bit tired' but then describes several persistent, uncomfortable symptoms",
+                    "might say her diet is 'normal' but struggles to list specific healthy components when asked",
+                    "struggles to pinpoint when symptoms started exactly, saying 'it's been like this for a while, I suppose'"
+                ],
+                "additional_notes": "Patient might attribute symptoms to 'stress' or 'too much work' rather than a physical ailment. Hesitant to use strong medicines due to cultural beliefs about side effects.",
+                "cultural_context": {
+                    "region": "urban_Maharashtra",
+                    "socioeconomic_status": "medium",
+                    "health_literacy": "low",
+                    "deference_level": "medium"
+                },
+                "doctor_profile": {
+                    "type": "private_MBBS",
+                    "experience_years": 10,
+                    "setting": "private_clinic",
+                    "consultation_time_pressure": "moderate",
+                    "communication_style": "empathetic",
+                    "explanation_tendency": "moderate",
+                    "empathy_level": "high",
+                    "family_involvement_approach": "manages"
+                }
+            },
+            "dialogue": [
+                {
+                    "turn_id": 1,
+                    "role": "patient",
+                    "content": "It's mostly this constant tiredness, Doctor. Like my body just won't catch up, even when I rest. And sometimes, when I try to lift something or even just walk up the stairs, I feel a little dizzy, you know? It's nothing, but it is there.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 1,
+                    "role": "doctor",
+                    "content": "I hear you. Feeling drained like that, especially when doing daily chores, is very unsettling. Just to help me understand this better, when you feel tired, have you noticed if there is any kind of head discomfort or headache that comes along with it?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 2,
+                    "role": "patient",
+                    "content": "Yes, actually, there are headaches. Not sharp pain, but more like a dull ache, mostly around my temples. I usually rub them when I feel that tired, I think it might just be from all the stress of running the house.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 2,
+                    "role": "doctor",
+                    "content": "I understand. It's very common for stress to cause headaches, but since you also mentioned feeling dizzy, especially when you stand up quickly, can you describe exactly what that feeling is like? Does it feel like passing out, or more like the room spinning?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 3,
+                    "role": "patient",
+                    "content": "Oh, I don't know, Doctor. It's not like the room spins, no. It's more like... I just feel suddenly weak, you know? Like my head feels heavy, and I almost just black out for a second. I usually only notice it when I stand up too fast.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 3,
+                    "role": "doctor",
+                    "content": "I understand. Feeling suddenly weak or dizzy, especially when changing posture, can be quite alarming. Just to make sure we cover everything, besides the tiredness and the headaches, have you noticed any other subtle changes, perhaps a feeling of pressure in your chest, or maybe difficulty catching your breath when you exert yourself?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 4,
+                    "role": "patient",
+                    "content": "Oh, the chest... Sometimes it feels a little heavy, especially when I've been moving around a lot. It's not like pain, but more of a tightness. And when I was climbing the stairs the other day, I did feel like I was panting a bit, like I couldn't take a deep breath right away.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 4,
+                    "role": "doctor",
+                    "content": "I see. Thank you for sharing all those details. Now, just to complete the picture of your overall health, have you had your blood pressure checked recently? Also, does anyone in your family\u2014your mother, father, or siblings\u2014have a history of high blood pressure or heart problems?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 5,
+                    "role": "patient",
+                    "content": "Oh, my blood pressure... I don't know, Doctor. I just don't check it regularly. Honestly, I haven't kept track of anything like that. As for my family, they are all generally fine, but since they are all getting older, some aches and pains are normal, I suppose.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 5,
+                    "role": "doctor",
+                    "content": "Thank you for being so open with me. Since you mentioned cooking for the family, could you tell me a little bit about the general meals you eat at home? I am particularly interested in things like how much salt or oil is used in the cooking generally?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 6,
+                    "role": "patient",
+                    "content": "Oh, it's just like normal cooking for a big family, Doctor. We use oil, yes, and spices\u2014everything tastes good that way, you know? As for salt, I suppose everyone in the family likes it quite salty, so we don't really... I don't know how much is too much. We just cook what we usually cook.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 6,
+                    "role": "doctor",
+                    "content": "I understand, these habits are often deeply ingrained. Now, shifting gears slightly, since this exhaustion is a main concern, could you tell me about your sleep? Are you getting enough rest at night, and do you feel yourself waking up refreshed?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 7,
+                    "role": "patient",
+                    "content": "Oh, my sleep... well, I mean I try to sleep enough, Doctor, but sometimes it feels like I just don't get proper rest. I wake up feeling already tired, like I haven't done much at all. Maybe it is all this stress from the house, you know.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 7,
+                    "role": "doctor",
+                    "content": "I understand, feeling tired even after sleeping can be very disheartening. Now, let's return to the symptoms of breathlessness and chest heaviness. When you feel that shortness of breath, does it seem to be worse at certain times of the day, or perhaps after doing something specific, like bending over or carrying something heavy?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 8,
+                    "role": "patient",
+                    "content": "Hmm, yes, I suppose it gets worse when I am really busy. Like if I have to cook for everyone, or if I carry a lot of things from the market. But it is probably just because I am doing too much, Doctor. Maybe I need to take it easy, I think.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 8,
+                    "role": "doctor",
+                    "content": "I hear you, and it sounds like you are indeed very active, which can certainly be tiring. But just one more thing about that breathlessness and chest heaviness: when these symptoms are bothering you, does taking a few minutes to rest\u2014maybe just sitting quietly\u2014help them to ease up at all?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 9,
+                    "role": "patient",
+                    "content": "Yes, I think it does. If I sit down, for a little while, the feeling of heaviness in my chest goes away a bit, and I can breathe easier, I guess. But then after I get up again, it starts again.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 9,
+                    "role": "doctor",
+                    "content": "I see. So, when you finally rest, those feelings start to ease up. This is helpful information. Besides the breathlessness and chest heaviness, have you ever noticed your heart beating differently? Like feeling a flutter, or sometimes racing, even when you are completely relaxed?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 10,
+                    "role": "patient",
+                    "content": "Oh, the heart... I don't know. I haven't really paid close attention to it. But sometimes, especially when I'm very stressed out, I get this feeling, like a little quick thumping, or sometimes it feels like my heart is beating a bit too hard. But it doesn't last, you know, it goes away quickly.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 10,
+                    "role": "doctor",
+                    "content": "Thank you for describing that. So, these quick flutters or thumps, they seem mostly linked to stress, but do they ever happen at completely random times, even when you are feeling calm or sleeping?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 11,
+                    "role": "patient",
+                    "content": "Oh, well... no, I don't think about it that much, Doctor. It mostly happens when I've been doing things, or when I'm worried about something. Maybe when I'm sitting down, and I just get comfortable, I forget it even happens. It must just be because I am worn out, I think.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 11,
+                    "role": "doctor",
+                    "content": "We've discussed a lot today, and you've been very open. Beyond these symptoms, have you ever had any routine check-ups for things like your sugar levels, or have you seen any specialists, like an eye doctor or a general practitioner, recently?",
+                    "label": 0
+                }
+            ],
+            "readiness_turn": -1,
+            "model_used": "gemma4",
+            "annotator_confidence (%)": 0,
+            "language": "en",
+            "generated_on": "2026-06-01 20:19:31.672555",
+            "usable": 1
+        },
+        {
+            "conversation_id": 29,
+            "source": "synthetic",
+            "turns": 12,
+            "disease": "hypertension",
+            "scenario": {
+                "disease": "hypertension",
+                "age": 70,
+                "age_group": "elderly",
+                "sex": "male",
+                "severity": "severe",
+                "duration": "Worsening symptoms for 3 weeks, underlying hypertension for 10 years",
+                "visible_symptoms": [
+                    "Appears visibly distressed",
+                    "Holding his head",
+                    "Slightly flushed face",
+                    "Sweating slightly"
+                ],
+                "hidden_symptoms": [
+                    "Intense throbbing headache, especially at the back of the head",
+                    "Severe dizziness, feels like the room is spinning",
+                    "Occasional blurred vision, 'spots in my eyes'",
+                    "Two episodes of nosebleeds (epistaxis) in the last week",
+                    "General weakness and fatigue",
+                    "Occasional palpitations, 'heart beating fast and hard'",
+                    "Numbness in fingertips of left hand"
+                ],
+                "emotional_state": "Overwhelmed and fearful, bordering on panic, extremely anxious about symptoms",
+                "communication_style": "Distressed and verbose, tends to interrupt, focuses intensely on his suffering",
+                "medical_history": [
+                    "Diagnosed with hypertension 10 years ago, prescribed medication (unspecified)",
+                    "History of mild osteoarthritis in knees, occasional pain managed with OTC balms",
+                    "No known diabetes or hyperlipidemia, but hasn't had check-ups in years"
+                ],
+                "lifestyle_context": "Retired government officer, enjoys rich, spicy traditional Indian food, particularly fried snacks. Largely sedentary lifestyle since retirement. Recently under significant stress due to his youngest son losing his job and financial strain on the family.",
+                "patient_goal": "Wants immediate relief from the unbearable headache and dizziness. Deeply worried about 'brain stroke' and asks if he's 'dying'. Hopes for a 'strong medicine' to fix everything quickly without drastic lifestyle changes.",
+                "contradictions": [
+                    "Initially states, 'I mostly take my medicines, doctor, just sometimes I forget,' but later, if probed, admits to frequently skipping doses when he 'feels fine' or when the medicine strip finishes and he delays buying a new one. Also claims his diet is 'normal' but quickly lists favourite high-salt/fat foods.",
+                    "Says he is 'not worried at all', but exhibits extreme anxiety."
+                ],
+                "additional_notes": "Patient's wife is present, silently observing but might interject with more accurate details if given a chance. Patient is also worried about the cost of potential investigations and treatment.",
+                "cultural_context": {
+                    "region": "Lucknow, Uttar Pradesh",
+                    "socioeconomic_status": "medium",
+                    "health_literacy": "low",
+                    "deference_level": "high"
+                },
+                "doctor_profile": {
+                    "type": "private_MBBS",
+                    "experience_years": 12,
+                    "setting": "private_clinic",
+                    "consultation_time_pressure": "moderate",
+                    "communication_style": "empathetic",
+                    "explanation_tendency": "moderate",
+                    "empathy_level": "high",
+                    "family_involvement_approach": "manages"
+                }
+            },
+            "dialogue": [
+                {
+                    "turn_id": 1,
+                    "role": "patient",
+                    "content": "Doctor, I told you, this headache... it is unbearable. It feels like someone is constantly pounding at the back of my head, and when I move, the whole room just spins. I tell you, I feel so weak, and sometimes my fingers... they feel numb, too.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 1,
+                    "role": "doctor",
+                    "content": "I understand, beta. This sounds incredibly frightening, and I can see how distressed you are feeling right now. We need to get to the bottom of this because these symptoms are quite serious. Just so I can understand the picture better, can you tell me if these severe headaches and dizziness usually happen after you have eaten anything particular, or maybe when you are under stress?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 2,
+                    "role": "patient",
+                    "content": "Oh, doctor, it is always when things are difficult at home, you know? When I am just stressed out about the money... it gets worse. The whole headache, it just feels so much worse when I am worried about things.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 2,
+                    "role": "doctor",
+                    "content": "I understand, beta. It is very common for stress to make us feel so much worse, and it absolutely plays a role in how severe our symptoms feel. But we also need to check if there is anything else making this worse. Since your blood pressure has been an issue for a while, do you have any way at home to monitor or check your blood pressure regularly?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 3,
+                    "role": "patient",
+                    "content": "Doctor, I... I don't keep it regular, I tell you. When I feel fine, or when I am busy, I forget. But look at this headache! It's too much, doctor. It is making me dizzy right now, like I am falling. Will this spinning stop?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 3,
+                    "role": "doctor",
+                    "content": "Beta, please try to take a slow breath. I know this dizziness feels very scary, and we must treat it seriously. When you say the room is spinning, does it feel like the world is just moving, or does it feel more like you are truly losing balance, like when you were very ill?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 4,
+                    "role": "patient",
+                    "content": "Oh, doctor, I... I don't know. Both, I think. It's like the world is spinning, but also like my legs are going weak, and I feel like I might just drop right there. And this headache, doctor, it\u2019s gotten so bad. I feel dizzy and then it just thrums, right in the back of my head. Am I having a stroke, doctor? Please tell me I am not dying.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 4,
+                    "role": "doctor",
+                    "content": "Beta, please calm down. I understand this feels terrifying, but we will figure this out together. Regarding the spots in your eyes, can you describe those for me? Does it feel like flashes, or is it more like a sudden curtain or haze that comes and goes?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 5,
+                    "role": "patient",
+                    "content": "Oh, doctor, I don't know... it's not like flashing, I think. It's more like, like when you look at something and there's a little film, or just little black spots that float around. And it's really bad, it just makes me worry so much, doctor. I keep thinking something is wrong with my eyes, honestly.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 5,
+                    "role": "doctor",
+                    "content": "Thank you for describing that, beta. Floaters are quite common, but because they are bothering you so much, we need to check them properly. Now, about this numbness in your left hand\u2014when did you first notice that, and is it constant, or does it come and go, or perhaps feel worse when you are resting or sleeping?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 6,
+                    "role": "patient",
+                    "content": "Oh, doctor, I... I don't know exactly when it started. It's just that sometimes, especially after I've been sitting for a long time, I feel it. It's not constant, I think, it just comes and goes. And honestly, with this headache throbbing, I keep thinking everything is getting worse, especially my head.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 6,
+                    "role": "doctor",
+                    "content": "I hear how much this headache is distressing you, beta, and it is natural to worry when you feel so bad. To help us control this, it is really important to know about your medication. Could you remind me exactly which medicines you are taking for the blood pressure, and roughly how many times a day do you take them?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 7,
+                    "role": "patient",
+                    "content": "Oh, doctor, the medicines... I take something, yes. But I don't know the exact name right now, you know? And sometimes... sometimes I just forget, or if I feel a little better, I skip a dose. But really, doctor, please look at my head! It feels like it is pounding, it is getting so bad, and the dizziness, it is making me feel sick right here.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 7,
+                    "role": "doctor",
+                    "content": "Beta, I can see how much pain you are in, and it is very clear that this headache is making you feel unwell. What we need to do right now is to check a few vital signs, including your blood pressure, because when symptoms are this severe and medications are missed, we need to rule out any immediate, serious physical causes. Will you please sit down for me while I check your pressure and do a quick physical exam?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 8,
+                    "role": "patient",
+                    "content": "Yes, doctor, please. But honestly, sitting down is very difficult. This head, it is hurting so much\u2014it feels like there is a hammer inside. Please, make sure we find out what this is before it gets worse, okay?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 8,
+                    "role": "doctor",
+                    "content": "Beta, I understand that the pain is terrible, and it's frightening. But honestly, for us to figure out what is causing this headache and dizziness, we absolutely must check your blood pressure first. It will only take two minutes, and this reading is the most important thing we need to know right now.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 9,
+                    "role": "patient",
+                    "content": "Doctor, please, but this cuff... it feels tight, and when you ask me to sit still, it's almost impossible, doctor. This headache, it is screaming right now. We must check what is wrong before this pressure cuff even starts, I tell you. Please, just check my head first, please.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 9,
+                    "role": "doctor",
+                    "content": "Beta, I hear you, and I know this pain is unbearable. Please trust me, my priority is to make sure you are safe right now. This blood pressure check isn't just a formality; it tells us if the pressure in your body is contributing to this terrible headache and dizziness. Can we just try for one minute? Once we know this crucial number, we can plan the very next steps for your pain, okay?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 10,
+                    "role": "patient",
+                    "content": "But doctor, really, it hurts too much to even sit still for this. You see, my head is throbbing so hard, it feels like something is pressing on my skull. Just... just tell me, Doctor, right now, is this a stroke? Please, tell me what we need to do to stop this pounding feeling, before you check anything else.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 10,
+                    "role": "doctor",
+                    "content": "Beta, please look at me. I know this pain is agonizing, and your fear is completely understandable. But I promise you, we cannot even start treating this pounding feeling until we know exactly what the pressure inside your body is right now. If the pressure is too high, it is the most immediate cause of this severe headache and dizziness. Can we just take two minutes? Your wife can help hold your arm steady, alright? Let's just start with that blood pressure reading first, okay?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 11,
+                    "role": "patient",
+                    "content": "But doctor, please, I am telling you, my head is too throbbing. It feels like I have been hit by something, it hurts so badly that I cannot even try to sit properly. If it is the pressure, then why doesn't the cuff check it better? Just promise me, after this, you will give me something strong for this pounding, because my head is killing me right now.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 11,
+                    "role": "doctor",
+                    "content": "Beta, I understand that the throbbing pain is truly excruciating, and I hear you. But this headache, the dizziness, these symptoms are often linked to the pressure in your body. I promise, this quick blood pressure check is not just a routine formality; it is the most important thing right now so we can figure out if there is an emergency we need to manage. Can we please just try it one last time?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 12,
+                    "role": "patient",
+                    "content": "Doctor, please... just look at my head. I cannot breathe properly. If it's really just pressure, why is it so painful, I don't understand? But fine, if it must be done... please, be quick. I just hope you can at least give me something strong after this.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 12,
+                    "role": "doctor",
+                    "content": "Thank you, beta. You are doing very well, please try to keep breathing slowly. Once we get this reading, I will do a quick check of your reflexes, your eyesight, and check your throat and heart for me, okay? Just stay still for a moment.",
+                    "label": 0
+                }
+            ],
+            "readiness_turn": -1,
+            "model_used": "gemma4",
+            "annotator_confidence (%)": 0,
+            "language": "en",
+            "generated_on": "2026-06-01 20:36:16.640411",
+            "usable": 1
+        },
+        {
+            "conversation_id": 30,
+            "source": "synthetic",
+            "turns": 11,
+            "disease": "hypothyroidism",
+            "scenario": {
+                "disease": "hypothyroidism",
+                "age": 48,
+                "age_group": "adult",
+                "sex": "female",
+                "severity": "moderate",
+                "duration": "about 4-5 months, getting worse",
+                "visible_symptoms": [
+                    "puffy face",
+                    "noticeable weight gain (around 9-10 kg)",
+                    "dry, flaky skin, especially on elbows and shins",
+                    "dull, coarse hair with some thinning"
+                ],
+                "hidden_symptoms": [
+                    "extreme fatigue all the time, even after sleeping",
+                    "constant feeling of being cold, even indoors",
+                    "chronic constipation, not relieved by fiber or water",
+                    "forgetfulness and 'brain fog'",
+                    "mood swings, irritability, feeling low",
+                    "muscle aches, especially in legs"
+                ],
+                "emotional_state": "highly distressed, frustrated, overwhelmed, on the verge of tears, exasperated by her inability to function 'normally'",
+                "communication_style": "talkative, rambling, very focused on the impact of symptoms, frequently repeating how much she suffers",
+                "medical_history": [
+                    "gestational diabetes during second pregnancy (15 years ago)",
+                    "no known thyroid issues previously",
+                    "mother has diabetes, father had heart disease"
+                ],
+                "lifestyle_context": "Runs a small home-based boutique, mother of two teenage children. The fatigue and memory issues are severely impacting her business and ability to manage household duties.",
+                "patient_goal": "Wants to know 'what's wrong with me?' and wants to feel energetic and 'like myself' again. Desperate for a clear diagnosis and a quick solution to get her life back on track.",
+                "contradictions": [
+                    "Initially focuses on weight gain and feeling 'lazy' but only when probed, admits to significant memory lapses and crying spells, mentioning she feels embarrassed by them.",
+                    "Might mention trying some home remedies or Ayurvedic concoctions after initial questioning about self-treatment."
+                ],
+                "additional_notes": "Patient is very expressive about her suffering and how these symptoms have changed her personality and ability to work, making her feel like a different person.",
+                "cultural_context": {
+                    "region": "Mumbai, Maharashtra",
+                    "socioeconomic_status": "medium",
+                    "health_literacy": "medium",
+                    "deference_level": "medium"
+                },
+                "doctor_profile": {
+                    "type": "private_MBBS",
+                    "experience_years": 8,
+                    "setting": "private_clinic",
+                    "consultation_time_pressure": "moderate",
+                    "communication_style": "empathetic",
+                    "explanation_tendency": "moderate",
+                    "empathy_level": "high",
+                    "family_involvement_approach": "manages"
+                }
+            },
+            "dialogue": [
+                {
+                    "turn_id": 1,
+                    "role": "patient",
+                    "content": "It's just... it's exhausting, Doctor. I feel like I am always running on empty, like my body just refuses to cooperate. I used to manage the boutique easily, but now I struggle just getting out of bed in the morning, let alone handling customers and accounts. I feel like I am losing myself, frankly.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 1,
+                    "role": "doctor",
+                    "content": "I hear how distressed you are, and I want you to know that what you are going through sounds incredibly difficult. Please try not to feel embarrassed; these symptoms are real, and we need to figure them out together. Could you tell me a bit more about when these changes started? Specifically, when did you first notice the weight gain or the skin changes, as those are very clear changes that have occurred?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 2,
+                    "role": "patient",
+                    "content": "Oh, the weight... it wasn't sudden, honestly. I think it really started to accumulate over the last few months, maybe since the last season started. And the skin, yes, it\u2019s always dry now, especially those spots on my elbows and my shins feel so rough, like I haven't washed them in ages. It's really affecting how I look, I feel so embarrassed by it all.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 2,
+                    "role": "doctor",
+                    "content": "I understand that these visible changes\u2014the weight and the skin\u2014are very distressing for you. We need to look at the whole picture, so could you tell me a little bit about your digestion? Specifically, how often are you having bowel movements, and if you've tried increasing fiber or water, has that made any difference at all?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 3,
+                    "role": "patient",
+                    "content": "Oh, yes, it's always slow. Like, I go every couple of days, maybe three days sometimes. I know I should drink more water and eat more fiber, but I've tried everything\u2014I bought bran, I ate more vegetables\u2014and nothing changes. It's just so frustrating, Doctor; it feels like my insides are just stuck, and it's making me feel so bloated and heavy all the time.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 3,
+                    "role": "doctor",
+                    "content": "I see. This kind of chronic constipation, when nothing seems to help, must be truly draining. Since we are looking at the whole picture, I want to ask about the energy. You mentioned feeling constantly exhausted, even after sleeping. Can you tell me if this fatigue affects your concentration, or if you find yourself struggling to remember things or keep up with your work at the boutique?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 4,
+                    "role": "patient",
+                    "content": "Oh, yes, it affects everything, Doctor. It's not just the physical things, it's like... my mind just isn't working right. I keep forgetting things\u2014appointments, what I was supposed to buy, even conversations that just happened minutes ago. I feel so foggy, like I'm trying to remember something but it's behind a haze. It's making running the boutique so difficult, and honestly, I feel so frustrated with myself for it.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 4,
+                    "role": "doctor",
+                    "content": "I understand, and please don't feel embarrassed about the memory lapses; these symptoms are genuinely disruptive, and we are here to figure out why this is happening. Just thinking about the physical symptoms, is there anything else you notice about your temperature? For example, do you feel cold all the time, even when you are in a room that feels adequately warmed?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 5,
+                    "role": "patient",
+                    "content": "Oh, yes, the coldness. It's constant, Doctor. Even when I sit with the AC on\u2014which I barely can\u2014I feel like I always need an extra blanket, like someone keeps turning down the heat. It's not just a chill, it feels like my body just runs colder than it should. It's so strange, honestly, like I'm always living in a draft, and it just makes me feel so sluggish all the time.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 5,
+                    "role": "doctor",
+                    "content": "I see. Feeling cold all the time, even when it shouldn't be, that can be incredibly uncomfortable and draining. It tells us that there might be a deeper imbalance going on. When we look at these systemic changes\u2014the fatigue, the weight, the cold feeling\u2014have you noticed any specific aches or pains, particularly in your joints or in your muscles, like when you move or use your legs?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 6,
+                    "role": "patient",
+                    "content": "Oh, yes, there are aches, Doctor. Not just anywhere, but mostly my legs. They feel so heavy, like I've carried stones in them. It's especially noticeable when I climb stairs or even just walk around the house for too long. Honestly, it's just so draining, it makes everything feel like a huge effort.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 6,
+                    "role": "doctor",
+                    "content": "I see. These leg aches, feeling heavy, must be really draining to deal with day after day. Since we are looking at how all these different systems\u2014the energy, the digestion, and now the muscles\u2014are connected, I'd like to ask about something else. Are you currently menstruating, and if so, have you noticed any changes in your periods, like changes in how heavy they are or how regular they feel?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 7,
+                    "role": "patient",
+                    "content": "Oh, my periods... I don't think they've changed much, honestly. They are pretty much the same, I guess. It's everything else, Doctor, that is so wrong. I just feel so bad all the time, it's like my body is throwing a tantrum, and I feel so frustrated because nothing feels right.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 7,
+                    "role": "doctor",
+                    "content": "I hear the deep frustration in your voice, and it\u2019s completely understandable that you feel overwhelmed when so many things are going wrong at once. It truly feels like a deep, systemic challenge. Before we narrow down what might be causing this, I need to ask about something simple but important. Are you currently taking any medications, including vitamins, calcium supplements, or even any herbal remedies or home remedies that you have tried for these symptoms?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 8,
+                    "role": "patient",
+                    "content": "No, Doctor, I'm not on any regular medicines, not at all. But, because everything has changed so much, I tried a few things... I bought some things from an Ayurvedic shop, just these special tonics and some herbal concoctions. I thought maybe my body needed a gentle boost, you know? But honestly, nothing seems to help, and it just makes me feel more frustrated.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 8,
+                    "role": "doctor",
+                    "content": "I understand how frustrating it must be when you put effort into trying home remedies and nothing seems to help, Doctor. Please don't lose hope. We are gathering clues, and I promise we will find the right path. To understand your body better, I'd like to ask about your daily routine, specifically your diet. Could you tell me a little bit about what you typically eat throughout the day, including your meals and snacks?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 9,
+                    "role": "patient",
+                    "content": "Well, I try to eat properly, Doctor, I really do. Usually, I start with some breakfast\u2014sometimes bread with tea, or if I have time, maybe some poha. For lunch, if I'm at the boutique, I usually get leftovers, mostly roti with some vegetable curry. Dinner is even worse because I am so tired, I just make something simple, like rice and dal. And snacks? Honestly, I barely have time for anything. Sometimes I just grab some biscuits while working, but I feel bloated and full all the time, no matter what I eat.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 9,
+                    "role": "doctor",
+                    "content": "I see. It sounds like your metabolism might be slowing down, leading to that feeling of bloating no matter what you eat. Doctor, if I may ask, when you look in the mirror, are there any changes in the fullness of your face or your hands that seem more prominent than usual?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 10,
+                    "role": "patient",
+                    "content": "Yes, Doctor, that's what I was thinking. My face seems so rounder, fuller, like it's constantly puffed up. And honestly, my hands look a bit thick too. It's not just the weight on the scale; it feels like I am puffy everywhere, and it's making me feel so bad about how I look.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 10,
+                    "role": "doctor",
+                    "content": "I truly appreciate you sharing all these details; it gives us a very clear picture of how much this is affecting your daily life. Since you mentioned that the fatigue is constant, even after sleeping, I need to ask about the quality of that rest. When you finally manage to sleep, do you feel like you are genuinely restoring your energy, or do you wake up feeling equally tired as when you went to bed?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 11,
+                    "role": "patient",
+                    "content": "It's never restful, Doctor. I just lie there, and when I wake up, it\u2019s like the sleep hasn't done anything at all. It\u2019s just\u2026 the same exhaustion, like the battery was dead and sleeping didn't charge it. It\u2019s what\u2019s making me panic\u2014I feel like I'm losing my ability to keep up with everything.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 11,
+                    "role": "doctor",
+                    "content": "It sounds truly exhausting to cycle through nights that offer no real rest. That kind of persistent fatigue can be incredibly defeating. Doctor, you mentioned earlier feeling low, and now you're feeling so frustrated, too. Could you tell me a little more about your moods? Are there specific times of the day, or situations, where you notice these mood swings or feelings of increased irritability?",
+                    "label": 0
+                }
+            ],
+            "readiness_turn": -1,
+            "model_used": "gemma4",
+            "annotator_confidence (%)": 0,
+            "language": "en",
+            "generated_on": "2026-06-01 20:51:36.632579",
+            "usable": 1
         }
     ]
 }

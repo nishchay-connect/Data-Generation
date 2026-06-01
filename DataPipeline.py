@@ -14,7 +14,7 @@ from os import getenv
 
 load_dotenv()
 
-client=genai.Client(api_key=f"{getenv("GEMINI_API_KEY_2")}")
+client=genai.Client(api_key=f"{getenv("GEMINI_API_KEY_1")}")
 
 doc_flag=False
 patient_flag=True
@@ -38,7 +38,9 @@ memory={"conversation_id":0,
 
         "language":"en",
 
-        "generated_on":""
+        "generated_on":"",
+
+        "usable":1
         }
 total_generation={"total_dialogues":0,"dialogues":[memory]}
 
@@ -320,7 +322,10 @@ def orchestrator():
 
         "language":"en",
 
-        "generated_on":""
+        "generated_on":"",
+
+        "usable":1
+
         }
 
 def turnCalc(scenario):
