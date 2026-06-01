@@ -7,10 +7,11 @@ from Models import LLM
 from TTS import GenAudio
 import random
 import time
+import datetime
 from os import getenv
 load_dotenv()
 
-client=genai.Client(api_key=f"{getenv("GEMINI_API_KEY")}")
+client=genai.Client(api_key=f"{getenv("GEMINI_API_KEY_2")}")
 
 doc_flag=False
 patient_flag=True
@@ -26,7 +27,15 @@ memory={"conversation_id":0,
 
         "dialogue":[],
 
-        "readiness_turn":-1
+        "readiness_turn":-1,
+
+        "model_used":"gemma4",
+
+        "annotator_confidence (%)":0,
+
+        "language":"en",
+
+        "generated_on":""
         }
 total_generation={"total_dialogues":0,"dialogues":[memory]}
 
@@ -115,20 +124,30 @@ def diseaseSelecter():
         start_d=time.perf_counter()
 
         response=LLM.llama3(prompt)
+
+        ### testing 2 models for task 
         # if model==0:
-            # response=LLM.qwen3_5_4B(prompt)  ### testing 2 models for task 
+            # response=LLM.qwen3_5_4B(prompt)   ## taking a lot of time around 150-160 sec
+
         # elif model==1:
         #     response=LLM.llama3(prompt)
 
         response=json.loads(response)
         response=response["disease"]
 
+        
+# add disease count verification if req---->
+        # if response in disease_dict:
+        #     if disease_dict[response]>=3:
+        #         response=diseaseSelecter()
+
         if response in disease_dict:
             disease_dict[response]+=1
+            memory["disease"]=response
+
         else:
             disease_dict[response]=1
-
-        memory["disease"]=response
+            memory["disease"]=response
 
         end_d=time.perf_counter()
         logging(str(end_d-start_d)+'\n')
@@ -136,7 +155,8 @@ def diseaseSelecter():
 
     except json.JSONDecodeError:
 
-        diseaseSelecter()
+        response=diseaseSelecter()
+        return response
 
 def scenarioGen(disease):
     try:
@@ -166,8 +186,9 @@ def scenarioGen(disease):
     
     except Exception as e:
         print(e,"still continuing")
-        # time.sleep(5)
-        scenarioGen(disease)
+        time.sleep(5)
+        respomse=scenarioGen(disease)
+        return response
 
 
 
@@ -246,7 +267,7 @@ def orchestrator():
                 response=patientAgent(prompt)
 
             else:
-                prompt=Prompt.patientRolePrompt(scenario,memory)
+                prompt=Prompt.patientRolePrompt(scenario,memory,scenario["cultural_context"])
                 response=patientAgent(prompt)
 
             memoryUpdate("patient",response,i)
@@ -254,20 +275,21 @@ def orchestrator():
             patient_flag=False
         
         if doc_flag:
-            prompt=Prompt.docRolePrompt(scenario,memory)
+            prompt=Prompt.docRolePrompt(scenario,memory,scenario["doctor_profile"])
             response=doctorAgent(prompt)
 
             memoryUpdate("doctor",response,i)
             doc_flag=False
             patient_flag=True
+    
         
-
+    memory["generated_on"]=str(datetime.datetime.now())
     jsonFunc.saveDialogue()
     jsonFunc.appendDis()
     jsonFunc.appendFeat()
     
     end=time.perf_counter()
-    logging("ended in...."+str(end-start)+'\n\n')
+    logging("dialogue no : "+f"{memory['conversation_id']}"+"ended in...."+str(end-start)+'\n\n')
 
     print(end-start)
 
@@ -283,7 +305,15 @@ def orchestrator():
 
         "dialogue":[],
 
-        "readiness_turn":-1
+        "readiness_turn":-1,
+
+        "model_used":"gemma4",
+
+        "annotator_confidence (%)":0,
+
+        "language":"en",
+
+        "generated_on":""
         }
 
 def turnCalc(scenario):
@@ -304,7 +334,6 @@ def turnCalc(scenario):
 
     
 
-    
 
            
 
