@@ -66,7 +66,14 @@ features={
     "mild": 0,
     "moderate": 0,
     "severe": 0
-  }
+  },
+  "doctor_profile":{"government_MBBS":0,
+                     "private_MBBS":0, 
+                     "private_specialist":0, 
+                     "rural_PHC":0,
+                     "urban_PHC":0
+      
+ }
 }
 def logging(content):
     with open("logs.txt",'a') as f:
@@ -86,10 +93,14 @@ def featuresUpdate(response):
     age_group=response["age_group"]
     severity=response["severity"]
 
+    doctor_profile=response["doctor_profile"]["type"]
+    print(doctor_profile)
+
 
     features["sex"][sex]+=1
     features["age_group"][age_group]+=1
     features["severity"][severity]+=1
+    features["doctor_profile"][doctor_profile]+=1
 
 class jsonFunc():
 
