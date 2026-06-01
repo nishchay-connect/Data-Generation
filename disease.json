@@ -1,7 +1,19 @@
 {
-    "headache": 1,
-    "diabetes": 4,
+    "headache": 3,
+    "diabetes": 5,
     "asthma": 1,
     "gastritis": 3,
-    "migraine": 1
+    "migraine": 2,
+    "urinary_tract_infection": 1,
+    "gastroenteritis": 1,
+    "hypertension": 0,
+    "tuberculosis": 0,
+    "dengue": 0,
+    "typhoid": 0,
+    "anemia": 0,
+    "peptic_ulcer": 0,
+    "chronic_kidney_disease": 0,
+    "hypothyroidism": 0,
+    "malaria": 0,
+    "vitamin_d_deficiency": 0
 }

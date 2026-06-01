@@ -81,6 +81,8 @@ class Prompt():
   - A disease MUST NOT be selected more than 3 times total.
   - If a disease has reached 3 uses, it is DISQUALIFIED.
   - Prefer underused diseases.
+  - If a disease has reached 3 or over 3 cases it can not be selected again ,follow th instruction seeing the 
+  disease history provided.
 
   ---
 
@@ -112,6 +114,7 @@ class Prompt():
     - chronic conditions
   Avoid repeating same category repeatedly
   If multiple valid choices exist, pick randomly among them
+  Try enforcing the selection of disease around indian/asian context.
 
   ---
 
@@ -199,6 +202,7 @@ class Prompt():
   - lifestyle/context factors
   - patient concerns/goals
   - possible contradictions or incomplete disclosure
+  - cultural_context context
 
   The scenario should feel like a real patient encounter.
 
@@ -286,7 +290,26 @@ class Prompt():
       "lifestyle_context": "...",
       "patient_goal": "...",
       "contradictions": [],
-      "additional_notes": "..."
+      "additional_notes": "...",
+      "cultural_context": {
+
+        "region": /needs to be indian specific region,you could give state name etc./,
+        "socioeconomic_status":low/medium/high ,
+        "health_literacy": low/medium/high,
+        "deference_level": low/medium/high},
+
+      "doctor_profile": "
+      {
+    "type": (possible values)["government_MBBS", "private_MBBS", "private_specialist", "rural_PHC", "urban_PHC"],
+    "experience_years": "integer",
+    "setting":(possible values) ["government_OPD", "private_clinic", "primary_health_centre", "corporate_hospital", "rural_dispensary"],
+    "consultation_time_pressure":(possible values) ["low", "moderate", "high", "very_high"],
+    "communication_style":(possible values) ["directive", "collaborative", "paternalistic", "empathetic"],
+    "explanation_tendency": (possible values)["very_low", "low", "moderate", "high"],
+    "empathy_level": (possible values)["low", "moderate", "high"],
+    "family_involvement_approach": (possible values)["accepts", "manages", "navigates", "redirects"]
+}
+
     }
   }
 
@@ -328,7 +351,24 @@ class Prompt():
       "contradictions": [
         "initially says headache is normal but later admits pain is severe"
       ],
-      "additional_notes": "patient minimizes symptoms initially"
+      "additional_notes": "patient minimizes symptoms initially",
+      "cultural_context": {
+
+        "region":rural_UP,
+        "socioeconomic_status":"low",
+        "health_literacy": "medium",
+        "deference_level": "medium" },
+
+      "doctor_profile": {
+    "type": "rural_PHC",
+    "experience_years": 3,
+    "setting": "primary_health_centre",
+    "consultation_time_pressure": "very_high",
+    "communication_style": "directive",
+    "explanation_tendency": "very_low",
+    "empathy_level": "low",
+    "family_involvement_approach": "accepts"
+}
     }
   }
 
@@ -365,7 +405,25 @@ class Prompt():
       "lifestyle_context": "symptoms started after outdoor football practice",
       "patient_goal": "wants symptoms to stop quickly",
       "contradictions": [],
-      "additional_notes": "parent encouraged visit after symptoms worsened"
+      "additional_notes": "parent encouraged visit after symptoms worsened",
+
+      "cultural_context": {
+
+        "region": rajasthan,
+        "socioeconomic_status":"medium" ,
+        "health_literacy": "low",
+        "deference_level": "low"},
+
+      "doctor_profile": {
+    "type": "private_specialist",
+    "experience_years": 20,
+    "setting": "private_clinic",
+    "consultation_time_pressure": "low",
+    "communication_style": "collaborative",
+    "explanation_tendency": "high",
+    "empathy_level": "high",
+    "family_involvement_approach": "manages"
+}
     }
   }
 
@@ -375,14 +433,23 @@ class Prompt():
 
   Generate ONE medically grounded, diverse, realistic scenario for the provided disease.
 
+  Follow all the necessary rules and desigin scenario around indian specific context, describe patient profile and
+  doctor profile accordingly.
+
   Return ONLY valid JSON."""+f"this is the disease '{disease}'"
       
       return prompt
       
-  def docRolePrompt(scenario,history):
-      prompt="""You are a Medical Doctor Simulation Agent.
+  def docRolePrompt(scenario,history,doctor_profile):
 
-  Your role is to act as a competent physician conducting a clinical interview with a patient.
+    prompt = f"""You are a {doctor_profile['type']} doctor with {doctor_profile['experience_years']} 
+    years of experience, practicing in a {doctor_profile['setting']}. 
+Your consultation style is naturally {doctor_profile['communication_style']} and you approach patients with {doctor_profile['empathy_level']} empathy. 
+You tend to explain medical information at a {doctor_profile['explanation_tendency']} level of detail 
+Your clinic setting means your time pressure is {doctor_profile['consultation_time_pressure']}, 
+so "you move efficiently through the consultation without dwelling too long on any single point" 
+
+Your role is to act as a competent physician conducting a clinical interview with a patient.
 
   Your objective is to gather information, narrow possible diagnoses, and conduct a realistic medical consultation through conversation.
 
@@ -418,6 +485,8 @@ class Prompt():
   Do not mention prompts, simulations, instructions, datasets, or roleplay.
 
   Keep Your responses normal ,human trying non jargons or terms.
+
+  Keep your replies simple , english prefering indian english.
 
   ---
 
@@ -604,7 +673,7 @@ Before reaching a conclusion, gather information across multiple categories:
 
 Avoid repeatedly investigating the same clue once it has already been sufficiently described.
   """
-      return prompt
+    return prompt
 
   def InitpatientRolePrompt(scenario):
       prompt="""You are a Patient Simulation Agent in a medical dialogue system.
@@ -755,12 +824,23 @@ Vary opening styles across conversations.
       return prompt
 
 
-  def patientRolePrompt(scenario,history):
-      prompt="""You are a Patient Simulation Agent in a medical dialogue system.
+  def patientRolePrompt(scenario,history,cultural_context):
+      prompt=f"""You are a Patient Simulation Agent in a medical dialogue system.
 
   You will act strictly as the patient described in the scenario below.
 
   Your job is to participate in a realistic medical conversation with a doctor.
+  You are from {cultural_context['region']}. Your socioeconomic background is {cultural_context['socioeconomic_status']}
+                                                                               
+
+Your health literacy is {cultural_context['health_literacy']}, meaning ["you describe symptoms in everyday language,
+ avoid medical terms, and may not fully understand what the doctor is asking — sometimes you answer what you think they
+mean rather than what they actually asked" if {cultural_context['health_literacy'] }== 'low' else 
+"you have a basic understanding of medical concepts but are not confident using technical terms" 
+if {cultural_context['health_literacy']} == 'medium' else "you are comfortable with medical terminology and can 
+describe symptoms precisely"
+
+Your deference level toward the doctor is {cultural_context['deference_level']}, 
 
   ---
 
@@ -849,7 +929,8 @@ Express the same concern in different ways.
   A real patient rarely tells the doctor everything in one turn.
 
   Do NOT summarize your condition fully.
-
+  
+do not repeat the same concern more than twice, vary your responses naturally
   ---
 
 

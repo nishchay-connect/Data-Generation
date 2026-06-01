@@ -1,5 +1,5 @@
 {
-    "total_dialogues": 10,
+    "total_dialogues": 16,
     "dialogues": [
         {
             "conversation_id:": 1,
@@ -1468,6 +1468,1106 @@
                 }
             ],
             "readiness_turn": -1
+        },
+        {
+            "conversation_id": 11,
+            "source": "synthetic",
+            "turns": 11,
+            "disease": "urinary_tract_infection",
+            "scenario": {
+                "disease": "urinary_tract_infection",
+                "age": 28,
+                "age_group": "young_adult",
+                "sex": "female",
+                "severity": "severe",
+                "duration": "4 days, worsening significantly in the last 24 hours",
+                "visible_symptoms": [
+                    "Fidgeting uncomfortably in the chair",
+                    "Slightly pale and fatigued appearance",
+                    "Frequent, anxious glances towards the restroom door",
+                    "Occasional grimace due to abdominal discomfort"
+                ],
+                "hidden_symptoms": [
+                    "Excruciating burning sensation during urination (dysuria)",
+                    "Constant, intense urge to urinate (urgency)",
+                    "Frequent urination with very little output (frequency)",
+                    "Persistent lower abdominal cramping and pressure",
+                    "Dull ache in both flanks (lower back)",
+                    "Chills and a measured fever of 101.5\u00b0F (38.6\u00b0C) since yesterday evening",
+                    "General malaise and body aches",
+                    "Disrupted sleep due to nocturia and discomfort"
+                ],
+                "emotional_state": "Distressed, exhausted, anxious about the severity and impact on daily life.",
+                "communication_style": "high_detail",
+                "medical_history": [
+                    "One previous, milder UTI about two years ago, treated with antibiotics by a different doctor.",
+                    "No known allergies to medication.",
+                    "Otherwise generally healthy."
+                ],
+                "lifestyle_context": "Works as a software engineer in a high-pressure corporate environment in Mumbai. Has been under significant work stress lately, leading to less fluid intake and irregular meal times. Recently started using a new brand of intimate hygiene product a few weeks ago.",
+                "patient_goal": "Wants immediate relief from the pain and constant urge to urinate. Is extremely worried it might be a serious kidney infection and wants to prevent it from happening again. Seeks a clear diagnosis and effective treatment plan.",
+                "contradictions": [
+                    "Initially, the patient will focus intensely on the bladder symptoms (burning, frequency, urgency), describing them with great precision. She will mention the fever, chills, and back pain slightly later in her detailed explanation, almost as secondary symptoms, not immediately emphasizing their significance as indicators of a more severe infection, thinking they are just 'part of feeling generally unwell'."
+                ],
+                "additional_notes": "Patient is well-spoken and articulate, but her distress is evident. She has tried drinking cranberry juice and increased water intake since symptoms started, with no improvement. She is a bit self-conscious about her intimate hygiene product use and might be hesitant to bring it up unless directly asked.",
+                "cultural_context": {
+                    "region": "Mumbai, Maharashtra",
+                    "socioeconomic_status": "medium",
+                    "health_literacy": "medium",
+                    "deference_level": "medium"
+                },
+                "doctor_profile": {
+                    "type": "private_MBBS",
+                    "experience_years": 10,
+                    "setting": "private_clinic",
+                    "consultation_time_pressure": "moderate",
+                    "communication_style": "collaborative",
+                    "explanation_tendency": "high",
+                    "empathy_level": "high",
+                    "family_involvement_approach": "manages"
+                }
+            },
+            "dialogue": [
+                {
+                    "turn_id": 1,
+                    "role": "patient",
+                    "content": "Doctor, honestly, it's constant. I feel this intense pressure, like I have to go every few minutes, and it's really burning, even when I sit down. I keep feeling this deep ache in my lower abdomen and it's just exhausting.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 1,
+                    "role": "doctor",
+                    "content": "I understand how debilitating this constant urgency and burning feeling must be; it sounds absolutely exhausting. While we are discussing the bladder pain, can you tell me if you've noticed any discomfort, perhaps a dull ache, in your lower back or flank area, or if you've had any fever or chills since these symptoms started?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 2,
+                    "role": "patient",
+                    "content": "Yes, there has been a dull ache, particularly in the lower back area, maybe on both sides. And regarding the fever, I think it started last night\u2014it's around 101.5\u00b0F. I also feel really exhausted and have had these general body aches, but honestly, the constant urgency is what is making me the most miserable right now.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 2,
+                    "role": "doctor",
+                    "content": "I can only imagine how rough and draining this whole experience must be for you. Since these symptoms started, have you had any issues with your stomach, like nausea, or have you been vomiting at all?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 3,
+                    "role": "patient",
+                    "content": "No, I haven't vomited, thank goodness. Honestly, just generally having stomach cramps sometimes, which makes me feel quite unsettled and nauseous, but nothing like throwing up. But Doctor, it's really this intense burning and the constant urge to go that has me most worried.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 3,
+                    "role": "doctor",
+                    "content": "I hear you, and I realize how much this discomfort is affecting you. Since you have been passing urine frequently, could you tell me a little about what the urine looks like? For example, is it very clear, or is it noticeable in colour, or does it have any strong smell?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 4,
+                    "role": "patient",
+                    "content": "Oh, it's... it's not very clear, Doctor. It's kind of a deep yellow, maybe darker than usual. And yes, I think it has a pretty strong smell, especially when I really have to go. It really adds to my worry, you know?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 4,
+                    "role": "doctor",
+                    "content": "Thank you for describing that. Dark yellow urine with a strong smell, combined with the intense burning, really suggests there is a significant irritation and potential infection in the urinary tract. You mentioned the back ache and fever started yesterday evening\u2014did the onset of those systemic symptoms, the fever and flank ache, happen suddenly, or did they build up gradually over the past couple of days?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 5,
+                    "role": "patient",
+                    "content": "Oh, I guess it wasn't really sudden. It was just getting worse over the last day or so, maybe just a mild ache first, and then the fever started coming in yesterday evening. But honestly, Doctor, even with these aches, the constant burning when I finally do pee, that is what is keeping me up all night.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 5,
+                    "role": "doctor",
+                    "content": "I understand completely that the burning and the constant urge are the most distressing things right now. But I want to make sure we consider everything, especially the fever and the back pain, because those can sometimes indicate that the infection is higher up, perhaps reaching the kidneys. Could you tell me a little more about that dull ache in your back? Is it constant, or does it flare up when you cough or move, and is there a specific area, like near your ribs, that feels worse?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 6,
+                    "role": "patient",
+                    "content": "Oh, it's... it's dull, I guess. It's not exactly sharp, but it's definitely there, more or less on both sides. It just feels uncomfortable, like a persistent ache. But honestly, Doctor, even when I manage to pee, that constant burning feeling when it comes out is what is making me so worried.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 6,
+                    "role": "doctor",
+                    "content": "I understand that the burning and the constant discomfort are the most pressing issues for you right now. Regarding this ache in your back, can you tell me if it changes at all when you move, like when you sit up or when you take a deep breath?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 7,
+                    "role": "patient",
+                    "content": "Oh, no, I don't think it changes much when I move, honestly. It just feels like this dull background ache, always there. But really, Doctor, I keep thinking about how much it hurts when I finally pee\u2014that sharp, burning feeling is making me feel so anxious, I worry it's getting worse.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 7,
+                    "role": "doctor",
+                    "content": "I can understand how frustrating and worrying it is when the pain is so persistent, and I assure you we will look into this thoroughly. Given that you have had a fever and are experiencing such generalized aches, I need to understand how you have been drinking fluids since these symptoms started, and if you have had any signs of dehydration, like dizziness or mouth dryness?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 8,
+                    "role": "patient",
+                    "content": "I tried to, Doctor, I really did, drinking lots of water and even some cranberry juice, but it hasn't helped the burning at all. I feel quite weak, maybe a little bit dizzy sometimes, but no, I haven't really passed out or anything. But honestly, Doctor, I keep thinking about this intense burning when I go, it's really making me feel so worried about what's happening inside.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 8,
+                    "role": "doctor",
+                    "content": "I can hear how much this burning and urgency is distressing you, and I know how much it's disrupting your life right now. To help me get a clearer picture of what is happening, let's go back to that dull ache in your lower back. When you cough, or when you suddenly move\u2014does that pain feel like it gets any sharper, or does it seem to come from a specific point, perhaps radiating anywhere else?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 9,
+                    "role": "patient",
+                    "content": "I really tried to drink a lot, Doctor. I bought some electrolyte packets and water, but honestly, it's hard to keep drinking when the burning is so bad. I feel pretty weak and yes, sometimes my mouth feels a bit dry, but nothing drastic. I just keep thinking about how awful the burning is; it feels like it's getting worse every time I try to pee.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 9,
+                    "role": "doctor",
+                    "content": "I truly appreciate you telling me all of this, and I know how overwhelming this constant burning must be. But since your symptoms are quite severe, especially the fever and the back ache, I do need to ask about the fever again. Has the fever been constant since it started, or is it fluctuating, and how has it affected your ability to rest or sleep since yesterday evening?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 10,
+                    "role": "patient",
+                    "content": "It started last night and it's been pretty constant since then, Doctor, definitely making it hard to rest properly. I've been feeling so wiped out. Honestly, though, even talking about the fever, I keep coming back to the worst part\u2014that intense, sharp burning when I actually have to pee. It's just so awful, and it's what's keeping me up more than the aches, honestly.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 10,
+                    "role": "doctor",
+                    "content": "I hear how much this burning and urgency is controlling your focus, and I truly understand that the pain is the most distressing part of this whole ordeal. To get a clearer picture of the overall picture, could you tell me if the dull ache in your back or flank seems to change or get worse *specifically* when you are passing urine, or perhaps when you feel the urge to go?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 11,
+                    "role": "patient",
+                    "content": "No, I don't think it gets worse right when I am peeing, I mean, it's always there. But Doctor, I feel terrible, honestly. The moment it comes out, that sharp, burning sensation is so bad that it's really distracting. It makes me worried that something is seriously wrong with my bladder.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 11,
+                    "role": "doctor",
+                    "content": "I hear you, and I understand that the pain is what is causing the most anxiety right now. Just so I can get a complete picture of everything, have you taken any medicines or over-the-counter pills so far\u2014maybe for the fever, or just for the pain or the burning\u2014since these symptoms started?",
+                    "label": 0
+                }
+            ],
+            "readiness_turn": -1,
+            "model_used": "gemma4",
+            "annotator_confidence (%)": 0
+        },
+        {
+            "conversation_id": 12,
+            "source": "synthetic",
+            "turns": 9,
+            "disease": "gastroenteritis",
+            "scenario": {
+                "disease": "gastroenteritis",
+                "age": 5,
+                "age_group": "child",
+                "sex": "male",
+                "severity": "mild",
+                "duration": "12 hours",
+                "visible_symptoms": [
+                    "vomiting",
+                    "diarrhea",
+                    "lethargy",
+                    "pale complexion"
+                ],
+                "hidden_symptoms": [
+                    "abdominal cramps",
+                    "mild fever (100.5 F)",
+                    "irritability"
+                ],
+                "emotional_state": "The child is fussy and sleepy, while the accompanying mother is extremely distressed and visibly panicking, on the verge of tears.",
+                "communication_style": "The mother is frantic, overly talkative, and highly emotional, often interrupting herself or the doctor, focusing intensely on the immediate distress rather than precise details.",
+                "medical_history": [
+                    "No significant past medical history.",
+                    "Had a mild viral fever two months ago."
+                ],
+                "lifestyle_context": "The child recently attended a birthday party and had cake and snacks. The family lives in a bustling urban area where street food is common, though they try to avoid it. Another child in the building reportedly had a 'stomach bug' last week.",
+                "patient_goal": "The mother desperately wants the vomiting and diarrhea to stop immediately. She is very concerned about dehydration and wants a strong medicine to make her child 'better right away'. She wants reassurance that her child is not in grave danger.",
+                "contradictions": [
+                    "Initially states the child has been 'vomiting non-stop' since yesterday evening, but upon gentle probing, admits it's been more like 4-5 times overnight and twice this morning.",
+                    "Claims the child hasn't eaten anything, but later mentions a few sips of water and a bite of biscuit offered by the father."
+                ],
+                "additional_notes": "The mother brought the child in despite symptoms being relatively mild, driven by high anxiety and fear of dehydration, often repeating 'he looks so weak, doctor!'.",
+                "cultural_context": {
+                    "region": "Mumbai, Maharashtra",
+                    "socioeconomic_status": "medium",
+                    "health_literacy": "medium",
+                    "deference_level": "medium"
+                },
+                "doctor_profile": {
+                    "type": "private_MBBS",
+                    "experience_years": 9,
+                    "setting": "private_clinic",
+                    "consultation_time_pressure": "moderate",
+                    "communication_style": "empathetic",
+                    "explanation_tendency": "high",
+                    "empathy_level": "high",
+                    "family_involvement_approach": "manages"
+                }
+            },
+            "dialogue": [
+                {
+                    "turn_id": 1,
+                    "role": "patient",
+                    "content": "Doctor, thank God we came. He is so weak, honestly. The diarrhea and the vomiting, it just won't stop. I mean, he keeps throwing up little bits, and then the stomach... oh god, it keeps pulling. He looks so pale, doctor, I'm really worried about him getting dehydrated.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 1,
+                    "role": "doctor",
+                    "content": "I understand completely that you are very worried, and it is perfectly normal to feel anxious when your child is unwell. We need to check if he is dehydrated, but to do that, I need a little more information about the diarrhea. Can you tell me what the stool looks like? Is it watery, or is it perhaps mixed with anything else, like mucus or blood?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 2,
+                    "role": "patient",
+                    "content": "Oh god, Doctor, he just keeps throwing up, and look how weak he is! The poop... yes, it's very watery. I mean, just so runny, doctor, and a bit brownish. It's really bad, I don't know what it is, but it's so much.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 2,
+                    "role": "doctor",
+                    "content": "Thank you for telling me. So, watery and brownish diarrhea, and vomiting as well. I understand your worry about his weakness and dehydration. To help me get a clearer picture of how bad this is, can you tell me exactly when these symptoms started? Was it yesterday morning, or was it perhaps later in the afternoon?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 3,
+                    "role": "patient",
+                    "content": "Oh, yes, Doctor, yesterday... it was when we went to that party, maybe late afternoon, I think. After he ate some snacks and cake, I think it started happening. It wasn't like suddenly, no, it just kept going. And since then, he hasn't seemed right. Please, doctor, just tell me what to do, he looks so weak right now!",
+                    "label": 0
+                },
+                {
+                    "turn_id": 3,
+                    "role": "doctor",
+                    "content": "I understand your worry completely, and we are going to do everything to help him feel better. Now that I know when it started, let's talk a bit more about how he is managing his fluids. In the last few hours, have you noticed anything about his urination? For example, has he peed much at all, or has his urine been very concentrated?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 4,
+                    "role": "patient",
+                    "content": "Oh, Doctor, honestly, I don't know. I keep trying to watch him, but he is sleeping so much. And when he wakes up, I just feel like he isn't peeing as much as he should be, you know? He just seems so tired, and I'm really worried about his strength, doctor.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 4,
+                    "role": "doctor",
+                    "content": "I hear your worry about him being sleepy and the reduced urine output, and we are going to monitor that very closely. While we are working through the details, can you tell me if he has complained of any abdominal pains or cramps recently? And did you notice if his fever was spiking at any point?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 5,
+                    "role": "patient",
+                    "content": "Pains? Oh, yes, the stomach... it keeps hurting, doctor, it pulls very much. He sometimes cries and clutches his tummy. And fever? I don't know if it's spiking, honestly, because he's so sleepy, and I haven't measured it properly. He just seems so weak, and I just feel like he's burning up, even if I can't tell. Please, doctor, what is the best medicine? I just want him to get better right away, please!",
+                    "label": 0
+                },
+                {
+                    "turn_id": 5,
+                    "role": "doctor",
+                    "content": "I know it is so uncomfortable for him, and I understand why you want this to stop immediately. Regarding the abdominal pain, can you tell me if the cramping feels like it is in one specific spot, or is it more of a general pain all over his tummy?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 6,
+                    "role": "patient",
+                    "content": "No, no, it's... it's everywhere, Doctor. All over his tummy, I think. It's just cramping all over, like waves, and he cries whenever it gets bad. Oh god, he just keeps hurting, it's terrible, doctor. Can we do something for the pain?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 6,
+                    "role": "doctor",
+                    "content": "I hear you, beta. That cramping must be terrible for him, and it is very distressing for you too. When the cramps feel this strong, it's hard to manage. Since the pain is all over, it could be general irritation from the diarrhea. Before we decide on the best medicine, I really need to feel his tummy myself to check everything. In the last twelve hours, apart from the sips of water and the biscuit, has he had anything else at all\u2014like ORS, or any fruits, or anything solid\u2014that we can check for us? Now, let's examine him.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 7,
+                    "role": "patient",
+                    "content": "No, Doctor, nothing solid, honestly. Just those few sips of water and that biscuit, you know? My husband tried, but he just... kept throwing up again. We are really worried, doctor. He just keeps getting sicker, and I just don't know what to do! Please, please tell me what the medicine is for, if it's serious, what is going wrong with him?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 7,
+                    "role": "doctor",
+                    "content": "Beta, I have listened to everything you told me, and I have taken a look at him. I can tell you that while he is definitely dehydrated and upset, and we need to manage this carefully, his condition right now is not in a grave emergency. Right now, the most important thing is to stabilize him and replace the fluids and salts he has lost. We need to start with rehydration immediately, and I will explain everything to you in detail after we give him some fluids.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 8,
+                    "role": "patient",
+                    "content": "Oh, thank God, Doctor, thank God to hear that! But still... he is so weak, you can see it. Will the fluids really make him better fast? Please tell me, what kind of medicine do we need? I just want him to stop struggling like this, I'm so scared he's going to collapse.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 8,
+                    "role": "doctor",
+                    "content": "Beta, please try not to worry so much right now. We are taking care of him, and right now, our focus is simply on getting his body to keep the fluids and salts. Just to be absolutely sure, did you, or anyone else, give him any medicines for the stomach pain or for the diarrhea at all since it started?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 9,
+                    "role": "patient",
+                    "content": "Oh, no, no, Doctor. Honestly, no strong medicines, no. Just the biscuit and water. I promise. He just seems so weak, Doctor, and he keeps struggling. Please, will these fluids really help him feel better fast? I'm just so scared he's going to collapse.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 9,
+                    "role": "doctor",
+                    "content": "Beta, I understand your fear completely; it is very hard to watch him struggle like this. Right now, the main goal is to replenish what his body has lost. While we are giving him the necessary fluids, I need to understand his pattern a little better. Just out of curiosity, have you noticed if there are any specific times of the day, or any activities, that seem to make the cramping or vomiting worse?",
+                    "label": 0
+                }
+            ],
+            "readiness_turn": -1,
+            "model_used": "gemma4",
+            "annotator_confidence (%)": 0
+        },
+        {
+            "conversation_id": 13,
+            "source": "synthetic",
+            "turns": 12,
+            "disease": "headache",
+            "scenario": {
+                "disease": "headache",
+                "age": 22,
+                "age_group": "young_adult",
+                "sex": "female",
+                "severity": "severe",
+                "duration": "3 days, worsening",
+                "visible_symptoms": [
+                    "grimacing from pain",
+                    "holding temples",
+                    "squinting in a well-lit room"
+                ],
+                "hidden_symptoms": [
+                    "throbbing pain behind one eye",
+                    "nausea",
+                    "extreme sensitivity to light and sound",
+                    "difficulty concentrating",
+                    "neck stiffness"
+                ],
+                "emotional_state": "overwhelmed and distressed, near tears",
+                "communication_style": "agitated and tearful, speaks rapidly",
+                "medical_history": [
+                    "occasional tension headaches during high stress periods, but never this severe"
+                ],
+                "lifestyle_context": "recent increased stress due to final exam preparation, irregular sleep schedule, increased screen time for studying.",
+                "patient_goal": "wants the excruciating pain to stop immediately; extremely worried it's something serious like a brain tumor and wants urgent answers.",
+                "contradictions": [
+                    "insists she 'tried everything' for relief, but later admits she only took one paracetamol tablet yesterday morning and didn't follow up.",
+                    "initially says it just appeared, but later vaguely recalls feeling 'a bit off' and tired a day before the severe pain started."
+                ],
+                "additional_notes": "patient is highly anxious about the pain's intensity and fears a serious underlying cause. She is easily overwhelmed by questions and may repeat herself.",
+                "cultural_context": {
+                    "region": "Maharashtra",
+                    "socioeconomic_status": "medium",
+                    "health_literacy": "medium",
+                    "deference_level": "medium"
+                },
+                "doctor_profile": {
+                    "type": "private_MBBS",
+                    "experience_years": 10,
+                    "setting": "private_clinic",
+                    "consultation_time_pressure": "moderate",
+                    "communication_style": "empathetic",
+                    "explanation_tendency": "moderate",
+                    "empathy_level": "high",
+                    "family_involvement_approach": "manages"
+                }
+            },
+            "dialogue": [
+                {
+                    "turn_id": 1,
+                    "role": "patient",
+                    "content": "It's just... it's so bad, Doctor. Like it's throbbing right behind my eye, and even sitting here, the light hurts my head. Can you please tell me what it is? I'm really scared that it's something serious.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 1,
+                    "role": "doctor",
+                    "content": "I understand, and please don't worry too much. Let's take a moment. Can you tell me if the pain is constant throughout the day, or if it tends to peak or change in intensity at certain times?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 2,
+                    "role": "patient",
+                    "content": "It's... it changes, Doctor. Sometimes it's just a dull ache, but then it really throbs, especially when I try to read or when the light is too bright. It gets so bad that I feel sick.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 2,
+                    "role": "doctor",
+                    "content": "I hear how painful this is, and it sounds incredibly debilitating. Given that these kinds of pain can be linked to many things, I just need to understand your pattern better. Could you tell me if your periods affect when these headaches tend to occur, or if they seem linked to any specific time in your cycle?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 3,
+                    "role": "patient",
+                    "content": "Oh, um... no, I don't think so, Doctor. Not exactly, I mean, sometimes... but this pain is just so much worse than usual. And when I try to think about my periods, my head hurts more, honestly. Are you sure this isn't something very bad? I keep worrying...",
+                    "label": 0
+                },
+                {
+                    "turn_id": 3,
+                    "role": "doctor",
+                    "content": "I understand how worried you are, and this pain sounds absolutely terrible. Since it gets so bad when you are reading, I wonder if there is anything else that makes the pain intensify\u2014perhaps when you cough, sneeze, or strain? Also, have you noticed any changes in your vision, like flashes of light or blurriness, when the headache is bad?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 4,
+                    "role": "patient",
+                    "content": "When I cough or sneeze, yes, it feels like a really sharp thump, like the pain just increases suddenly. About flashes... I don't know about flashes, but the light itself, even looking at things, it hurts so much, I almost have to squint all the time. I just... I worry about it, Doctor, what is wrong with me?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 4,
+                    "role": "doctor",
+                    "content": "I can understand how frightening this is, truly. We need to figure this out, okay? Just thinking about it, does the headache wake you up in the middle of the night, or do you feel like it's constant throughout the whole day?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 5,
+                    "role": "patient",
+                    "content": "Oh... it doesn't feel like it ever stops, Doctor. Even when I try to sleep, I feel this dull ache, like a pressure all over, and I wake up feeling so horrible. I just keep worrying that it's going to get worse, you know? I just feel so weak.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 5,
+                    "role": "doctor",
+                    "content": "I hear that it feels like a continuous pressure, and I know how worrying it must be when the pain interferes with sleep. Now, just to be thorough, apart from the headache pain, have you noticed any other general symptoms over the last few days\u2014like a slight fever, any dizziness when you stand up quickly, or changes in your overall vision?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 6,
+                    "role": "patient",
+                    "content": "No, I don't think I had a fever, or anything like that. Maybe... maybe I just feel really weak, and tired, you know? It's just that pain, Doctor. It's so much worse than just a simple headache. I am so scared that something is actually wrong with me, something serious.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 6,
+                    "role": "doctor",
+                    "content": "I understand your worry, truly. It is frightening when the pain is this intense. Just so we can get a clear picture of what is happening, could you tell me if the stiffness you mentioned is noticeable when you move your head, or if it feels sore when you turn or tilt your neck?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 7,
+                    "role": "patient",
+                    "content": "Yes, um... it feels a bit stiff, Doctor. Especially when I try to turn my head sharply. But honestly, the neck ache is nothing compared to this head throbbing. It's like pressure, everywhere. I just feel so bad, and I keep worrying... what is actually happening to me? Please, Doctor, tell me what it is.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 7,
+                    "role": "doctor",
+                    "content": "I appreciate you telling me about the stiffness in your neck; that's an important detail. Now that we have a better idea of when and how the pain worsens, could you tell me if you have had any kind of fever, or if your body feels generally unwell, apart from just the headache, over these last three days?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 8,
+                    "role": "patient",
+                    "content": "No, Doctor, I don't think I had a fever... nothing like that. But really, I just feel so weak and exhausted, you know? It's like the headache itself is draining me. I just keep thinking, Doctor, is this something really serious? Why is it so bad? ",
+                    "label": 0
+                },
+                {
+                    "turn_id": 8,
+                    "role": "doctor",
+                    "content": "I understand this level of worry, and it is completely normal when the pain is this severe. Since you mentioned that your studies are stressing you out, can you tell me a little bit about the environment you are studying in? For example, are you spending a lot of time staring at screens, or is the room usually quite dry?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 9,
+                    "role": "patient",
+                    "content": "Oh, yes, I... I spend most of my time on my laptop for my exams. The room is fine, I guess, but honestly, Doctor, even trying to focus on studying is impossible because the throbbing is so bad. I just keep thinking that this pain, it's too much for just stress to cause, you know?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 9,
+                    "role": "doctor",
+                    "content": "I hear you, and it sounds absolutely unbearable to try and study with this throbbing pain. To help us narrow down what might be happening, could you tell me if there are any specific positions, or anything that helps even a little bit\u2014like lying down in a dark room, or maybe putting a cold compress on it?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 10,
+                    "role": "patient",
+                    "content": "Oh... I think if I lie down in a completely dark room, it helps a little, Doctor. And if it's quiet, because sound makes the throbbing feel like it's getting worse. But honestly, Doctor, I just feel so exhausted and miserable, and I keep worrying that it's something serious.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 10,
+                    "role": "doctor",
+                    "content": "I understand that this whole experience is just terrifying, and it's okay to feel so exhausted and worried. Since you mentioned having these headaches before, even if they were minor, do you remember if you ever took any specific medication, or did anyone advise you on any routine steps, when those earlier episodes happened?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 11,
+                    "role": "patient",
+                    "content": "Oh, well, I... I remember taking one tablet of paracetamol when it was bad last time, I think. But Doctor, honestly, nothing really helped. I keep worrying that since the pain is so bad now, it must be because I'm doing something wrong, or something is actually really wrong.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 11,
+                    "role": "doctor",
+                    "content": "I hear your concern, and please try not to stress about this, okay? It is natural to worry when the pain is this bad. Just to help us understand the pattern better, can you tell me if the pain feels different at different times of the day? For example, is it worse when you wake up in the morning, or does it build up slowly throughout the day?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 12,
+                    "role": "patient",
+                    "content": "Well... I guess it's always there, Doctor. It's not like it's worse right when I wake up, but it really builds up, especially when I've been sitting or thinking for a long time. Please, Doctor, you have to tell me if this is normal. I am so scared it's something really big.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 12,
+                    "role": "doctor",
+                    "content": "I understand that feeling so much pain and being so worried is utterly draining. Please try to take a deep breath; we are going to systematically go through this together, okay? You mentioned the light bothers you a lot, and the pain is behind your eye. When you look at things, does it feel like the light is hurting your eyes themselves, or is it more that the light just triggers the throbbing pain?",
+                    "label": 0
+                }
+            ],
+            "readiness_turn": -1,
+            "model_used": "gemma4",
+            "annotator_confidence (%)": 0
+        },
+        {
+            "conversation_id": 14,
+            "source": "synthetic",
+            "turns": 10,
+            "disease": "headache",
+            "scenario": {
+                "disease": "headache",
+                "age": 16,
+                "age_group": "teen",
+                "sex": "male",
+                "severity": "moderate",
+                "duration": "5 days, progressively worsening",
+                "visible_symptoms": [
+                    "slight pallor",
+                    "eyes appear strained/tired",
+                    "subtly pressing temples occasionally"
+                ],
+                "hidden_symptoms": [
+                    "throbbing pain predominantly on both sides of the head, behind the eyes",
+                    "pressure sensation across the forehead and temples",
+                    "moderate sensitivity to bright lights (photophobia)",
+                    "mild sensitivity to loud noises (phonophobia)",
+                    "difficulty concentrating on schoolwork",
+                    "intermittent mild nausea, especially in the mornings",
+                    "stiffness in the neck and shoulders"
+                ],
+                "emotional_state": "concerned but composed, focused on conveying information accurately",
+                "communication_style": "detail-oriented and precise",
+                "medical_history": [
+                    "no significant past medical history",
+                    "occasional mild headaches in the past, managed with OTC painkillers, but never this persistent or severe",
+                    "family history of migraines on maternal side"
+                ],
+                "lifestyle_context": "Student preparing for competitive entrance exams; spends long hours studying (often late into the night), significant screen time for online classes and revision, sometimes skips meals due to study schedule.",
+                "patient_goal": "Understand the cause of the persistent headaches and find an effective treatment to alleviate the pain so he can focus on his studies without discomfort.",
+                "contradictions": [],
+                "additional_notes": "Patient might initially downplay the impact on his studies, focusing more on the physical symptoms.",
+                "cultural_context": {
+                    "region": "Maharashtra, Mumbai",
+                    "socioeconomic_status": "high",
+                    "health_literacy": "high",
+                    "deference_level": "medium"
+                },
+                "doctor_profile": {
+                    "type": "private_MBBS",
+                    "experience_years": 10,
+                    "setting": "private_clinic",
+                    "consultation_time_pressure": "moderate",
+                    "communication_style": "collaborative",
+                    "explanation_tendency": "high",
+                    "empathy_level": "high",
+                    "family_involvement_approach": "manages"
+                }
+            },
+            "dialogue": [
+                {
+                    "turn_id": 1,
+                    "role": "patient",
+                    "content": "Hello, Doctor. I\u2019ve been experiencing these headaches for about five days now, and honestly, they keep getting worse. It feels like a persistent pressure across my forehead, and sometimes it really throbs, especially on both sides of my temples and behind my eyes.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 1,
+                    "role": "doctor",
+                    "content": "I understand, that sounds incredibly draining and disruptive, especially when you need to focus so much on your studies. To help me understand the pattern better, could you tell me if the pain tends to be worse at specific times of the day, or if there's anything you do\u2014like concentrating on books or using the computer\u2014that seems to trigger or worsen the headache?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 2,
+                    "role": "patient",
+                    "content": "Yes, it seems really bad in the mornings, honestly. And when I've been sitting for too long, especially in front of my laptop for online classes, the pressure just builds up. I also notice that bright lights, even just regular overhead lighting, make it feel much worse.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 2,
+                    "role": "doctor",
+                    "content": "I see. Experiencing symptoms like light and sound sensitivity, coupled with the pain getting worse in the morning and after prolonged screen time\u2014that paints a clear picture of how much this is affecting your daily life. Just to understand the pain better, when you feel that throbbing, is it usually constant, or does it build up and come and go in distinct waves?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 3,
+                    "role": "patient",
+                    "content": "It's not exactly constant, but it's also not like sharp waves. It feels more like the pressure gradually builds up, making a throbbing sensation that lingers, especially if I haven't moved or taken a break for a while.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 3,
+                    "role": "doctor",
+                    "content": "Thank you for explaining that so thoroughly. It helps me understand the rhythm of the pain. Given that you are under so much stress with your studies, I need to ask about something else: could you tell me a little bit about your sleep schedule? For example, when do you typically go to bed and how many hours of restful sleep are you getting most nights?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 4,
+                    "role": "patient",
+                    "content": "It's pretty irregular, actually. I usually study really late, sometimes until past 1 AM, especially when I have a lot of revision or if there's an online class. I try to sleep by 2 or 3 AM on weekends, and even during the week, I probably get less than six hours, maybe five hours on average. I know I shouldn't, but preparing for these exams makes it difficult.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 4,
+                    "role": "doctor",
+                    "content": "I appreciate you sharing that, and please know that maintaining a healthy sleep routine is incredibly difficult when the pressure of these entrance exams is on. Now, switching gears slightly, have you been taking any over-the-counter painkillers, like paracetamol or ibuprofen, when the headaches get bad? And if so, have you noticed if they helped completely, or if the pain seems to come back quickly afterward?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 5,
+                    "role": "patient",
+                    "content": "Yes, I have been taking paracetamol when it gets really bad. They help, I guess, for a little while\u2014maybe two to three hours. But it's not a complete fix; the relief is temporary, and the pain always comes back, sometimes even worse, so I end up having to take another dose.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 5,
+                    "role": "doctor",
+                    "content": "I appreciate you providing such detailed information. Since you mentioned the throbbing feeling behind your eyes, I need to ask about your vision. Have you ever noticed anything unusual in your sight when the headache starts\u2014like seeing flashes of light, or anything that feels blurry or sparkly before the pain builds up?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 6,
+                    "role": "patient",
+                    "content": "Honestly, I haven't seen anything like flashes, no. But sometimes, just before the pressure starts building, my eyes feel really strained, like they've been working too hard. And the bright lights, even in the room, can feel almost overwhelming, making me want to squint.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 6,
+                    "role": "doctor",
+                    "content": "I see. So the strain on your eyes and the overall sensitivity to light seems to precede the pain building up. Thank you for explaining that so clearly. Now, regarding the stiffness you mentioned in your neck and shoulders, when the pain is particularly bad, does moving your neck, or raising your head, tend to change the feeling, perhaps making it better or worse?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 7,
+                    "role": "patient",
+                    "content": "Hmm, if I ignore it, it's just a constant ache. But when it gets bad, and my neck or shoulders feel tight, it definitely feels worse. Like there's this tension that seems to follow the movement, especially if I move my neck too much.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 7,
+                    "role": "doctor",
+                    "content": "Thank you for clarifying that about the neck tension; it helps us consider all the contributing factors. Now, as we talk about triggers, I need to ask if you've noticed any connection between these headaches and anything you consume. For instance, have you noticed if they seem to start after eating certain foods, or perhaps after consuming drinks like coffee or fizzy cold drinks?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 8,
+                    "role": "patient",
+                    "content": "Hmm, about food... I don't think it's any specific meal, really. But when I'm studying late, I often have a cup of chai, and sometimes I think it might be the caffeine. More than anything, though, I feel like skipping proper meals often, just because I'm so focused on my revisions, and I might feel shaky or get headaches then.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 8,
+                    "role": "doctor",
+                    "content": "I appreciate you being so open about your routine and diet; that information is really helpful. Now, one last thing regarding your general well-being: when you are having a bad headache, have you noticed any accompanying symptoms like upset stomach, vomiting, changes in bowel movements, or perhaps unusual levels of exhaustion or weakness throughout the day?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 9,
+                    "role": "patient",
+                    "content": "Oh, the stomach... not really. But sometimes, especially when the headache is throbbing badly, I feel a bit nauseous, particularly when I first wake up. And generally, I just feel really wiped out, you know? Like I can't focus properly on my books, which is probably due to skipping meals, though.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 9,
+                    "role": "doctor",
+                    "content": "I appreciate you sharing these details about the nausea and the exhaustion. Given all the things we've talked about\u2014the throbbing, the light sensitivity, and the tension in your neck\u2014it's really important to look at all the connections. Just to make sure we cover everything, have you noticed any pain or discomfort in your jaw, especially when you open or close your mouth fully?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 10,
+                    "role": "patient",
+                    "content": "Hmm, to be honest, I haven't really paid attention to it. But yes, when I am super focused on reading or concentrating for hours, I feel like I'm kind of clenching my jaw or my teeth. It might give me a slight ache in the muscles sometimes, especially in the morning.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 10,
+                    "role": "doctor",
+                    "content": "Thank you for mentioning the jaw clenching; that\u2019s a very important piece of information. Since we've covered the pain pattern, the triggers, and the physical symptoms quite thoroughly, I need to ask about your general health history. Besides the headaches, have you been diagnosed with any other health conditions\u2014like asthma, diabetes, or high blood pressure\u2014or are you currently taking any medications for anything else?",
+                    "label": 0
+                }
+            ],
+            "readiness_turn": -1,
+            "model_used": "gemma4",
+            "annotator_confidence (%)": 0,
+            "language": "en"
+        },
+        {
+            "conversation_id": 15,
+            "source": "synthetic",
+            "turns": 9,
+            "disease": "migraine",
+            "scenario": {
+                "disease": "migraine",
+                "age": 68,
+                "age_group": "elderly",
+                "sex": "female",
+                "severity": "mild",
+                "duration": "past 12 hours (current episode), recurring for months",
+                "visible_symptoms": [
+                    "wincing occasionally",
+                    "rubbing temples",
+                    "squinting slightly in the bright clinic light",
+                    "looks fatigued and a bit dishevelled"
+                ],
+                "hidden_symptoms": [
+                    "pulsating pain behind her left eye and temple",
+                    "extreme sensitivity to light (photophobia)",
+                    "sensitivity to noise (phonophobia)",
+                    "mild nausea, no vomiting",
+                    "a shimmering, zigzag pattern in her vision that comes before the worst of the headache",
+                    "feeling of being overwhelmed and disoriented"
+                ],
+                "emotional_state": "high anxiety, worried sick, overwhelmed, tearful",
+                "communication_style": "anxious, rambling, repeating details, focusing on fears",
+                "medical_history": [
+                    "diagnosed with hypertension 5 years ago, on medication (amlodipine)",
+                    "occasional 'tension headaches' in the past, but never like this",
+                    "no history of migraines before recent onset"
+                ],
+                "lifestyle_context": "Recently widowed, living alone for the first time in 45 years. Has been struggling with sleep and often skips meals, especially breakfast. Finds managing household chores increasingly difficult.",
+                "patient_goal": "Wants immediate relief from the pain and fears it's a sign of a serious underlying condition. Wants reassurance that she can manage this alone.",
+                "contradictions": [
+                    "Initially states 'this terrible pain just came on suddenly this morning,' but later, when asked, admits 'well, these sorts of head-pains... they've been coming more often over the last few months, but not quite this bad until now.'",
+                    "Might initially not mention skipping meals or poor sleep, thinking it's irrelevant, but may disclose when probed about daily routine."
+                ],
+                "additional_notes": "Patient is very distressed by the impact on her daily life, especially since she's now alone. Her anxiety amplifies her perception of the severity.",
+                "cultural_context": {
+                    "region": "Bengaluru, Karnataka",
+                    "socioeconomic_status": "medium",
+                    "health_literacy": "medium",
+                    "deference_level": "high"
+                },
+                "doctor_profile": {
+                    "type": "private_MBBS",
+                    "experience_years": 10,
+                    "setting": "private_clinic",
+                    "consultation_time_pressure": "moderate",
+                    "communication_style": "empathetic",
+                    "explanation_tendency": "moderate",
+                    "empathy_level": "high",
+                    "family_involvement_approach": "manages"
+                }
+            },
+            "dialogue": [
+                {
+                    "turn_id": 1,
+                    "role": "patient",
+                    "content": "It just feels... throbbing, Doctor. Like something is beating right behind my left eye and temple. And the light, honestly, it makes me feel so sick and I just keep squinting because it hurts so much.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 1,
+                    "role": "doctor",
+                    "content": "That sounds incredibly difficult, feeling that throbbing pain and the sensitivity to light. I understand this must be so distressing for you. Could you tell me if there were any changes in your vision, maybe seeing patterns or flashes, even before the pain started getting this bad?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 2,
+                    "role": "patient",
+                    "content": "Oh, patterns... yes, I think so. It was really strange. Before the worst of the throbbing pain even started, my vision seemed... fuzzy, like things were wavering. And there was this shimmering, zigzag kind of thing, like little bright lines. I kept rubbing my eyes because it was so bothersome, but I honestly thought maybe it was just the bright lights here.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 2,
+                    "role": "doctor",
+                    "content": "Thank you for sharing those details about the flashing lights; that's very important information for us. Now, regarding the throbbing pain itself\u2014when it feels its worst, can you describe the pattern for me? Is it steady, or does it come in specific waves, and on a scale of one to ten, how would you rate the intensity right now?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 3,
+                    "role": "patient",
+                    "content": "Oh, it... it doesn't really stay steady, Doctor. It just feels like it comes in these bursts, like a really heavy, slow beat, all over my left side. And for the intensity, I don't know... maybe a seven or eight? It's worse than when I woke up, honestly. I'm so worried, Doctor, about what this means. Is this normal?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 3,
+                    "role": "doctor",
+                    "content": "I hear your concern, and I want to reassure you that we will figure out what this is together. To help me understand this pattern better, can you tell me if anything specific\u2014like certain foods, times of day, or even the stress you mentioned\u2014usually seems to bring on these headaches, or if anything tends to make them feel better?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 4,
+                    "role": "patient",
+                    "content": "Oh, triggers... I don't really know, Doctor. I mean, I feel bad sometimes after a day of cleaning, or if I'm too tired. I suppose when I'm stressed out, or if I haven't eaten properly... I think it's the stress. I've been so worried since my husband... I just feel overwhelmed, and then the pain comes. I hope it's just because I'm worried, Doctor.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 4,
+                    "role": "doctor",
+                    "content": "It sounds like the stress and exhaustion are really contributing to the pain, and I understand how worrying this all is. Since we've talked about triggers like stress and fatigue, let's also think about your rest. Could you tell me a little bit about your sleep lately? How many hours are you generally getting to sleep each night?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 5,
+                    "role": "patient",
+                    "content": "Oh, sleep? Well... I don't know. It's been very unsettled. I get restless, Doctor. I worry so much, and I just lie awake for hours. Maybe I'm not getting enough? I just keep feeling exhausted, honestly.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 5,
+                    "role": "doctor",
+                    "content": "It is completely understandable that you feel this way; anxiety and lack of good sleep definitely take a toll on the body. To get a full picture, I need to understand your baseline health as well. Could you confirm for me what medications, if any, you take regularly for your blood pressure, and if you have been taking them consistently?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 6,
+                    "role": "patient",
+                    "content": "Oh, my blood pressure... yes, I take some pills for that, Doctor. It's for my blood pressure. I think it's called Amlodipine... I try to take it every day, but with everything going on, I worry I might skip a dose sometimes, I'm so forgetful.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 6,
+                    "role": "doctor",
+                    "content": "Thank you for being so open with me about that. Managing medication and daily routines when you are feeling distressed can be very challenging. Could you describe for me what a typical day looks like for you? I am interested in understanding your overall daily routine, including your meals and any activities you manage.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 7,
+                    "role": "patient",
+                    "content": "Oh, well... mostly, I just drift through the days, Doctor. I try to do some little chores, but it feels so much harder now, especially since I'm alone. I often skip meals, especially breakfast, because honestly, I just feel too exhausted to cook. It's just... so difficult keeping up with everything, and then the head pain just comes.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 7,
+                    "role": "doctor",
+                    "content": "Thank you for sharing all of this; I can only imagine how overwhelming it must be to manage all of this alone right now. Since we've discussed how these episodes come with stress and fatigue, I was wondering if the pain tends to follow a certain pattern throughout your day? For example, does it always feel worse at a specific time, like in the morning, afternoon, or evening?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 8,
+                    "role": "patient",
+                    "content": "Oh, it's so hard to say, Doctor. Sometimes it feels worse in the morning, when I wake up, but then when the day gets going and I haven't eaten anything... it starts to throb again. It's just... it never seems to stop really, which is why I'm so worried about it.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 8,
+                    "role": "doctor",
+                    "content": "I appreciate you describing those patterns in the pain. I hear that the head pain is closely linked to when you fast or when you wake up. Just to understand this better, when you are engaged in a specific activity\u2014for example, when you are walking around the house or standing up\u2014does the pain feel worse, or does it feel different in any way?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 9,
+                    "role": "patient",
+                    "content": "Oh, when I move... I don't know. It's not exactly that the throbbing gets worse, Doctor, but it just feels like... a deep ache, like everything is weighted down. It makes me so tired quickly, and I just feel so unsteady, you know? I really struggle to keep up with things, especially when I have to walk for too long.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 9,
+                    "role": "doctor",
+                    "content": "I understand that feeling of being weighted down and unsteady can be very frightening and make you feel quite drained. When you feel this unsteadiness, does it feel more like you might actually faint or wobble, or is it more like a deep feeling of exhaustion that just makes you feel slow?",
+                    "label": 0
+                }
+            ],
+            "readiness_turn": -1,
+            "model_used": "gemma4",
+            "annotator_confidence (%)": 0,
+            "language": "en"
+        },
+        {
+            "conversation_id": 16,
+            "source": "synthetic",
+            "turns": 10,
+            "disease": "diabetes",
+            "scenario": {
+                "disease": "diabetes",
+                "age": 68,
+                "age_group": "elderly",
+                "sex": "male",
+                "severity": "moderate",
+                "duration": "several months",
+                "visible_symptoms": [
+                    "general weakness (reported as 'feeling a bit tired')",
+                    "small cut on foot not healing quickly"
+                ],
+                "hidden_symptoms": [
+                    "increased thirst (downplayed as 'just drinking more water')",
+                    "frequent urination (attributed to 'old age')",
+                    "generalized fatigue",
+                    "slight numbness/tingling in feet (ignored or called 'legs falling asleep')",
+                    "occasional blurry vision (attributed to 'needing new glasses')"
+                ],
+                "emotional_state": "resigned, slightly irritable, low expression",
+                "communication_style": "minimizing, vague, dismissive",
+                "medical_history": [
+                    "no significant medical history (as reported by patient)",
+                    "family history of 'sugar' (diabetes) in his father, but patient minimizes its relevance"
+                ],
+                "lifestyle_context": "Retired farmer in a rural area, mostly sedentary lifestyle, traditional high-carb diet, prefers home remedies, was brought to the clinic by his son.",
+                "patient_goal": "Wants to 'feel a bit stronger' and for the foot wound to heal. Doesn't want a complicated diagnosis or many tests, just a 'tonic' or quick fix.",
+                "contradictions": [
+                    "Initially states he feels 'fine, just a bit old,' then vaguely mentions the foot wound.",
+                    "Denies excessive thirst or urination, or attributes it to other factors.",
+                    "Doesn't volunteer information about family history of diabetes until prompted."
+                ],
+                "additional_notes": "Patient's son is concerned about his father's declining energy and the non-healing wound, pushing for a proper diagnosis.",
+                "cultural_context": {
+                    "region": "rural_Rajasthan",
+                    "socioeconomic_status": "medium",
+                    "health_literacy": "low",
+                    "deference_level": "medium"
+                },
+                "doctor_profile": {
+                    "type": "rural_PHC",
+                    "experience_years": 7,
+                    "setting": "primary_health_centre",
+                    "consultation_time_pressure": "high",
+                    "communication_style": "directive",
+                    "explanation_tendency": "low",
+                    "empathy_level": "moderate",
+                    "family_involvement_approach": "accepts"
+                }
+            },
+            "dialogue": [
+                {
+                    "turn_id": 1,
+                    "role": "patient",
+                    "content": "Mostly, I just sit in the fields now, you know. Sometimes my legs feel a bit heavy, but it's just age, doctor. We eat normal food, the usual bread and whatever greens are available.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 1,
+                    "role": "doctor",
+                    "content": "I see, sitting in the fields all day. Now, about that small cut you mentioned on your foot, can you tell me if it is hurting, or if you notice it changing at all?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 2,
+                    "role": "patient",
+                    "content": "No, no, it doesn't hurt much, doctor. Just feels a bit rough, maybe. It's been there for some time now, you know. Probably just from walking in the wet earth.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 2,
+                    "role": "doctor",
+                    "content": "I understand. It's important that we keep an eye on that, even if it doesn't hurt much right now. Besides the foot, tell me, what about your general energy? Are you finding it difficult to do your usual daily chores these days?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 3,
+                    "role": "patient",
+                    "content": "Oh, I am alright, doctor. Just sometimes I feel a bit low, maybe just because I sleep late these days. Nothing hard, you know. Just a little bit tired, nothing that stops me from doing my chores.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 3,
+                    "role": "doctor",
+                    "content": "I see. Just feeling a bit low sometimes. Okay. And regarding your routine, have you noticed if you are passing a lot more urine than before, or if you feel like you are drinking much more water than usual?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 4,
+                    "role": "patient",
+                    "content": "Oh, no, no. Just normal, doctor. I drink when I am thirsty, you know. As for the passing urine... well, I suppose old age does that sometimes. Just passing it often, nothing too much really.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 4,
+                    "role": "doctor",
+                    "content": "I see. So, regarding the feet, you mentioned a small cut. Aside from the rough feeling, have you noticed any tingling or pins-and-needles feeling in your feet or legs lately? Or perhaps any changes in how clearly you see things?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 5,
+                    "role": "patient",
+                    "content": "The tingling... sometimes, when I sit for too long, my legs feel a little numb, like when they fall asleep, I think. And my eyesight, yes, it feels a bit blurry lately, but I think I just need new glasses, doctor.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 5,
+                    "role": "doctor",
+                    "content": "I see. We will make a note of that numbness and the blurriness. But regarding that small cut on your foot, it seems it has been there for quite some time. What is generally the main kind of food you are eating day-to-day, doctor?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 6,
+                    "role": "patient",
+                    "content": "Oh, nothing much, doctor. Mostly just the usual. Some roti, the wheat bread, and whatever greens we can get from the field. We try to eat like we used to, you know, simple food.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 6,
+                    "role": "doctor",
+                    "content": "I see. So generally, what about your weight? Have you noticed if you have lost or gained any weight recently, or if your appetite seems different than usual?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 7,
+                    "role": "patient",
+                    "content": "Oh, weight? No, doctor. I haven't really noticed anything. And my appetite... it's fine. I still eat what we usually eat, nothing has changed much, you know. Just simple meals.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 7,
+                    "role": "doctor",
+                    "content": "I hear you saying that everything feels normal, but let's focus just on that cut on your foot. How often do you clean it, and do you use any special cream or powder on it, doctor? Keeping it clean is very important for it to heal properly.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 8,
+                    "role": "patient",
+                    "content": "Oh, mostly I just wash it with water when it gets dirty from the fields. No, nothing special, doctor. We don't use any of those creams or powders, just simple washing.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 8,
+                    "role": "doctor",
+                    "content": "I see, just washing it with water. Well, keeping it clean is important. Now, moving away from the foot for a minute, you mentioned feeling numb sometimes in your legs. Is that feeling only when you sit for a long time, or does it happen even when you are walking around in the fields?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 9,
+                    "role": "patient",
+                    "content": "Mostly when I just sit for a while, doctor. Or if I rest my legs too long. When I'm walking around, no, I don't really notice it much, it's only when they get still.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 9,
+                    "role": "doctor",
+                    "content": "I understand. So it is mainly when your legs are still or resting for a long time. Thank you for explaining. Just so I know, did your father or any other close family members suffer from issues like high sugar or diabetes, doctor?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 10,
+                    "role": "patient",
+                    "content": "My father... yes, he had some trouble with sugar, I think. But that was years ago, doctor. He was quite ill, but it was just something that happens with age, you know. Nothing major now.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 10,
+                    "role": "doctor",
+                    "content": "I understand. It is good that you brought this up, as family history is important. Now, shifting our focus slightly, can you tell me a little about what you usually eat throughout the day? For instance, is there a noticeable difference between your breakfast, your lunch, and your dinner?",
+                    "label": 0
+                }
+            ],
+            "readiness_turn": -1,
+            "model_used": "gemma4",
+            "annotator_confidence (%)": 0,
+            "language": "en"
         }
     ]
 }

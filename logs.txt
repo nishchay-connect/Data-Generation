@@ -1,0 +1,392 @@
+selecting disease....
+94.19557519990485
+generating scenario....12.268560399999842
+calling patientAgent....42.81205339997541
+calling doctor agent...34.92726410005707
+calling patientAgent....24.221255999989808
+calling doctor agent...
+
+selecting disease....
+158.40134520002175
+generating scenario....10.820880400016904
+calling patientAgent....45.78099480003584
+calling doctor agent...calling doctor agent...35.37664939998649
+calling patientAgent....33.12999450007919
+calling doctor agent...37.72954629990272
+calling patientAgent....30.307823000010103
+calling doctor agent...calling doctor agent...38.632354800007306
+calling patientAgent....31.048848200007342
+calling doctor agent...38.63803390006069
+calling patientAgent....32.00003170000855
+calling doctor agent...44.32397590007167
+calling patientAgent....25.765027399989776
+calling doctor agent...37.61968250002246
+calling patientAgent....31.2325990999816
+calling doctor agent...37.7928927000612
+calling patientAgent....29.424730299971998
+calling doctor agent...39.21857089991681
+calling patientAgent....7.623687000013888
+calling doctor agent...38.50001620000694
+ended in868.5222977999365
+selecting disease....
+158.89033399999607
+generating scenario....selecting disease....
+161.19246970000677
+generating scenario....8.1970813999651
+calling patientAgent....43.86088289995678
+calling doctor agent...35.52409970003646
+calling patientAgent....26.4790961999679
+calling doctor agent...39.85329959995579
+calling patientAgent....36.60527349996846
+calling doctor agent...35.27437360002659
+calling patientAgent....28.387657799990848
+calling doctor agent...46.205702999955975
+calling patientAgent....28.4953361999942
+calling doctor agent...38.325193500029854
+calling patientAgent....33.777146300068125
+calling doctor agent...33.75572610006202
+calling patientAgent....29.926602500025183
+calling doctor agent...40.60657950001769
+ended in666.5065172000322
+selecting disease....
+159.05583639990073
+generating scenario....10.344903400051408
+calling patientAgent....42.927473600022495
+calling doctor agent...38.263368700048886
+calling patientAgent....26.098509599920362
+calling doctor agent...32.07379489997402
+calling patientAgent....28.700186099973507
+calling doctor agent...48.45990430004895
+calling patientAgent....7.458776899962686
+calling doctor agent...31.902544799959287
+calling patientAgent....25.183835300034843
+calling doctor agent...calling doctor agent...33.330556500004604
+calling patientAgent....5.61420489999
+calling doctor agent...40.331356000038795
+calling patientAgent....30.797074899892323
+calling doctor agent...37.18857160001062
+calling patientAgent....33.516552199958824
+calling doctor agent...38.95935940009076
+calling patientAgent....32.71553619997576
+calling doctor agent...calling doctor agent...40.61231740005314
+ended in1475.5657366999658
+selecting disease....
+150.53984340000898
+generating scenario....7.432159299962223
+calling patientAgent....39.889971300028265
+calling doctor agent...42.086079200031236
+calling patientAgent....25.65735410002526
+calling doctor agent...35.501922300085425
+calling patientAgent....23.368598600034602
+calling doctor agent...36.462177200010046
+calling patientAgent....28.48679210001137
+calling doctor agent...34.99855769996066
+calling patientAgent....28.71737159998156
+calling doctor agent...38.56977740000002
+calling patientAgent....24.91271159995813
+calling doctor agent...34.608812199905515
+calling patientAgent....32.650789999985136
+calling doctor agent...36.69790110003669
+ended in2096.198110600002
+selecting disease....
+133.10762640007306
+generating scenario....9.13238620001357
+calling patientAgent....40.94098940002732
+calling doctor agent...29.21257470001001
+calling patientAgent....21.926738200010732
+calling doctor agent...31.37809000001289
+calling patientAgent....29.96731620002538
+calling doctor agent...30.0224589999998
+calling patientAgent....5.94153839990031
+calling doctor agent...calling doctor agent...30.62878610007465
+calling patientAgent....43.834516599890776
+calling doctor agent...36.40409440000076
+calling patientAgent....22.74054599995725
+calling doctor agent...calling doctor agent...39.86123589996714
+calling patientAgent....27.300651199999265
+calling doctor agent...40.2828989000991
+calling patientAgent....31.58683609997388
+calling doctor agent...calling doctor agent...35.726302099996246
+calling patientAgent....30.88718920003157
+calling doctor agent...34.63385430001654
+calling patientAgent....27.30186549993232
+calling doctor agent...38.82680130004883
+calling patientAgent....28.329288800014183
+calling doctor agent...39.84865189995617
+ended in3049.0788486000383
+selecting disease....
+124.95037360000424
+generating scenario....13.879710300010629
+calling patientAgent....41.96491079998668
+calling doctor agent...44.15482219995465
+calling patientAgent....30.650884700007737
+calling doctor agent...35.32045359991025
+calling patientAgent....30.043308899970725
+calling doctor agent...37.90233850001823
+calling patientAgent....29.631422400008887
+calling doctor agent...37.06308400002308
+calling patientAgent....29.110015699989162
+calling doctor agent...39.79044320003595
+calling patientAgent....26.63066190003883
+calling doctor agent...44.373563900007866
+calling patientAgent....27.772728399955668
+calling doctor agent...44.789537800010294
+calling patientAgent....28.87360430008266
+calling doctor agent...50.12802780000493
+calling patientAgent....27.83066560002044
+calling doctor agent...43.03448389994446
+calling patientAgent....27.169903500005603
+calling doctor agent...50.50765370007139
+calling patientAgent....27.386978499940597
+calling doctor agent...47.07091340003535
+ended in3989.165106200031
+selecting disease....
+100.75771709997207
+generating scenario....9.234607900027186
+calling patientAgent....46.94846200000029
+calling doctor agent...30.368087799986824
+calling patientAgent....26.369252900010906
+calling doctor agent...31.684724399936385
+calling patientAgent....30.825877700001
+calling doctor agent...30.668284299899824
+calling patientAgent....27.99976440006867
+calling doctor agent...36.97348679997958
+calling patientAgent....34.965561200049706
+calling doctor agent...36.90382620005403
+calling patientAgent....26.376117099891417
+calling doctor agent...33.52108209999278
+calling patientAgent....31.072617799974978
+calling doctor agent...41.01244530000258
+ended in....575.7824361999519
+
+selecting disease....
+selecting disease....
+3.4237788000609726
+generating scenario....12.15655820001848
+calling patientAgent....47.501392300007865
+calling doctor agent...40.436727899941616
+calling patientAgent....26.310043500037864
+calling doctor agent...39.77218179998454
+calling patientAgent....29.89791690011043
+calling doctor agent...30.82146950007882
+calling patientAgent....29.948135899961926
+calling doctor agent...44.97654059994966
+calling patientAgent....33.284556600032374
+calling doctor agent...46.56465670000762
+calling patientAgent....31.347463999991305
+calling doctor agent...33.74336099997163
+calling patientAgent....25.660718300030567
+calling doctor agent...39.659989499952644
+calling patientAgent....28.790804099990055
+calling doctor agent...44.637445400003344
+ended in....589.0618351000594
+
+selecting disease....
+9.817692399956286
+generating scenario....10.04826209996827
+calling patientAgent....43.9525033000391
+calling doctor agent...30.40546339994762
+calling patientAgent....27.82930620003026
+calling doctor agent...32.772074299980886
+calling patientAgent....29.860517099965364
+calling doctor agent...37.84686370007694
+calling patientAgent....29.90193829999771
+calling doctor agent...29.829518900020048
+calling patientAgent....32.90509859996382
+calling doctor agent...31.18718829995487
+calling patientAgent....32.56077360000927
+calling doctor agent...34.06917610007804
+calling patientAgent....31.891613900079392
+calling doctor agent...34.58652390004136
+calling patientAgent....31.042034299927764
+calling doctor agent...41.50139670004137
+calling patientAgent....25.894049599999562
+calling doctor agent...41.412256300100125
+ended in....619.3667823000578
+
+selecting disease....
+10.460486399941146
+generating scenario....9.931262700003572
+calling patientAgent....20.218768600025214
+calling doctor agent...38.58409729995765
+calling patientAgent....6.257267100038007
+calling doctor agent...36.09984799998347
+calling patientAgent....32.73059559997637
+calling doctor agent...39.89856200001668
+calling patientAgent....30.286780000082217
+calling doctor agent...calling doctor agent...40.539381099981256
+calling patientAgent....30.890334800002165
+calling doctor agent...36.797673400025815
+calling patientAgent....27.595317899947986
+calling doctor agent...41.64613000000827
+calling patientAgent....34.08104249997996
+calling doctor agent...34.65668250003364
+calling patientAgent....32.894085399922915
+calling doctor agent...51.168272899929434
+calling patientAgent....25.97366489993874
+calling doctor agent...48.488507400033996
+calling patientAgent....25.617881599930115
+calling doctor agent...37.87267810001504
+ended in....734.9131063000532
+
+selecting disease....
+selecting disease....
+generating scenario....10.129524299991317
+selecting disease....
+9.352616999996826
+generating scenario....11.60517150000669
+selecting disease....
+3.441126100020483
+generating scenario....16.229269600007683
+calling patientAgent....45.10512570000719
+calling doctor agent...40.43426190002356
+calling patientAgent....33.25346969999373
+calling doctor agent...36.05082959996071
+calling patientAgent....30.545638800016604
+calling doctor agent...34.75048089993652
+calling patientAgent....30.32987829996273
+calling doctor agent...34.243349700002
+calling patientAgent....31.960581599967554
+calling doctor agent...36.575760799925774
+calling patientAgent....31.19054189999588
+calling doctor agent...34.7733172000153
+calling patientAgent....32.21232319995761
+calling doctor agent...37.97046719992068
+calling patientAgent....34.78144350007642
+calling doctor agent...47.30306990002282
+calling patientAgent....47.54845570004545
+calling doctor agent...43.00596640002914
+calling patientAgent....33.21622599998955
+calling doctor agent...calling doctor agent...37.03323860000819
+calling patientAgent....31.337648300104775
+calling doctor agent...41.834802900091745
+ended in....870.5949360999512
+
+selecting disease....
+10.03916270006448
+generating scenario....11.988218099926598
+calling patientAgent....49.960360200027935
+calling doctor agent...calling doctor agent...40.16919619997498
+calling patientAgent....40.29626209998969
+calling doctor agent...38.266720200073905
+calling patientAgent....37.03263250004966
+calling doctor agent...42.885357000050135
+calling patientAgent....32.315149100031704
+calling doctor agent...42.749224700033665
+calling patientAgent....33.376407100004144
+calling doctor agent...49.36466029996518
+calling patientAgent....28.43696900003124
+calling doctor agent...50.36254200001713
+calling patientAgent....35.65984279999975
+calling doctor agent...46.75876720005181
+calling patientAgent....30.88945000001695
+calling doctor agent...38.0033500000136
+calling patientAgent....35.09745910007041
+calling doctor agent...47.695400699973106
+ended in....783.6452439000132
+
+selecting disease....
+10.687922799959779
+generating scenario....11.230494900024496
+calling patientAgent....49.44076440006029
+calling doctor agent...37.103837199974805
+calling patientAgent....26.869821499916725
+calling doctor agent...44.755096600041725
+calling patientAgent....37.036061899969354
+calling doctor agent...46.14764729992021
+calling patientAgent....39.92410689999815
+calling doctor agent...41.377987700048834
+calling patientAgent....36.570047099958174
+calling doctor agent...45.604235500097275
+calling patientAgent....33.63400510000065
+calling doctor agent...47.75502459995914
+calling patientAgent....35.054555600043386
+calling doctor agent...47.785604499978945
+calling patientAgent....33.20550149993505
+calling doctor agent...48.028273200034164
+calling patientAgent....32.5912528000772
+calling doctor agent...44.13277090003248
+calling patientAgent....33.0594864001032
+calling doctor agent...48.77379900007509
+calling patientAgent....33.693107199971564
+calling doctor agent...50.506705199950375
+calling patientAgent....32.17466319992673
+calling doctor agent...50.983607599977404
+ended in....998.1731979000615
+
+selecting disease....
+10.284993799985386
+generating scenario....8.712816399987787
+calling patientAgent....46.27512999996543
+calling doctor agent...45.14280859997962
+calling patientAgent....31.183515999931842
+calling doctor agent...46.312799800070934
+calling patientAgent....34.00002880010288
+calling doctor agent...41.51609490008559
+calling patientAgent....30.015375199960545
+calling doctor agent...calling doctor agent...42.61606350005604
+calling patientAgent....31.009498700033873
+calling doctor agent...52.83308210002724
+calling patientAgent....33.39470890001394
+calling doctor agent...42.976802200078964
+calling patientAgent....32.90934960008599
+calling doctor agent...41.60377179994248
+calling patientAgent....36.967307599959895
+calling doctor agent...44.574566500028595
+calling patientAgent....31.440344500006177
+calling doctor agent...47.070659999968484
+calling patientAgent....34.480266500031576
+calling doctor agent...45.97710409993306
+ended in....854.6195426000049
+
+selecting disease....
+10.074648799956776
+generating scenario....11.605422200052999
+calling patientAgent....48.617967700003646
+calling doctor agent...calling doctor agent...41.056200699997135
+calling patientAgent....36.55578399996739
+calling doctor agent...43.447029900038615
+calling patientAgent....33.51774669997394
+calling doctor agent...45.668186200084165
+calling patientAgent....37.837464999989606
+calling doctor agent...38.82134289992973
+calling patientAgent....33.51155329996254
+calling doctor agent...40.23467470007017
+calling patientAgent....31.109475400066003
+calling doctor agent...49.2208558000857
+calling patientAgent....30.532811900018714
+calling doctor agent...41.09749800001737
+calling patientAgent....35.405755699961446
+calling doctor agent...42.33032309997361
+calling patientAgent....30.298316900036298
+calling doctor agent...38.32806500000879
+ended in....757.2557012999896
+
+selecting disease....
+10.465686200070195
+generating scenario....12.056295300018974
+calling patientAgent....47.699234800064005
+calling doctor agent...37.385664199944586
+calling patientAgent....28.645176900085062
+calling doctor agent...33.861530199996196
+calling patientAgent....27.300519400043413
+calling doctor agent...29.8082428999478
+calling patientAgent....32.258848599973135
+calling doctor agent...43.8834777000593
+calling patientAgent....30.007310700020753
+calling doctor agent...42.38650540006347
+calling patientAgent....32.22894209995866
+calling doctor agent...39.49716830009129
+calling patientAgent....26.593655799981207
+calling doctor agent...29.9844098999165
+calling patientAgent....26.966685399995185
+calling doctor agent...41.7398860999383
+calling patientAgent....27.173028100049123
+calling doctor agent...35.55796869995538
+calling patientAgent....28.237752999993972
+calling doctor agent...37.99004350008909
+ended in....701.7646794000175
+
+selecting disease....
+10.09036599996034
+generating scenario....generating scenario....12.73576079995837
