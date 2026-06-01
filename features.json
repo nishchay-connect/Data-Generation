@@ -1,18 +1,18 @@
 {
     "sex": {
-        "male": 8,
-        "female": 8
+        "male": 12,
+        "female": 12
     },
     "age_group": {
-        "child": 2,
-        "teen": 2,
-        "young_adult": 4,
-        "adult": 4,
-        "elderly": 4
+        "child": 105,
+        "teen": 4,
+        "young_adult": 5,
+        "adult": 5,
+        "elderly": 5
     },
     "severity": {
-        "mild": 5,
-        "moderate": 6,
-        "severe": 5
+        "mild": 7,
+        "moderate": 9,
+        "severe": 8
     }
 }

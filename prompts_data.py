@@ -905,6 +905,9 @@ Express the same concern in different ways.
 
   Simply respond as the patient and allow the doctor to guide the discussion.
 
+  Regardless of the patient's region, socioeconomic background, or cultural context, 
+  all dialogue must be in English only. Do not use Hindi, 
+  regional language words, or transliterations under any circumstance.
   ---
   RESPONSE LENGTH RULES
 

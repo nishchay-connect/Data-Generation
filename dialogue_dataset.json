@@ -1,5 +1,5 @@
 {
-    "total_dialogues": 16,
+    "total_dialogues": 24,
     "dialogues": [
         {
             "conversation_id:": 1,
@@ -2568,6 +2568,1515 @@
             "model_used": "gemma4",
             "annotator_confidence (%)": 0,
             "language": "en"
+        },
+        {
+            "conversation_id": 17,
+            "source": "synthetic",
+            "turns": 12,
+            "disease": "tuberculosis",
+            "scenario": {
+                "disease": "tuberculosis",
+                "age": 16,
+                "age_group": "teen",
+                "sex": "male",
+                "severity": "severe",
+                "duration": "6 weeks",
+                "visible_symptoms": [
+                    "significant weight loss (approx. 6 kg)",
+                    "pale complexion",
+                    "persistent, hacking cough, sometimes with streaks of blood",
+                    "visible fatigue and lethargy"
+                ],
+                "hidden_symptoms": [
+                    "daily low-grade fever, especially in the evenings",
+                    "drenching night sweats requiring change of clothes",
+                    "chest pain, particularly with deep breaths or coughing",
+                    "shortness of breath even with mild exertion",
+                    "loss of appetite and general malaise"
+                ],
+                "emotional_state": "worried and exhausted, with underlying frustration",
+                "communication_style": "detail-oriented",
+                "medical_history": [
+                    "no significant past medical history",
+                    "has generally been healthy and active prior to this illness"
+                ],
+                "lifestyle_context": "Student preparing for crucial board exams; active in sports (cricket) until recently; lives in a moderately crowded apartment with family members; uncle who visits frequently had a 'long cough' a few months ago.",
+                "patient_goal": "Wants a clear diagnosis and effective treatment to stop the symptoms and get back to school and normal life. Worried about exams and impact on future.",
+                "contradictions": [
+                    "initially mentions 'just a bad cough' but later, when prompted, details significant blood streaks and severity",
+                    "initially dismisses uncle's cough as 'nothing serious' but provides details if asked"
+                ],
+                "additional_notes": "Patient's parents are very concerned and have been urging him to see a doctor for weeks, but he initially resisted due to exam pressure and hoping it would pass.",
+                "cultural_context": {
+                    "region": "semi-urban Maharashtra",
+                    "socioeconomic_status": "medium",
+                    "health_literacy": "medium",
+                    "deference_level": "medium"
+                },
+                "doctor_profile": {
+                    "type": "private_MBBS",
+                    "experience_years": 10,
+                    "setting": "private_clinic",
+                    "consultation_time_pressure": "moderate",
+                    "communication_style": "empathetic",
+                    "explanation_tendency": "high",
+                    "empathy_level": "high",
+                    "family_involvement_approach": "manages"
+                }
+            },
+            "dialogue": [
+                {
+                    "turn_id": 1,
+                    "role": "patient",
+                    "content": "I feel really tired, Doctor. It's not just regular tiredness; sometimes I wake up in the middle of the night feeling really sweaty, like I've had a fever and need to change clothes twice. And I just feel weak generally.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 1,
+                    "role": "doctor",
+                    "content": "I understand how draining and worrying these symptoms must be for you. Regarding those sweats and the overall fatigue, can you describe the pattern of these episodes? For example, do they happen every night, and do you feel any feverish chill or hot flashes along with them?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 2,
+                    "role": "patient",
+                    "content": "Almost every night, Doctor. It starts feeling really hot, almost burning up, and I end up drenched, seriously wet. Sometimes I have to change my clothes twice. And then, when it finally comes down, I get these chills, like shaking, even when the room isn't cold. It's really exhausting.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 2,
+                    "role": "doctor",
+                    "content": "I see. Those kinds of drenching sweats followed by chills sound incredibly draining, and it must disrupt your sleep terribly. Thank you for describing that so clearly. Now, moving on slightly, when you feel weak or tired, I also need to know about your breathing. Have you been having any cough at all recently?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 3,
+                    "role": "patient",
+                    "content": "Yeah, Doctor. I have been coughing, yes. It's really persistent, non-stop. Sometimes it's just a dry, hacking feeling, but if I cough hard, it feels like my chest hurts a little bit. It's worse, especially when I'm tired or when I move around a lot.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 3,
+                    "role": "doctor",
+                    "content": "I understand, so the cough is persistent and the chest pain is triggered by exertion. Thank you for clarifying that. When you cough, have you noticed if you are bringing up any phlegm or mucus, or if the cough ever seems to have any color to it?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 4,
+                    "role": "patient",
+                    "content": "Yeah, there is stuff, Doctor. It's mostly sticky, and sometimes it's a bit yellowy. But honestly, the worst part is when I cough really hard, there are streaks... streaks of blood mixed in. It's not much, but it's definitely visible.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 4,
+                    "role": "doctor",
+                    "content": "Thank you for being so open about that; seeing any blood when you cough is certainly something we need to monitor very closely. You mentioned significant weight loss, which shows how draining this must be. Besides the appetite loss, have you noticed any other major changes in your general health recently, like swelling in your lymph nodes, or any persistent aches in your joints?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 5,
+                    "role": "patient",
+                    "content": "Swollen nodes? No, I don't think so, Doctor, I haven't noticed anything like that. And no, the joint pain is not constant, it's just a general soreness, nothing bad, really. Just generally feeling very weak, which makes everything difficult, yaar.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 5,
+                    "role": "doctor",
+                    "content": "I hear you, yaar. This constant weakness and general discomfort must be making everything so tough. Just one more thing regarding this breathlessness\u2014when does this shortness of breath usually occur? Is it only when you are physically moving or exerting yourself, or do you feel it even when you are resting or sitting still?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 6,
+                    "role": "patient",
+                    "content": "Mostly, Doctor, it's when I try to walk or if I have to do any mild movement, like bending over. I feel like I can't catch my breath, even if I'm not running. It makes me feel really breathless, yaar.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 6,
+                    "role": "doctor",
+                    "content": "I understand, it sounds very restricting. Just to clarify a little bit more about this breathlessness\u2014does it happen specifically when you are exerting yourself, or do you feel short of breath even when you are resting, for instance, or when you lie down?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 7,
+                    "role": "patient",
+                    "content": "Mostly when I'm walking, yes, that's the worst. But... even sometimes, if I've been sitting for a while, or if I just lie down and think about it, I feel like I can't take a deep enough breath. It just feels like my chest is tight, yaar.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 7,
+                    "role": "doctor",
+                    "content": "I hear you. Feeling short of breath even when resting or lying down, that is very concerning, yaar, and we must keep monitoring that closely. Now, since you mentioned losing a significant amount of weight\u2014about 6 kg\u2014and having lost your appetite, I need to understand a little more about your digestion. Has the weight loss been accompanied by any changes in your stomach or bowels, like diarrhea, constipation, or persistent nausea?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 8,
+                    "role": "patient",
+                    "content": "Nah, Doctor, not really diarrhea or anything bad like that. But my stomach feels heavy, like it's always upset. And yeah, sometimes I feel a bit nauseous, especially when I wake up. I just don't feel hungry, yaar.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 8,
+                    "role": "doctor",
+                    "content": "I understand that the nausea is particularly noticeable when you wake up. Yaar, all these persistent symptoms\u2014the sweats, the weight loss, and the stomach issues\u2014it must be truly taxing on your body. Regarding the chest pain you mentioned, when it hurts with deep breaths or coughing, can you describe the exact location of the pain, and does it feel sharp, dull, or burning? Also, does that pain travel anywhere else?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 9,
+                    "role": "patient",
+                    "content": "It's more on my chest, near the ribs, Doctor. It feels sharp, yaar, especially when I take a deep breath or when I cough really hard. Not sure if it goes anywhere else, maybe just feels like it's in that area.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 9,
+                    "role": "doctor",
+                    "content": "I understand, yaar. The fact that it's sharp and worse with breath makes sense, but it's important we rule out everything. Just to check on other areas\u2014aside from the cough, have you noticed anything unusual with your heart, like racing heartbeats, or does your chest feel tight even when you aren't coughing or exerting yourself?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 10,
+                    "role": "patient",
+                    "content": "My heart, I don't think it's racing, no. But honestly, Doctor, the chest tightness... it's more than just when I breathe. Even when I'm just sitting and trying to think about studies, sometimes it feels a bit tight, like pressure, yaar. It's really draining.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 10,
+                    "role": "doctor",
+                    "content": "It sounds incredibly frustrating, yaar. Having this persistent tightness, especially when you are trying to focus on your studies, must be deeply worrying. Since we are talking about such severe weakness and the weight loss over the last six weeks, I need to ask about your diet just to understand if there's anything impacting your nutrition. Over these past few weeks, have you had any significant change in your eating habits, or any difficulties keeping food down?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 11,
+                    "role": "patient",
+                    "content": "Actually, no huge change, Doctor. It's just... I don't feel like eating much, you know? And even when I do eat, my stomach feels kind of heavy, like nothing is settling right. So I just barely manage to eat, honestly.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 11,
+                    "role": "doctor",
+                    "content": "It sounds like this whole process is physically and emotionally exhausting for you, yaar. We have covered so much, and your descriptions are very helpful. Just to ensure I haven't missed anything important, have you taken any specific medication, even over-the-counter medicines, for these symptoms? Or have you had any recent travel or contact with anyone who might have been sick?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 12,
+                    "role": "patient",
+                    "content": "No, Doctor, nothing like that. I haven't taken any medicine for this, yaar. But... my uncle, he comes to stay sometimes. A few months back, when he was here, he had a really long cough, you know? It bothered him quite a bit.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 12,
+                    "role": "doctor",
+                    "content": "Thank you for sharing that about your uncle; it is important information, and we will certainly keep that in mind. Yaar, I can tell you are going through an extremely difficult time right now, and your body is fighting hard. On a different note, since you were very active before this illness, can you tell me a little bit about your typical daily routine? Like, apart from studying, what does a normal day look like for you, and how has that routine changed with these symptoms?",
+                    "label": 0
+                }
+            ],
+            "readiness_turn": -1,
+            "model_used": "gemma4",
+            "annotator_confidence (%)": 0,
+            "language": "en",
+            "generated_on": "2026-06-01 16:50:06.456600"
+        },
+        {
+            "conversation_id": 18,
+            "source": "synthetic",
+            "turns": 9,
+            "disease": "urinary_tract_infection",
+            "scenario": {
+                "disease": "urinary_tract_infection",
+                "age": 72,
+                "age_group": "elderly",
+                "sex": "female",
+                "severity": "mild",
+                "duration": "approximately 4 days",
+                "visible_symptoms": [
+                    "subtle signs of discomfort (e.g., slight wince when moving or getting up)",
+                    "appears a bit more tired than usual"
+                ],
+                "hidden_symptoms": [
+                    "increased frequency of urination (subtle, not urgent)",
+                    "mild, intermittent burning sensation during urination",
+                    "slight discomfort in the lower abdomen",
+                    "generalized fatigue, dismissed as 'old age'"
+                ],
+                "emotional_state": "suppressed",
+                "communication_style": "reserved",
+                "medical_history": [
+                    "controlled hypertension for 15 years",
+                    "mild osteoarthritis in knees",
+                    "no history of previous UTIs"
+                ],
+                "lifestyle_context": "Lives with her son's family in a small house. Tends to restrict fluid intake in the evenings to avoid night-time bathroom trips, especially when guests are visiting.",
+                "patient_goal": "Wants to know if 'this little problem' is anything serious and get a quick remedy so she doesn't bother anyone. Not looking for extensive investigations.",
+                "contradictions": [
+                    "Initially states 'nothing much, just a small irritation' when asked about specific symptoms, but upon gentle probing, mentions the mild burning.",
+                    "Might deny drinking less water when asked directly, but the family might later mention it if present."
+                ],
+                "additional_notes": "Patient is very stoic and tries to minimize her discomfort, fearing she might be a burden to her family or the doctor. She delayed coming in for a few days hoping it would resolve on its own.",
+                "cultural_context": {
+                    "region": "small town in Gujarat",
+                    "socioeconomic_status": "medium",
+                    "health_literacy": "low",
+                    "deference_level": "high"
+                },
+                "doctor_profile": {
+                    "type": "rural_PHC",
+                    "experience_years": 6,
+                    "setting": "primary_health_centre",
+                    "consultation_time_pressure": "high",
+                    "communication_style": "directive",
+                    "explanation_tendency": "low",
+                    "empathy_level": "moderate",
+                    "family_involvement_approach": "accepts"
+                }
+            },
+            "dialogue": [
+                {
+                    "turn_id": 1,
+                    "role": "patient",
+                    "content": "No, Doctor, it is not anything that needs a fuss. I just feel a little bit weak, maybe because of the cold, and sometimes it feels a bit uncomfortable when I go to the washroom.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 1,
+                    "role": "doctor",
+                    "content": "I understand. Regarding the uncomfortable feeling when you go, can you tell me if it is a burning sensation, or is it more that you feel like you are passing urine very frequently?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 2,
+                    "role": "patient",
+                    "content": "Oh, yes, a little... burning, maybe, just when it comes out. And yes, I feel like I go a few times more often than before. But it is nothing, Doctor, really just a small irritation.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 2,
+                    "role": "doctor",
+                    "content": "Okay, when you feel that burning, does it happen all the time while you are urinating, or is it only at the very start or the very end?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 3,
+                    "role": "patient",
+                    "content": "Oh, it's only... a little bit. Maybe when I first start, or sometimes when I am done. It is not much, Doctor. It just feels a little scratchy, nothing serious, I think.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 3,
+                    "role": "doctor",
+                    "content": "I see. Has anything else been bothering you, perhaps any pain in your lower back or sides when you feel this discomfort? And have you had any fever at all since these symptoms started?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 4,
+                    "role": "patient",
+                    "content": "No fever, Doctor, thankfully. And the back... no, nothing in my back or sides like that. Maybe just sometimes, a little bit of heaviness down here in my lower belly, but nothing painful. It just feels a bit tight, I think.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 4,
+                    "role": "doctor",
+                    "content": "I understand. Now, when we talk about this irritation, have you noticed if anything\u2014like a particular time of day, or perhaps what you eat\u2014seems to make that discomfort feel worse?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 5,
+                    "role": "patient",
+                    "content": "Hmm... I don't know, Doctor. I mean, I haven't paid much attention, really. Maybe when I walk a little bit, it feels a bit more noticeable. But no, I don't think anything I eat really makes it worse. It is nothing much, I swear.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 5,
+                    "role": "doctor",
+                    "content": "Okay. Regarding the urine itself, I need to ask\u2014have you noticed if the color or the smell of your urine has changed at all in these last few days?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 6,
+                    "role": "patient",
+                    "content": "No, Doctor. I think it is alright. The color is like usual, and I haven't noticed any bad smell, really. Maybe just a bit more than usual, but I cannot say it has changed.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 6,
+                    "role": "doctor",
+                    "content": "I see. Now, about that heaviness you feel in your lower belly\u2014is that discomfort mainly related to your digestion, or have you noticed any changes in how often you have to pass stool?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 7,
+                    "role": "patient",
+                    "content": "No, Doctor, I think my stool is fine, no changes there. Maybe it is just... general heaviness, I cannot say if it is from the stomach or something else. It just feels a bit full sometimes.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 7,
+                    "role": "doctor",
+                    "content": "And Doctor, regarding your hypertension, are you taking any medicines for it? And are there any other medicines you take for your knees or any other condition?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 8,
+                    "role": "patient",
+                    "content": "Yes, for my blood pressure, I take the pills that my son gets for me, regularly. And for the knees, yes, there is a cream I use sometimes, but I don't take any other pills for that, Doctor.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 8,
+                    "role": "doctor",
+                    "content": "I see. You are taking your medicines regularly for your blood pressure, which is good. Now, just one more thing, because this is important: generally speaking, throughout the whole day\u2014not just in the evening\u2014are you able to drink enough fluids, like water, or sometimes do you find yourself limited on what you can drink?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 9,
+                    "role": "patient",
+                    "content": "Oh, well... mostly I try to drink enough, Doctor. But when it gets late, especially if there are people here or I know I might have to walk a lot, I tend to drink less so I don't have to go so many times at night. It is just... the going back and forth, you see.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 9,
+                    "role": "doctor",
+                    "content": "I see. So you hold back on drinking water in the evenings. When you go to the washroom now, do you feel like your bladder is emptying completely? Sometimes people feel like they still have to push, or that it just doesn't feel totally empty.",
+                    "label": 0
+                }
+            ],
+            "readiness_turn": -1,
+            "model_used": "gemma4",
+            "annotator_confidence (%)": 0,
+            "language": "en",
+            "generated_on": "2026-06-01 17:42:09.520958"
+        },
+        {
+            "conversation_id": 19,
+            "source": "synthetic",
+            "turns": 11,
+            "disease": "hypertension",
+            "scenario": {
+                "disease": "hypertension",
+                "age": 48,
+                "age_group": "adult",
+                "sex": "male",
+                "severity": "moderate",
+                "duration": "Symptoms for about 2-3 weeks, gradually worsening",
+                "visible_symptoms": [],
+                "hidden_symptoms": [
+                    "persistent dull headache, mostly at the back of the head, especially in the mornings",
+                    "occasional dizziness or lightheadedness when standing up quickly",
+                    "feeling generally more fatigued than usual, even after adequate sleep",
+                    "brief episodes of mild blurred vision, like a shimmer in peripheral vision, lasting a few seconds",
+                    "slight pressure or heaviness in the chest, not sharp pain, often when stressed",
+                    "increased irritability and difficulty concentrating at work"
+                ],
+                "emotional_state": "concerned, slightly anxious but trying to remain composed and logical",
+                "communication_style": "detail-oriented",
+                "medical_history": [
+                    "Family history of hypertension (father suffered from it)",
+                    "Family history of diabetes (father)",
+                    "Known 'borderline' cholesterol levels for the past 3 years, not on medication",
+                    "Last general check-up 3 years ago, blood pressure noted as 'on the higher side of normal' then"
+                ],
+                "lifestyle_context": "Works as a senior manager in IT, long and stressful hours, frequent international business travel leading to disrupted sleep patterns. Diet often consists of restaurant meals or ready-to-eat options, tending to be high in salt and fats. Sedentary job. Drinks alcohol socially 2-3 times a week (2-3 pegs of whisky). Quit smoking 10 years ago after being a social smoker in his twenties. Has been skipping morning walks recently due to increased workload.",
+                "patient_goal": "Wants to understand the cause of his symptoms, get relief, and prevent any serious health complications like stroke or heart attack, especially given his family history. Also concerned about how this might impact his demanding job and whether he will need lifelong medication.",
+                "contradictions": [
+                    "Initially downplays the level of stress at work, describing it as 'normal' for his profession, but later admits to feeling overwhelmed and burnt out when probed.",
+                    "Mentions 'healthy eating' but might omit the details of frequent high-salt/fat restaurant meals until asked directly about his daily food choices."
+                ],
+                "additional_notes": "Patient has done some preliminary online research about his symptoms and is worried about serious conditions.",
+                "cultural_context": {
+                    "region": "Mumbai, Maharashtra",
+                    "socioeconomic_status": "medium",
+                    "health_literacy": "medium",
+                    "deference_level": "medium"
+                },
+                "doctor_profile": {
+                    "type": "private_MBBS",
+                    "experience_years": 12,
+                    "setting": "private_clinic",
+                    "consultation_time_pressure": "moderate",
+                    "communication_style": "collaborative",
+                    "explanation_tendency": "high",
+                    "empathy_level": "high",
+                    "family_involvement_approach": "manages"
+                }
+            },
+            "dialogue": [
+                {
+                    "turn_id": 1,
+                    "role": "patient",
+                    "content": "Well, Doctor, it's nothing sharp, you know? It's more of a constant tiredness, like I'm always running on empty. And my head... it feels heavy, especially in the mornings, kind of at the back of my skull. I've been struggling a bit at work too, finding it hard to focus on things.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 1,
+                    "role": "doctor",
+                    "content": "I understand. These kinds of general symptoms, especially headache and fatigue, can be really disruptive. Since you mentioned the headache is consistently worse in the mornings, could you tell me if there is anything\u2014like changes in position, or perhaps activity\u2014that seems to make it feel better or worse?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 2,
+                    "role": "patient",
+                    "content": "Umm, I don't know. It's worst right after I wake up, honestly. But I also feel like concentrating or sitting for too long reading reports, that makes it feel almost tighter, like a dull ache that spreads. I'm not sure if it's my work stress or something else.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 2,
+                    "role": "doctor",
+                    "content": "I see. So it feels like a tension ache that gets worse when you are concentrating, like straining your eyes or mind. That certainly points towards some kind of strain or sustained pressure. Just to cover all the bases, did you notice any times\u2014perhaps when you stand up quickly, or when you change positions\u2014if you feel any little bouts of dizziness or maybe even any momentary blurriness in your vision?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 3,
+                    "role": "patient",
+                    "content": "Yes, actually, I have noticed that. When I get up too quickly from sitting or lying down, my head feels a bit light, like I might faint for a second. It's nothing serious, just a quick wobble, I think. Sometimes my vision also feels a little foggy for a moment.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 3,
+                    "role": "doctor",
+                    "content": "I see. So, that feeling of lightheadedness when you stand up quickly, and the occasional foggy vision\u2014that's very helpful information. When we talk about these types of symptoms, especially when combined with chronic headaches and fatigue, we really need to look at how your body is managing pressure and blood flow. You also mentioned earlier that sometimes you feel a slight pressure or heaviness in your chest, especially when you are stressed. Could you tell me a little more about that feeling? Is it more like a tightness, or does it feel different, perhaps more like a weight, and does anything seem to trigger it?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 4,
+                    "role": "patient",
+                    "content": "It's definitely not a sharp pain, no. It's more like a gentle weight, Doctor, like something is sitting on it. It usually happens when I'm really stressed about work, or maybe when I've been sitting too long on a tough project. I try to ignore it, but it's there.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 4,
+                    "role": "doctor",
+                    "content": "I appreciate you clarifying that; so it's more of a continuous weight or pressure, particularly when the stress mounts. It's important we look at all these interconnected symptoms\u2014the headache, the lightheadedness, and this chest feeling. Now, Doctor's side, for a complete picture, I need to ask about your routine. Aside from any medication you might take for your cholesterol or general health, are you currently taking any supplements, vitamins, or any over-the-counter medicines for anything?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 5,
+                    "role": "patient",
+                    "content": "No, nothing regular, Doctor. I haven't taken anything prescribed lately. Maybe sometimes, when I feel a bit drained, I take some vitamin C, but it's just occasionally, nothing serious like that.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 5,
+                    "role": "doctor",
+                    "content": "Thank you for confirming that. That is very helpful to know. Now, since we've covered a lot of ground regarding your symptoms, your routine, and your family history, the next thing we should do is take a detailed physical examination. Could you please just sit comfortably for a moment? We'll start by checking your blood pressure, pulse, and overall vital signs, alright?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 6,
+                    "role": "patient",
+                    "content": "Oh, yes, of course. I'll sit down. Please, go ahead with the blood pressure check. I just hope this isn't too much trouble, Doctor.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 6,
+                    "role": "doctor",
+                    "content": "Alright, let's get you settled here. I'll just take your blood pressure and pulse now. Please just relax and keep still for a moment... *[Pause simulating reading]* Okay, so your blood pressure is a little higher than it should be, and your pulse rate is also slightly elevated. This suggests that your body might be working harder than it needs to. Now, while I've got you settled, I also want to quickly check a few other things, like your reflexes and maybe listen to your heart sounds. Just thinking about these symptoms\u2014the headache, the dizziness, and the chest heaviness\u2014have you noticed if these feelings seem to get worse after consuming particularly salty meals, or if you feel any related discomfort if you restrict your salt intake?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 7,
+                    "role": "patient",
+                    "content": "Hmm, yes, I think so. Whenever I have eaten something really salty, like when I'm out for dinner at a restaurant, the dull headache feels a bit more intense later that evening. And maybe the fatigue feels worse the next day. I just figured it was normal, I didn't connect it to the salt.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 7,
+                    "role": "doctor",
+                    "content": "Thank you for sharing that. It sounds like there is a clear connection between high salt intake and how you feel. Since you travel a lot and your job is demanding, let's also talk a little about your sleep\u2014when you travel or have particularly stressful weeks, how stable is your sleep pattern, and are you waking up feeling truly refreshed?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 8,
+                    "role": "patient",
+                    "content": "Well, honestly, it's a mess, Doctor. When I'm traveling or really busy with a project, I feel like I'm barely getting proper rest. I might sleep for long hours, but I still wake up feeling pretty drained, you know? Not really refreshed, just... tired.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 8,
+                    "role": "doctor",
+                    "content": "I understand, so even if you sleep for long hours, the quality is poor and you wake up drained. It sounds like stress and lifestyle are playing a big role in that, which is very common. Just to cover all the potential causes, particularly since we've talked about the chest feeling, I do need to ask about activity. When you do physical activities, like climbing stairs or walking for a long time, do you ever feel short of breath, or do you notice any discomfort in your chest or heart area while exerting yourself?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 9,
+                    "role": "patient",
+                    "content": "Oh, no, not really. If I just walk up a few flights of stairs, I might get a little breathless, but it's mostly because I haven't exercised much lately, I guess. As for the chest, it's generally related to when I'm overwhelmed at work, rather than when I'm actually exerting myself.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 9,
+                    "role": "doctor",
+                    "content": "I appreciate you clarifying that the chest feeling is linked to stress rather than physical effort. Given that we are dealing with elevated blood pressure and several symptoms that point towards increased systemic pressure\u2014the headaches, the dizziness, and the visual fluctuations\u2014I want to understand the headaches even better. Besides the mornings, does the dull ache ever seem to be triggered by specific times of day, or maybe even after certain activities, like bending over or straining in any way?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 10,
+                    "role": "patient",
+                    "content": "I... I don't know about specific times of day, really. But if I've been sitting for a long time, especially on my computer, and I've been focusing hard, it definitely gets worse. And if I do have to strain a little, like when I'm lifting something or bending over, it feels a bit more noticeable. It's mostly related to the strain, I think.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 10,
+                    "role": "doctor",
+                    "content": "I see. So it sounds like it's a cumulative ache, really linked to the effort of focusing or straining. Thank you for clarifying that. Since we are seeing elevated blood pressure, it is crucial we rule out any underlying organ involvement. On a different note, have you noticed any changes in your urine recently, like having to go much more often, or perhaps seeing any changes in color or clarity? Also, have you noticed any swelling, perhaps in your ankles or feet, that wasn't there before?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 11,
+                    "role": "patient",
+                    "content": "No, actually, nothing I've noticed like that. The amount or the color of my urine seems normal to me. And no, my ankles or feet haven't swollen up; they just feel like they are usually, nothing unusual.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 11,
+                    "role": "doctor",
+                    "content": "Thank you for checking those things; it helps us rule out some other things, which is always good. Since we have noted this elevated blood pressure, which is clearly related to what we've discussed\u2014the stress, the salt, the lack of rest\u2014let's talk about your eating habits for a moment, okay? Could you describe for me what a typical day's meals look like for you, especially concerning things like how much salt or oil you tend to use, or if you eat out often?",
+                    "label": 0
+                }
+            ],
+            "readiness_turn": -1,
+            "model_used": "gemma4",
+            "annotator_confidence (%)": 0,
+            "language": "en",
+            "generated_on": "2026-06-01 17:58:54.162462"
+        },
+        {
+            "conversation_id": 20,
+            "source": "synthetic",
+            "turns": 12,
+            "disease": "dengue",
+            "scenario": {
+                "disease": "dengue",
+                "age": 10,
+                "age_group": "child",
+                "sex": "female",
+                "severity": "severe",
+                "duration": "3 days",
+                "visible_symptoms": [
+                    "high fever (looks flushed)",
+                    "lethargy",
+                    "some petechiae on arms"
+                ],
+                "hidden_symptoms": [
+                    "intense body aches",
+                    "headache (child vaguely points to head)",
+                    "retro-orbital pain (says 'eyes hurt')",
+                    "persistent nausea",
+                    "abdominal pain (described as 'tummy aches')",
+                    "refusal to eat",
+                    "feeling weak"
+                ],
+                "emotional_state": "suppressed",
+                "communication_style": "reserved",
+                "medical_history": [
+                    "generally healthy",
+                    "no chronic conditions"
+                ],
+                "lifestyle_context": "lives in a crowded urban area, monsoon season, plays in local park",
+                "patient_goal": "child wants to go home and rest, parent wants a diagnosis and effective treatment",
+                "contradictions": [
+                    "child states 'not much pain' when clearly wincing or looking uncomfortable",
+                    "parent mentions symptoms child tried to hide (e.g., 'she vomited twice yesterday but didn't tell you')"
+                ],
+                "additional_notes": "Child is accompanied by her mother who is visibly anxious and tries to answer for her.",
+                "cultural_context": {
+                    "region": "Mumbai, Maharashtra",
+                    "socioeconomic_status": "low",
+                    "health_literacy": "low",
+                    "deference_level": "high"
+                },
+                "doctor_profile": {
+                    "type": "government_MBBS",
+                    "experience_years": 8,
+                    "setting": "government_OPD",
+                    "consultation_time_pressure": "high",
+                    "communication_style": "directive",
+                    "explanation_tendency": "low",
+                    "empathy_level": "moderate",
+                    "family_involvement_approach": "manages"
+                }
+            },
+            "dialogue": [
+                {
+                    "turn_id": 1,
+                    "role": "patient",
+                    "content": "Mm... Just feel weak, Doctor. And a little dizzy sometimes.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 1,
+                    "role": "doctor",
+                    "content": "I understand. Let's take a look at this properly. Ma'am, can you tell me, how many days ago did the fever start? And what is the highest temperature she has been?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 2,
+                    "role": "patient",
+                    "content": "Haan Doctor, fever tab se hai. Lagbhag teen din ho gaye. Bahut zyada hota tha, toh doctor ne bola tha 102-103 degree tak jaa raha tha.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 2,
+                    "role": "doctor",
+                    "content": "Okay, three days with high fever. Besides the fever, has she been complaining about any body pain? Tell me, is it generalized, like all over her bones, or is it focused somewhere?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 3,
+                    "role": "patient",
+                    "content": "Doctor... (The mother speaking, leaning in) Haan, Doctor. Poore shareer mein dard rehta hai. Jaise saare joints aur bones tootne wale ho. Lekin woh bolti hai ki, 'Nahin, Mummy, it's okay, bas thak gayi hoon.'",
+                    "label": 0
+                },
+                {
+                    "turn_id": 3,
+                    "role": "doctor",
+                    "content": "Okay. Abdominal pain is also important. Has she been throwing up anything, or kya paani, ya pachan se related koi problem ho rahi hai?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 4,
+                    "role": "patient",
+                    "content": "Doctor, usne zyada ulti nahi ki, par thoda pet mein gas jaisa lagta hai. Aur khaana toh bilkul nahi khaati. Bas paani bhi thora hi peeti hai.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 4,
+                    "role": "doctor",
+                    "content": "Theek hai. Ab main ek cheez aur puchti hoon. Skin par toh kuch tarah ki bleeding ya nishan to nahi dikh rahe? Jaise masoodon se khoon aana, ya peteliya (spots) zyada ho gaye hain?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 5,
+                    "role": "patient",
+                    "content": "Doctor... (Mother speaking, looking down) Haan, kuch nishan toh hain. Haath aur pairon pe aise bahut chhote-chhote spots, jaise peteliya. Lekin, na kisi jagah se khoon behta hua jaisa, bas aise hi chote-chote nishan zyada ho gaye hain.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 5,
+                    "role": "doctor",
+                    "content": "Theek hai, these petechiae are noted. Ab main ek baar phir se stomach ki baat karti hoon. Kya usne yesterday ya aaj kisi bhi samay ulti ki thi? Aur agar ki thi, toh uske fluid mein koi rang toh nahi tha?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 6,
+                    "role": "patient",
+                    "content": "Doctor, woh... woh kal ke time thoda ulti ki thi, par zyada nahi. Sirf thoda sa. Rang toh... nahi, koi alag rang toh nahi tha. Bas thoda khula-khula jaisa hi tha.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 6,
+                    "role": "doctor",
+                    "content": "Theek hai. Now, I need to check her general state. Can you tell me if she is alert, or if she seems very sleepy? Also, does her skin feel cool, or does she look flushed all over?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 7,
+                    "role": "patient",
+                    "content": "Doctor, abhi to thodi chain se soyi hui thi. Jab uthti hai toh thodi slow lagti hai, bahut zyada nahi. Aur haan, fever toh bahut tha, isliye body thodi garam (flushed) dikhti hai, thand nahi lag rahi.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 7,
+                    "role": "doctor",
+                    "content": "Theek hai. Ab main ek aur baat poochti hoon. Pet mein yeh jo dard ho raha hai, kya yeh dard aata-jaata rehta hai, ya bas lagatar hota rehta hai? Aur kya usse chalne mein ya saans lene mein koi dikkat toh nahi ho rahi?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 8,
+                    "role": "patient",
+                    "content": "Doctor... (The mother is speaking, worriedly). Pet ka dard toh bas hamesha rehta hai, jaise andar hi kuch khich raha ho. Aur na Doctor, na chalne mein koi zyada dikkat hai, bas bahut kamzori lagti hai. Saans lene mein bhi theek hai.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 8,
+                    "role": "doctor",
+                    "content": "Okay, I understand the pain is constant, like a pulling sensation. Now, let's talk about the liquids. Since she hasn't been eating much, how many times has she been drinking water or any fluids today? And finally, kya usne paani (urine) kiya hai? Aur uski quantity ya color kaisa lag raha hai?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 9,
+                    "role": "patient",
+                    "content": "Doctor, paani toh bahut kam peeti hai. Bas thode-thode ghoont leti hai. Aur urine ki baat karein toh... zyada nahi kiya hai aaj. Jaise, thoda sa hi kiya hai, aur color bhi thoda gehra lag raha hai.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 9,
+                    "role": "doctor",
+                    "content": "Theek hai. Since she has generally been healthy, I just need to confirm: kya usne pehle kabhi dengue jaisa koi viral fever ho chuka hai? Aur koi medicine toh nahi de rahe ho usse regularly?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 10,
+                    "role": "patient",
+                    "content": "Nahi Doctor, aise bade fever toh usse pehle nahi hue the. Bas kabhi-kabhi chhota-mota viral fever hota tha, toh us waqt dawa mil jaati thi. Aur haan, yeh toh abhi jo fever ki dawa hai, koi regular medicine nahi de rahe hain.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 10,
+                    "role": "doctor",
+                    "content": "Theek hai. Aur ye jo pet ka dard ho raha hai, kya kabhi aisa hota hai ki usse bahut zyada kamzori mehsoos ho, ya usse aankhon mein zyada thakaan lage? Kya yeh dard pet ke kisi ek hisse mein zyada hota hai, ya poore pet mein?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 11,
+                    "role": "patient",
+                    "content": "Doctor... (Mother speaking, guiding the words) Haan, Doctor. Usse bohot kamzori lagti hai, jaise thakaan hi thakaan rehti hai. Dard bhi poore pet mein rehta hai, kisi ek jagah nahi. Bas sab jagah halka-halka khinchta rehta hai.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 11,
+                    "role": "doctor",
+                    "content": "Theek hai. Yeh weakness toh fever aur body ache ki wajah se ho sakti hai. Ab sirf ek cheez aur bata do. Kya usse aaj se pehle koi loose motion ya gas ka zyada paani jaisa nikalna hua hai? Aur jab aankhon mein zyada dard ya thakaan hoti hai, toh kya woh aaram karne se kam hoti hai?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 12,
+                    "role": "patient",
+                    "content": "Loose motion toh nahi hua Doctor. Bas pet mein gas sa rehta hai, kabhi kabhi. Aur haan, jab thoda rest karti hai na, toh bahut kamzor feel karti hai, par thodi shaanti milti hai.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 12,
+                    "role": "doctor",
+                    "content": "Theek hai. Yeh saare symptoms toh fever ke time mein bahut hote hain. Lekin main ek baar fir se poochti hoon, pet mein yeh dard hota hai\u2014kya yeh dard jab usse kuch khaane ko dete hain, ya thoda hilati hain, toh usmein badh jata hai? Aur kya uske munh ya masoodon par zyada khun ki kami ka koi nishan dikh raha hai?",
+                    "label": 0
+                }
+            ],
+            "readiness_turn": -1,
+            "model_used": "gemma4",
+            "annotator_confidence (%)": 0,
+            "language": "en",
+            "generated_on": "2026-06-01 18:14:28.944904"
+        },
+        {
+            "conversation_id": 21,
+            "source": "synthetic",
+            "turns": 9,
+            "disease": "typhoid",
+            "scenario": {
+                "disease": "typhoid",
+                "age": 7,
+                "age_group": "child",
+                "sex": "male",
+                "severity": "mild",
+                "duration": "5 days",
+                "visible_symptoms": [
+                    "looks pale and tired",
+                    "reduced activity level"
+                ],
+                "hidden_symptoms": [
+                    "persistent low-grade fever (worse in evenings)",
+                    "mild abdominal discomfort (child points vaguely to stomach)",
+                    "poor appetite",
+                    "headache (child complains of 'head pain')"
+                ],
+                "emotional_state": "tired and slightly irritable (as reported by parent)",
+                "communication_style": "reserved and brief (parent answers mostly, child is quiet)",
+                "medical_history": [
+                    "common childhood infections, no major illnesses"
+                ],
+                "lifestyle_context": "Child recently attended a local 'mela' (fair) and had some street food. Family uses water from a community hand pump.",
+                "patient_goal": "Parent wants the child to get well soon so he can return to school. Worried about his academic performance.",
+                "contradictions": [
+                    "Parent initially thought it was just a regular fever and gave 'kadha' (herbal concoction) for two days before coming to the clinic."
+                ],
+                "additional_notes": "The child is very quiet and mostly sits on the parent's lap, occasionally nodding or shaking his head in response to direct questions from the parent.",
+                "cultural_context": {
+                    "region": "Bihar, rural area",
+                    "socioeconomic_status": "low",
+                    "health_literacy": "low",
+                    "deference_level": "high"
+                },
+                "doctor_profile": {
+                    "type": "rural_PHC",
+                    "experience_years": 5,
+                    "setting": "primary_health_centre",
+                    "consultation_time_pressure": "high",
+                    "communication_style": "directive",
+                    "explanation_tendency": "low",
+                    "empathy_level": "moderate",
+                    "family_involvement_approach": "accepts"
+                }
+            },
+            "dialogue": [
+                {
+                    "turn_id": 1,
+                    "role": "patient",
+                    "content": "Sir... just a little head pain. And I feel very tired.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 1,
+                    "role": "doctor",
+                    "content": "Okay, son. I see. Abdominal discomfort bhi hota hai, right? Kya yeh pet mein sab jagah dard hota hai, ya kisi ek jagah zyada hota hai?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 2,
+                    "role": "patient",
+                    "content": "Hmm... sab jagah thoda. Nahi, ek jagah nahi. Thoda-thoda dard hota rehta hai.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 2,
+                    "role": "doctor",
+                    "content": "Hmm. Theek hai. Abhi, jab se yeh dard ho raha hai, pet se koi loose motion ya daast tak aaya hai kya? Ya vomiting toh nahi hua?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 3,
+                    "role": "patient",
+                    "content": "Nahi, sir. Shayad... thoda paani zyada peene se, bas aise hi.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 3,
+                    "role": "doctor",
+                    "content": "I see. Theek hai. Sir, aur kya symptoms hain jo in dino se ho rahe hain? Kya fever hota hai? Aur agar fever hota hai, toh kis time zyada hota hai?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 4,
+                    "role": "patient",
+                    "content": "Haan, sir. Garmi rehti hai... Par, raat ko toh bahut lagta hai, badan thoda zyada garam ho jaata hai.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 4,
+                    "role": "doctor",
+                    "content": "Theek hai. Ye jo pet mein halka dard ho raha hai, uske alawa, khana-peena aur appetite kaisa rehta hai? Kya woh kuch kha pa raha hai ya bahut kam kha raha hai?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 5,
+                    "role": "patient",
+                    "content": "Thoda hi... sab kuch nahi kha pa raha. Pet bhi achcha nahi lag raha.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 5,
+                    "role": "doctor",
+                    "content": "Theek hai. Yeh kamzori aur pet mein dard... Kya iske alawa, sir, kisi aur cheez mein koi naya dard ya takliya (aches) rehti hain, jaise ki body ke jodon mein, ya aankhon mein?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 6,
+                    "role": "patient",
+                    "content": "Nahin, sir... bas sir mein thoda dard lagta hai. Aur bahut thakan rehti hai.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 6,
+                    "role": "doctor",
+                    "content": "Theek hai. Sir, jab yeh sir dard hota hai, kya bahut tez hota hai, ya kabhi chakkar (dizziness) aata hai, ya aapko aankhon mein roshni kam lagti hai?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 7,
+                    "role": "patient",
+                    "content": "Nahi sir. Zyada tez nahi hota. Bas... thoda bahut. Chakkar toh nahi aata. Bas thakan rehti hai.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 7,
+                    "role": "doctor",
+                    "content": "Theek hai, main samajh gaya ki itni thakaan reh jaati hai. Sir, ek baat aur bataiye. Jab yeh garmi rehti hai, toh kya bahut zyada paseena aata hai, ya kabhi thand lagne jaisa mehsoos hota hai (chills)? Aur aaj kal kya pet mein koi gas ya bloating jaisa feel hota hai?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 8,
+                    "role": "patient",
+                    "content": "Nahi sir. Zyada paseena toh nahi aata. Bas... raat mein thoda thand lagta hai. Aur pet mein... bas achcha nahi lagta, thoda sa dard rehta hai.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 8,
+                    "role": "doctor",
+                    "content": "Theek hai. Sir, yeh jo pet mein halka dard ho raha hai, kya yeh dard khaane ke baad zyada ho jaata hai, ya jab woh khelta hai ya zyada chal-phirta hai?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 9,
+                    "role": "patient",
+                    "content": "Nahin sir. Khaane se zyada toh... bas thoda sa, hamesha rehta rehta hai. Kya karoon, bas thakawat bahut hai sir.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 9,
+                    "role": "doctor",
+                    "content": "Theek hai, sir. Yeh thakan bahut saari cheezon ki wajah se ho sakti hai. Ek cheez aur bataiye. Jab aapko thakan rehti hai, toh kya aapko paani peene se ya potty jaane se koi problem hoti hai? Ya fir, jab aap potty karte hain, toh paani ka rang kaisa aata hai?",
+                    "label": 0
+                }
+            ],
+            "readiness_turn": -1,
+            "model_used": "gemma4",
+            "annotator_confidence (%)": 0,
+            "language": "en",
+            "generated_on": "2026-06-01 18:25:30.150584"
+        },
+        {
+            "conversation_id": 22,
+            "source": "synthetic",
+            "turns": 10,
+            "disease": "anemia",
+            "scenario": {
+                "disease": "anemia",
+                "age": 24,
+                "age_group": "young_adult",
+                "sex": "female",
+                "severity": "moderate",
+                "duration": "a couple of months, maybe more?",
+                "visible_symptoms": [
+                    "looks a bit pale to others (patient might not notice)",
+                    "appears tired",
+                    "dark circles under eyes (due to fatigue)"
+                ],
+                "hidden_symptoms": [
+                    "constant fatigue and low energy",
+                    "shortness of breath with mild exertion (e.g., climbing stairs)",
+                    "occasional lightheadedness/dizziness when standing up quickly",
+                    "dull headaches on and off",
+                    "hands and feet feel cold frequently",
+                    "mild heart palpitations sometimes"
+                ],
+                "emotional_state": "neutral, slightly puzzled, overall tired",
+                "communication_style": "vague, a bit rambling, lacks specific details, focuses on the general feeling of being unwell",
+                "medical_history": [
+                    "generally healthy, no major illnesses",
+                    "mentions heavy menstrual periods 'sometimes' but doesn't think it's relevant"
+                ],
+                "lifestyle_context": "Software engineer, long working hours, often skips breakfast or lunch due to meetings, mostly vegetarian at home, relies on convenience food outside.",
+                "patient_goal": "wants to feel normal again, get energy back to focus on work and social life, stop feeling so drained.",
+                "contradictions": [
+                    "states she 'tries to eat healthy' but later reveals irregular meal patterns and reliance on quick, less nutritious options.",
+                    "initially downplays fatigue, saying 'everyone gets tired', but then admits it's impacting her daily functioning."
+                ],
+                "additional_notes": "Patient might not have connected all her symptoms, just feels generally unwell and attributes it to stress or 'being busy'.",
+                "cultural_context": {
+                    "region": "Bengaluru, Karnataka",
+                    "socioeconomic_status": "medium",
+                    "health_literacy": "medium",
+                    "deference_level": "medium"
+                },
+                "doctor_profile": {
+                    "type": "private_MBBS",
+                    "experience_years": 8,
+                    "setting": "private_clinic",
+                    "consultation_time_pressure": "moderate",
+                    "communication_style": "collaborative",
+                    "explanation_tendency": "moderate",
+                    "empathy_level": "moderate",
+                    "family_involvement_approach": "manages"
+                }
+            },
+            "dialogue": [
+                {
+                    "turn_id": 1,
+                    "role": "patient",
+                    "content": "Oh, honestly, I just feel drained, Doctor. It's like I sleep, but I still wake up feeling run down. Especially by the afternoon, I get this low energy feeling that just makes concentrating really hard.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 1,
+                    "role": "doctor",
+                    "content": "I hear you. Feeling drained even after sleeping is really tough, and it definitely impacts how you function during the day. Can you tell me if this low energy feeling is present all the time, or if there are particular times of day, or certain activities, that seem to make it worse?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 2,
+                    "role": "patient",
+                    "content": "I think it's... mostly constant, I guess. But sometimes, like if I have to walk up a couple of flights of stairs quickly, or even if I just stand up too fast from sitting, I feel this little bit of lightheadedness, and just generally, I feel like everything takes more effort than it should.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 2,
+                    "role": "doctor",
+                    "content": "I see. That feeling of lightheadedness when you stand up quickly is something we need to watch out for. And you mentioned general fatigue. Regarding headaches, have you noticed them happening frequently, or are they more occasional?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 3,
+                    "role": "patient",
+                    "content": "Oh, the headaches? I think they are more occasional, actually. They aren't like a constant thing, but sometimes, especially when I've had a very long day at work or if I just feel overly tired, I get this dull ache, mostly at the back of my head.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 3,
+                    "role": "doctor",
+                    "content": "And thinking about general physical health, since you are a young woman, I need to ask you about your menstrual periods. Could you describe how often your periods come, and if you feel they are unusually heavy?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 4,
+                    "role": "patient",
+                    "content": "Oh, my periods... I mean, they are pretty regular, I think, every 28 days or so. But honestly, sometimes they just seem a bit more than normal, you know? Like, I feel like I bleed a lot, but I usually don't pay much attention to it, honestly.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 4,
+                    "role": "doctor",
+                    "content": "I appreciate you bringing that up. Because losing blood, even slowly, can definitely cause these kinds of symptoms like fatigue and dizziness, I need to understand a bit more about this bleeding. Could you tell me if you find that you are having to change pads or tampons much more frequently than usual on your period days?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 5,
+                    "role": "patient",
+                    "content": "Oh, um... I guess maybe sometimes? It's not like I'm bleeding through everything, no. I just mean, sometimes it feels a little bit much, but I really don't pay much attention to counting things like that, honestly.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 5,
+                    "role": "doctor",
+                    "content": "I understand, but even if the bleeding seems manageable to you, persistent low-level loss over time can certainly impact your iron stores and cause these symptoms. Separately, regarding your daily life, can you tell me a little bit about what you typically eat in a day? Are there any major gaps or changes in your diet lately?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 6,
+                    "role": "patient",
+                    "content": "Oh, my diet... I mean, I try to eat properly, you know? But work is really hectic. I usually eat breakfast, maybe something quick like some toast or fruit, but then lunch often gets skipped or I just grab something very fast near the office. Dinner is usually fine, my family cooks, but overall, I guess it's quite inconsistent.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 6,
+                    "role": "doctor",
+                    "content": "I see. So it's mainly the inconsistency that seems to be impacting your energy levels. When we talk about being 'drained,' let's also look at the rest. Could you describe your sleep for me? Do you feel that your sleep is restful, or do you wake up feeling like you haven't slept properly?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 7,
+                    "role": "patient",
+                    "content": "Hmm, I sleep quite a bit, I guess. But even when I'm sleeping, I wake up feeling a little heavy, you know? Like I haven't really recharged. Maybe it's just because I'm so stressed with work lately, I think.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 7,
+                    "role": "doctor",
+                    "content": "I see. It's very common for stress to affect how rested we feel, but we need to rule out other causes too. Just to make sure I have the full picture, have you started taking any new vitamins, supplements, or medicines, or have there been any changes in your regular medications recently?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 8,
+                    "role": "patient",
+                    "content": "No, nothing like that, Doctor. I haven't started any new medicines or supplements. I just take the usual stuff for my hair or digestion, but nothing major. Honestly, I think it's all just because I'm so run down these days.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 8,
+                    "role": "doctor",
+                    "content": "I understand that when you feel constantly low, it's really easy to just attribute everything to stress or being run down. But since we are exploring this, I need to ask about a few other physical sensations. You mentioned feeling generally unwell\u2014have you noticed any occasional fluttering or a feeling like your heart is beating a little fast or skipping a beat?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 9,
+                    "role": "patient",
+                    "content": "Oh, palpitations? Sometimes, yes, I guess. It\u2019s really hard to say when it happens, but sometimes when I\u2019m sitting or doing something simple, I just feel this little flutter. Maybe it\u2019s just because I am so tired, I think. Everything feels a little off lately.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 9,
+                    "role": "doctor",
+                    "content": "I understand. Palpitations are very common, but it's good we brought it up. When you feel that flutter, does it feel more like a sudden rapid beating, or more like a fluttering feeling, and is it usually related to something specific, like stress or caffeine?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 10,
+                    "role": "patient",
+                    "content": "Hmm, I don't know if it's rapid... it's more like that gentle fluttering feeling, really. Maybe when I'm anxious, or when I haven't eaten properly, I think. I feel like it's mostly related to how tired I am, you know? Everything seems to bother me when I'm run down.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 10,
+                    "role": "doctor",
+                    "content": "I appreciate you describing that fluttering feeling. Now, since we are looking at general fatigue and how everything feels a bit 'off,' I also need to ask if you have noticed any changes in your weight recently\u2014either significant weight loss or weight gain? Also, have your overall energy and feelings changed significantly compared to how you felt a year ago?",
+                    "label": 0
+                }
+            ],
+            "readiness_turn": -1,
+            "model_used": "gemma4",
+            "annotator_confidence (%)": 0,
+            "language": "en",
+            "generated_on": "2026-06-01 18:37:14.250149"
+        },
+        {
+            "conversation_id": 23,
+            "source": "synthetic",
+            "turns": 11,
+            "disease": "anemia",
+            "scenario": {
+                "disease": "anemia",
+                "age": 16,
+                "age_group": "teen",
+                "sex": "female",
+                "severity": "severe",
+                "duration": "several months, worsening rapidly in the last 2-3 weeks",
+                "visible_symptoms": [
+                    "extreme pallor (skin, conjunctiva, nail beds)",
+                    "pronounced dark circles under eyes",
+                    "dizziness upon standing up quickly",
+                    "brittle nails that break easily",
+                    "noticeably slow movement due to fatigue"
+                ],
+                "hidden_symptoms": [
+                    "overwhelming fatigue, even after adequate sleep",
+                    "constant shortness of breath, even at rest sometimes",
+                    "difficulty concentrating during schoolwork",
+                    "frequent heart palpitations, especially when climbing stairs",
+                    "intense cravings for ice (pica)",
+                    "cold intolerance, feels perpetually chilly",
+                    "heavy menstrual periods lasting 7-8 days"
+                ],
+                "emotional_state": "moderately anxious, very fatigued, frustrated with inability to focus, worried about academic performance",
+                "communication_style": "high_detail",
+                "medical_history": [
+                    "no major illnesses in childhood",
+                    "recurrent colds and flu-like symptoms in the past 6 months",
+                    "always been a bit 'skinny' but never this tired"
+                ],
+                "lifestyle_context": "preparing for crucial board exams (10th standard), usually a diligent student but struggling to keep up. Lives in a joint family in a city. Has been a vegetarian her whole life, generally avoids leafy greens and takes a lot of chai with meals.",
+                "patient_goal": "wants to understand why she's so tired and feel normal again to focus on her studies without constant fatigue and breathlessness; worried about passing out.",
+                "contradictions": [
+                    "initially states her diet is 'normal' for a vegetarian, but later admits to skipping meals or having very limited variety when pressed.",
+                    "mentions heavy periods as 'just how they are' and doesn't initially link them to her general weakness."
+                ],
+                "additional_notes": "Patient's mother accompanied her and is very concerned, prompting the visit after the daughter fainted briefly at home.",
+                "cultural_context": {
+                    "region": "Mumbai, Maharashtra",
+                    "socioeconomic_status": "medium",
+                    "health_literacy": "medium",
+                    "deference_level": "medium"
+                },
+                "doctor_profile": {
+                    "type": "private_MBBS",
+                    "experience_years": 9,
+                    "setting": "private_clinic",
+                    "consultation_time_pressure": "moderate",
+                    "communication_style": "empathetic",
+                    "explanation_tendency": "high",
+                    "empathy_level": "high",
+                    "family_involvement_approach": "manages"
+                }
+            },
+            "dialogue": [
+                {
+                    "turn_id": 1,
+                    "role": "patient",
+                    "content": "Honestly, Doctor, it's just everything. If I have to stand for too long, or even just climb a few flights of stairs, I feel breathless, like I can't get enough air. And when I sit down to study, I get so tired my head feels heavy, and sometimes I just lose my focus completely.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 1,
+                    "role": "doctor",
+                    "content": "I hear how much this is affecting your daily life and your studies, and that sounds incredibly draining. For the shortness of breath, can you tell me if you feel this breathlessness all the time, or if it usually happens only when you are doing something specific, like climbing stairs or walking?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 2,
+                    "role": "patient",
+                    "content": "Well, I think it's most noticeable when I'm doing something, like climbing the stairs or even walking quickly in the house. But sometimes, even when I\u2019m just sitting, the shortness of breath is still there, Doctor. And the overall tiredness is always there, no matter what I do.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 2,
+                    "role": "doctor",
+                    "content": "I understand. So, this constant, deep tiredness and the shortness of breath that happens even when you're resting\u2014that\u2019s what feels most persistent right now. Besides the fatigue and breathlessness, have you noticed any other changes in your body, perhaps feeling unusually cold all the time, or maybe noticing if your heart is beating faster, or racing, especially when you are doing routine things?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 3,
+                    "role": "patient",
+                    "content": "Yes, I feel really cold, Doctor, like always. And sometimes, when I'm doing something, my chest feels funny. My heart, I think it beats really fast, or maybe like it skips a beat, especially when I'm climbing stairs or when I walk up the last few steps.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 3,
+                    "role": "doctor",
+                    "content": "I see. These heart symptoms and feeling perpetually cold are very important details. I think we need to look at this from a holistic point of view, looking at how your body is running right now. Just to get a clearer picture of your overall health, can you describe your periods for me? Specifically, how many days does your bleeding usually last, and how heavy is the flow typically?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 4,
+                    "role": "patient",
+                    "content": "Hmm, they usually last for maybe seven or eight days. As for the flow, I guess it's... pretty heavy, Doctor. I feel like I have to change pads really often, but Mom says it's just how I am.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 4,
+                    "role": "doctor",
+                    "content": "Thank you for being so open about that, and please don't dismiss it\u2014the bleeding is very important for us to understand, especially alongside all these symptoms. Now, I'd also like to understand a bit more about what you typically eat day-to-day. Could you describe a typical day's meals for me, focusing on what you have for breakfast, lunch, and dinner?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 5,
+                    "role": "patient",
+                    "content": "Mostly... it's very basic, Doctor. For breakfast, I usually have bread with some tea, and maybe some stuffed paratha from Mom. For lunch, it's usually roti and rice with a vegetable curry\u2014something simple, you know? And in the evening, I have some chai with some snacks. Dinner is usually the same as lunch, maybe less. I try to eat, but honestly, I feel so tired by the time I get home that sometimes I just skip a proper meal or eat very little.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 5,
+                    "role": "doctor",
+                    "content": "I understand, and I appreciate you being honest about that; it's very common for fatigue to make it hard to eat properly. Since we've discussed diet and your periods, I just want to circle back to that feeling of dizziness or weakness you mentioned earlier. Can you tell me more about when that happens? For example, does the dizziness always feel like it happens right after standing up quickly, or do you ever feel unsteady even when you haven't moved much?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 6,
+                    "role": "patient",
+                    "content": "When I stand up quickly, yes, it feels like the room is spinning a little, or like I might just faint. But it's not *only* when that happens, Doctor. Sometimes, even when I am just moving around the house slowly, I feel this general weakness, like I'm about to drop, even if I wasn't rushing anywhere.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 6,
+                    "role": "doctor",
+                    "content": "I appreciate you being so open about this; it really helps me understand the overall picture. Now, just to make sure we cover all the basics, have you noticed any changes in your bowel movements recently? For example, any color changes, or if you feel like passing blood, or if you are dealing with constipation or diarrhea?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 7,
+                    "role": "patient",
+                    "content": "No, Doctor, nothing really strange. Sometimes they feel a bit... loose, maybe. And I haven't seen any blood, no. I guess sometimes the color is a little dark, but maybe that's just because of the tea I drink, I don't know.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 7,
+                    "role": "doctor",
+                    "content": "Okay, thank you for explaining that. It gives me a good picture of your body's current state. Now, moving on to your overall medical background\u2014do you happen to take any regular medications or supplements for anything, and have you or your family members had any history of related issues, like thyroid problems or similar conditions?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 8,
+                    "role": "patient",
+                    "content": "No, Doctor, I don't take any daily medicines, and I'm not sure about supplements. As for my family, I think my mother mentioned that no one in the family has any big chronic illnesses, like thyroid problems, or anything like that.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 8,
+                    "role": "doctor",
+                    "content": "Okay, I appreciate you going through all this with me. It gives me a really good, clear picture of what you are experiencing. Now, speaking about your diet again\u2014since you mentioned avoiding leafy greens, could you tell me if you usually get sources of iron, like lentils, beans, or perhaps dates, in your diet on a regular basis? Understanding these small details really helps us figure out what might be affecting your energy levels and overall health.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 9,
+                    "role": "patient",
+                    "content": "Hmm, well, sometimes, I think I have a little bit of dal, maybe just a spoonful or two, if Mom makes it. As for beans, not very often, I guess. And dates... I only get them sometimes, Doctor, usually when I'm sick or something. I try to eat, but honestly, because I feel so weak, I don't eat enough variety, really.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 9,
+                    "role": "doctor",
+                    "content": "Thank you for being so descriptive about your diet; it really helps me see where the nutritional gaps might be. Now, just one more area I'd like to clarify for a complete picture. Have you noticed any other changes in your general physical state\u2014things like changes in your skin or hair texture, or perhaps unusual changes in your mood or weight over the last few months?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 10,
+                    "role": "patient",
+                    "content": "Hmm, my skin feels really pale sometimes, and my nails are breaking quite easily lately. My hair feels a bit weak too. I guess I haven't noticed major changes in weight, but I feel really low on energy constantly, and I've been really stressed about my exams, so my mood has been a little shaky.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 10,
+                    "role": "doctor",
+                    "content": "I understand. The paleness, brittle nails, and fatigue are very concerning signs, and we need to get these checked properly. Since you mentioned your heart beating fast, or sometimes feeling like it skips, could you describe those palpitations for me? Do they feel like fluttering, or more like a sudden 'thump-thump' sensation?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 11,
+                    "role": "patient",
+                    "content": "It's... difficult to explain, Doctor. Sometimes it feels more like a rapid flutter, like a trapped butterfly beating really fast. But other times, it's more like a sudden kick in my chest, like my heart just goes 'thump... thump... thump' too quickly. It's really noticeable, especially when I'm stressed or when I haven't eaten properly.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 11,
+                    "role": "doctor",
+                    "content": "I see. The fact that it's both a flutter and a kick, and that it gets worse with stress or when you haven't eaten, suggests a connection to how your body is managing energy. Thinking about the times when these symptoms\u2014the quick heartbeats or the breathlessness\u2014are at their absolute worst, does it tend to happen at a specific time of day, or is it more random?",
+                    "label": 0
+                }
+            ],
+            "readiness_turn": -1,
+            "model_used": "gemma4",
+            "annotator_confidence (%)": 0,
+            "language": "en",
+            "generated_on": "2026-06-01 18:51:25.620619"
+        },
+        {
+            "conversation_id": 24,
+            "source": "synthetic",
+            "turns": 10,
+            "disease": "gastroenteritis",
+            "scenario": {
+                "disease": "gastroenteritis",
+                "age": 3,
+                "age_group": "child",
+                "sex": "male",
+                "severity": "moderate",
+                "duration": "Just over 24 hours, but it feels like forever, Doctor!",
+                "visible_symptoms": [
+                    "Frequent vomiting (around 6-7 times)",
+                    "Pale skin and slightly sunken eyes (as observed by parent)",
+                    "Child is very lethargic, not playing, just wants to lie down",
+                    "Irritability when touched or moved"
+                ],
+                "hidden_symptoms": [
+                    "Abdominal cramps (child points vaguely to tummy)",
+                    "Nausea (refuses all food and most liquids)",
+                    "Poor urine output (only 2 wet diapers in last 12 hours)",
+                    "Loose, watery stools (parent reports 4-5 times)",
+                    "Mild fever (parent felt forehead was warm, didn't check temperature)"
+                ],
+                "emotional_state": "Parent is panicked, overwhelmed, and visibly fearful for the child. The child is irritable and listless.",
+                "communication_style": "Anxious and talkative, the parent frequently interrupts with worries, jumps between symptoms, and emphasizes distress.",
+                "medical_history": [
+                    "No significant past medical history.",
+                    "Had a common cold last month.",
+                    "Older sibling recently recovered from a 'stomach bug' a couple of weeks ago."
+                ],
+                "lifestyle_context": "The family recently attended a local 'jatre' (fair) where the child ate some fried snacks from a street vendor. They usually drink filtered tap water at home, not always boiled.",
+                "patient_goal": "The parent wants immediate relief for their child, is terrified of dehydration and 'something serious' happening, and is desperate to know if the child needs to be admitted to a hospital.",
+                "contradictions": [
+                    "Initially, the parent says the child is drinking 'a little bit of ORS,' but upon prompting, tearfully admits it's only a few sips before vomiting or refusing more.",
+                    "Doesn't immediately mention the street food, focusing more on typical home food."
+                ],
+                "additional_notes": "The parent is constantly touching the child, trying to comfort them, and looks exhausted from lack of sleep.",
+                "cultural_context": {
+                    "region": "Bengaluru, Karnataka",
+                    "socioeconomic_status": "medium",
+                    "health_literacy": "medium",
+                    "deference_level": "high"
+                },
+                "doctor_profile": {
+                    "type": "private_MBBS",
+                    "experience_years": 9,
+                    "setting": "private_clinic",
+                    "consultation_time_pressure": "moderate",
+                    "communication_style": "empathetic",
+                    "explanation_tendency": "moderate",
+                    "empathy_level": "high",
+                    "family_involvement_approach": "manages"
+                }
+            },
+            "dialogue": [
+                {
+                    "turn_id": 1,
+                    "role": "patient",
+                    "content": "Oh, doctor, thank you. He's been throwing up so much, like six or seven times, and the diarrhea... it's really watery. He just doesn't seem right, Doctor. He is so weak, nothing is changing, and I am just so worried about him getting dehydrated.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 1,
+                    "role": "doctor",
+                    "content": "I hear your worry, and it's completely understandable. It sounds very scary to see him so unwell. To help me understand exactly what is happening, can you tell me when you first noticed the vomiting or the diarrhea starting?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 2,
+                    "role": "patient",
+                    "content": "Hmm, I think it was maybe yesterday, Doctor. But it has been going on for a while now, it just feels like forever! And besides the vomiting, he just doesn't seem to have any energy at all, he keeps falling asleep.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 2,
+                    "role": "doctor",
+                    "content": "I can appreciate how frightening this must be for you right now. Since your main worry is dehydration, let's look closely at the diarrhea. Can you describe those watery stools for me? For example, are they clear, or did you notice any streaks of blood or mucus?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 3,
+                    "role": "patient",
+                    "content": "Oh, they are really watery, Doctor. I don't think... I didn't see any blood or anything sticky like that, no. Just very loose and watery, like... nothing at all. But Doctor, look at him, he barely opened his mouth today, and his skin, it looks so pale to me. Is this really bad?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 3,
+                    "role": "doctor",
+                    "content": "It sounds like he is going through a very rough time, and I understand why you are so worried about him. Let's talk a little more about his body, alright? Regarding the urine, besides the two wet diapers in the last twelve hours, have you noticed if the urine is very dark in colour, or maybe if the wet diapers are smaller than usual?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 4,
+                    "role": "patient",
+                    "content": "Oh, the diapers... only maybe two in the last twelve hours, I think. It feels like he's not drinking enough, Doctor. Besides all this, he just seems so tired, Doctor. He barely wants to even look at me, just keeps lying there and seems so pale.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 4,
+                    "role": "doctor",
+                    "content": "It sounds like he is genuinely drained, and that is very worrying for you. To get a clearer picture of his current status, have you been able to check his actual temperature, or is he showing any other signs like rashes or redness? Also, thinking back to before this started, was there anything unusual he ate or anything specific the family did in the day or two before the sickness began?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 5,
+                    "role": "patient",
+                    "content": "No, Doctor, I haven't taken his temperature, I just felt like his forehead was warm, you know? Nothing like rashes, no. As for before, we just... we were out for some market visit, and he ate some snacks. But honestly, Doctor, I am just so scared, because he has been throwing up and losing so much. What do you think? Is he seriously dehydrated? Should we be admitting him?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 5,
+                    "role": "doctor",
+                    "content": "I hear how worried you are, and I want you to know I will do my best to figure out what is going on. Since you mentioned he is so lethargic and seems to be sleeping most of the time, could you tell me if he is still responding when you talk to him, or if he seems to be unusually difficult to wake up?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 6,
+                    "role": "patient",
+                    "content": "Oh, he... he responds, I guess, but it's very hard, Doctor. I have to call his name a few times and gently wake him up. He just keeps lying there, and I keep worrying, you know? Like he's just completely drained of energy. What should we do, Doctor? Is this normal for him?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 6,
+                    "role": "doctor",
+                    "content": "I understand completely how worrying this must be. It is very natural to feel that level of panic when your child is so weak. We need to make sure we assess his fluid status properly. Apart from the ORS, has he taken any liquids at all\u2014maybe just small sips of water, or any clear liquids\u2014over the last few hours? We need to track his overall fluid intake very carefully.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 7,
+                    "role": "patient",
+                    "content": "Oh, no, Doctor, it's so hard, honestly. I tried to give him a little bit of water... just a couple of sips, but then he throws up right after. I keep giving it to him, but it just comes right back up. You know, I just feel so bad, Doctor. What do you think we should do about this?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 7,
+                    "role": "doctor",
+                    "content": "I know this is incredibly difficult for you, and I hear how desperate you are to get him stable. We really need to get him enough fluids, but since he is vomiting everything, we need to assess how severely dehydrated he is right now. Could you show me if his skin seems to be losing elasticity? Sometimes when he is very dehydrated, the skin doesn't spring back immediately after you gently pinch it.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 8,
+                    "role": "patient",
+                    "content": "Oh, I... I haven't really checked that, Doctor. But his eyes, they look quite sunken to me, and his whole skin looks so pale. Honestly, I am so worried, what do you think, Doctor? Should we really be keeping him in the hospital? He just doesn't seem to be getting any better.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 8,
+                    "role": "doctor",
+                    "content": "I can see how worried you are, and given how pale he looks and those sunken eyes, we definitely need to check him very thoroughly to rule out anything serious. To do that, I need to physically check his abdomen. When he points vaguely to his tummy, does it hurt when you gently press on certain spots, or does he seem more comfortable if I check around his back?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 9,
+                    "role": "patient",
+                    "content": "Oh, he... he points there, Doctor, right around the tummy, and it seems to make him restless. He doesn't cry loudly, no, but when I touch him, he just makes this little groan sound. Honestly, Doctor, I just feel like he is going to crash, and I don't know if he is getting enough fluids or if this is just passing.",
+                    "label": 0
+                },
+                {
+                    "turn_id": 9,
+                    "role": "doctor",
+                    "content": "I hear the worry in your voice, and I know how terrifying it is to see him so weak. Given how pale he looks, and all the symptoms\u2014the vomiting, the poor urine output, and this tummy discomfort\u2014we really need to do a full physical examination right now, alright? When he feels that tummy ache, does it feel like a gentle ache all over, or is it more like sudden, sharp pangs that come and go?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 10,
+                    "role": "patient",
+                    "content": "Oh, I think it's more... like a constant, dull ache, Doctor. Not sharp, but just making him restless all the time. Honestly, I just don't know what's wrong. He is so weak, Doctor, and I keep thinking he needs to be put in the hospital. Is this just a stomach bug, or is it something more serious?",
+                    "label": 0
+                },
+                {
+                    "turn_id": 10,
+                    "role": "doctor",
+                    "content": "I hear you, and I know you feel desperately worried right now. Everything you've described\u2014the pallor, the sunken eyes, the low urine output, and this persistent ache\u2014all point towards him being quite drained of fluids, which is concerning. Before we decide on the next steps, could you please check his temperature one more time, even if you think it's normal? A fever can change how quickly he is getting dehydrated.",
+                    "label": 0
+                }
+            ],
+            "readiness_turn": -1,
+            "model_used": "gemma4",
+            "annotator_confidence (%)": 0,
+            "language": "en",
+            "generated_on": "2026-06-01 19:03:52.555641"
         }
     ]
 }

@@ -9,6 +9,9 @@ import random
 import time
 import datetime
 from os import getenv
+
+## added +100 value to child feature to skip child case generation 
+
 load_dotenv()
 
 client=genai.Client(api_key=f"{getenv("GEMINI_API_KEY_2")}")
@@ -159,87 +162,91 @@ def diseaseSelecter():
         return response
 
 def scenarioGen(disease):
-    try:
 
-        print("generating scenario....")
-        logging("generating scenario....")
-        start_s=time.perf_counter()
+    start_s=time.perf_counter()
+
+    while True:
+
+        try:
+
+            print("generating scenario....")
+            logging("generating scenario....")
 
 
-        response=client.models.generate_content(model="gemini-2.5-flash",
-                     contents=Prompt.scenarioGenPrompt(disease,features))
-        response=response.text
+            response=client.models.generate_content(model="gemini-2.5-flash",
+                        contents=Prompt.scenarioGenPrompt(disease,features))
+            response=response.text
 
-        # response=json.loads(response.text)
- # not adequate quality and variation like gemini ,likely using gemini
-        # response=LLM.dolphin(Prompt.scenarioGenPrompt(disease,features))
+            # response=json.loads(response.text)
+    # not adequate quality and variation like gemini ,likely using gemini
+            # response=LLM.dolphin(Prompt.scenarioGenPrompt(disease,features))
 
-        response=json.loads(response)
-        response=response["scenario"]
-        featuresUpdate(response)
-        memory["scenario"]=response
+            response=json.loads(response)
+            response=response["scenario"]
+            featuresUpdate(response)
+            memory["scenario"]=response
 
-        end_s=time.perf_counter()
-        logging(str(end_s-start_s)+'\n')
+            end_s=time.perf_counter()
+            logging(str(end_s-start_s)+'\n')
+            
+            return response
         
-        return response
-    
-    except Exception as e:
-        print(e,"still continuing")
-        time.sleep(5)
-        respomse=scenarioGen(disease)
-        return response
-
-
+        except Exception as e:
+            print(e,"still continuing")
+            time.sleep(8)
 
 def doctorAgent(query):
-    print("calling doctor agent...")
-    logging("calling doctor agent...")
+   
     start_d=time.perf_counter()
-    try:
-        response = LLM.gemma4(query)
-        response = response.replace("```json", "")
-        response = response.replace("```", "")
-        response = response.strip()
-        response=json.loads(response)
-        response=response["content"]
-        print(response)
-        # GenAudio.male(response)
+    while True:
+        print("calling doctor agent...")
+        logging("calling doctor agent...")
+        try:
+            
+            response = LLM.gemma4(query)
+            response = response.replace("```json", "")
+            response = response.replace("```", "")
+            response = response.strip()
+            response=json.loads(response)
+            response=response["content"]
+            print(response)
+            # GenAudio.male(response)
 
-        end_d=time.perf_counter()
-        logging(str(end_d-start_d)+'\n')
-        return response
+            end_d=time.perf_counter()
+            logging(str(end_d-start_d)+'\n')
+            return response
 
-    
-    except json.decoder.JSONDecodeError:
-        response=doctorAgent(query)
-        return response
+        
+        except json.decoder.JSONDecodeError:
+            continue
 
 def patientAgent(prompt):
-   print("calling patientAgent....")
-   logging("calling patientAgent....")
-   start_p=time.perf_counter()
+    start_p=time.perf_counter()
 
-   try :
+    while True:
 
-    response=LLM.gemma4(prompt)
-    response = response.replace("```json", "")
-    response = response.replace("```", "")
-    response = response.strip()
-    response=json.loads(response)
-    response=response["content"]
-    print(response)
-    # GenAudio.female(response)
+        print("calling patientAgent....")
+        logging("calling patientAgent....")
 
-    end_p=time.perf_counter()
-    logging(str(end_p-start_p)+'\n')
+        try :
 
-    return response
+            response=LLM.gemma4(prompt)
+            response = response.replace("```json", "")
+            response = response.replace("```", "")
+            response = response.strip()
+            response=json.loads(response)
+            response=response["content"]
+            print(response)
+            # GenAudio.female(response)
 
-   except json.decoder.JSONDecodeError:
-       print(response)
-       patientAgent(prompt)
-   
+            end_p=time.perf_counter()
+            logging(str(end_p-start_p)+'\n')
+
+            return response
+
+        except json.decoder.JSONDecodeError:
+           continue
+    
     
 def orchestrator():
     start=time.perf_counter()
