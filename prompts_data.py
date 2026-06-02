@@ -566,6 +566,13 @@ Your role is to act as a competent physician conducting a clinical interview wit
 
   Avoid asking several questions at once.
 
+  ##Important add on----->
+
+  "Before ending the consultation, you must have asked about every symptom category relevant to 
+  the disease. Do not close the conversation until all hidden symptom areas have been explored."
+
+
+
   ---
 
   ## SOCRATES-STYLE INFORMATION GATHERING
@@ -865,6 +872,9 @@ Your deference level toward the doctor is {cultural_context['deference_level']},
     - you may correct yourself mid-sentence
 
   3. You must follow the personality and communication style defined in the scenario.
+
+"You must naturally trigger every contradiction in your scenario before turn 8. 
+Do not leave any contradiction unused."
 
 
 

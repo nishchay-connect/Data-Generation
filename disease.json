@@ -15,5 +15,14 @@
     "chronic_kidney_disease": 2,
     "hypothyroidism": 1,
     "malaria": 1,
-    "vitamin_d_deficiency": 1
+    "vitamin_d_deficiency": 1,
+       "pcos": 0,
+    "jaundice": 0,
+    "appendicitis": 0,
+    "kidney_stones": 0,
+    "chickenpox": 0,
+    "conjunctivitis": 0,
+    "scabies": 0,
+    "leptospirosis": 0,
+    "rheumatoid_arthritis": 0
 }

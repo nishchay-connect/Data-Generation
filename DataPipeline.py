@@ -73,7 +73,25 @@ features={
                      "rural_PHC":0,
                      "urban_PHC":0
       
- }
+ },
+  "cultural_context": {
+                    "region": {},
+                    "socioeconomic_status": {
+                        "low":0,
+                "medium":0,
+                "high":0
+            },
+                    "health_literacy":  {
+                        "low":0,
+                "medium":0,
+                "high":0
+            },
+                    "deference_level":  {
+                        "low":0,
+                "medium":0,
+                "high":0
+            }
+                }
 }
 def logging(content):
     with open("logs.txt",'a') as f:
@@ -94,13 +112,29 @@ def featuresUpdate(response):
     severity=response["severity"]
 
     doctor_profile=response["doctor_profile"]["type"]
-    print(doctor_profile)
+    region=response["cultural_context"]["region"]
+    socioeconomic_status=response["cultural_context"]["socioeconomic_status"]
+    health_literacy=response["cultural_context"]["health_literacy"]
+    deference_level=response["cultural_context"]["deference_level"]
+
 
 
     features["sex"][sex]+=1
     features["age_group"][age_group]+=1
     features["severity"][severity]+=1
     features["doctor_profile"][doctor_profile]+=1
+
+    if region in features["cultural_context"]["region"]:
+        
+        features["cultural_context"]["region"][region]+=1
+    else:
+        features["cultural_context"]["region"][region]=1
+
+    features["cultural_context"]["socioeconomic_status"][socioeconomic_status]+=1
+    features["cultural_context"]["health_literacy"][health_literacy]+=1
+    features["cultural_context"]["deference_level"][deference_level]+=1
+
+    
 
 class jsonFunc():
 

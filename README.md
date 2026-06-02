@@ -24,3 +24,8 @@ as "annotation_data":{
     these feature s makes annotation easier moreover also helps to track the evolution of
     diagnosis as, for human doc also diagnosis evolves or strenthens with more information.
     Also , the disease detials are not to be shared before hand to annotator so that no hindsight bias.
+
+## Features Under Tracking
+features.json tracks the diveristy across different parameters which ensures balanced and diverse generation.
+ 
+ cultural_context added under traking.
