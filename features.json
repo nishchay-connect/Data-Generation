@@ -1,18 +1,25 @@
 {
     "sex": {
-        "male": 15,
-        "female": 15
+        "male": 22,
+        "female": 23
     },
     "age_group": {
         "child": 105,
         "teen": 4,
-        "young_adult": 5,
-        "adult": 8,
-        "elderly": 8
+        "young_adult": 7,
+        "adult": 17,
+        "elderly": 12
     },
     "severity": {
-        "mild": 9,
-        "moderate": 11,
-        "severe": 10
+        "mild": 15,
+        "moderate": 17,
+        "severe": 13
+    },
+    "doctor_profile": {
+        "government_MBBS": 8,
+        "private_MBBS": 16,
+        "private_specialist": 2,
+        "rural_PHC": 4,
+        "urban_PHC": 5
     }
 }

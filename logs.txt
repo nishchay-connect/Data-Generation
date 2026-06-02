@@ -599,3 +599,549 @@ calling patientAgent....27.817693099961616
 calling doctor agent...40.66582620004192
 dialogue no : 24ended in....746.8675971999764
 
+selecting disease....
+10.07219580002129
+generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....85.55935580004007
+calling patientAgent....49.36956010002177
+calling doctor agent...34.25057120004203
+calling patientAgent....28.902390900067985
+calling doctor agent...34.99111499998253
+calling patientAgent....30.24886619998142
+calling doctor agent...43.7621864998946
+calling patientAgent....34.06676120008342
+calling doctor agent...46.4189558000071
+calling patientAgent....31.363484699977562
+calling doctor agent...40.209934299928136
+calling patientAgent....calling patientAgent....72.21705620002467
+calling doctor agent...38.058193199918605
+calling patientAgent....33.28595230006613
+calling doctor agent...45.4367580000544
+calling patientAgent....35.430954799987376
+calling doctor agent...40.78045009996276
+calling patientAgent....32.323378999950364
+calling doctor agent...36.78608969994821
+calling patientAgent....33.52848570002243
+calling doctor agent...47.499152600066736
+dialogue no : 25ended in....884.601019200054
+
+selecting disease....
+11.004704499966465
+generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....selecting disease....
+3.466813800041564
+generating scenario....13.01476960000582
+calling patientAgent....43.75617309997324
+calling doctor agent...36.40819490002468
+calling patientAgent....32.35141000000294
+calling doctor agent...calling doctor agent...71.53760419995524
+calling patientAgent....36.50719700008631
+calling doctor agent...31.124381099944003
+calling patientAgent....33.99668710003607
+calling doctor agent...calling doctor agent...90.93372500000987
+calling patientAgent....28.911724400008097
+calling doctor agent...37.106372000067495
+calling patientAgent....27.147673500003293
+calling doctor agent...32.828709499910474
+calling patientAgent....6.263894599978812
+calling doctor agent...44.01128790003713
+calling patientAgent....5.975470400066115
+calling doctor agent...37.866275100037456
+calling patientAgent....28.12111020006705
+calling doctor agent...calling doctor agent...77.65655169996899
+calling patientAgent....30.55558310006745
+calling doctor agent...35.3037103000097
+calling patientAgent....27.252727199927904
+calling doctor agent...39.484760999912396
+dialogue no : 26ended in....851.6683050000574
+
+selecting disease....
+10.454995599924587
+generating scenario....generating scenario....29.638759900000878
+calling patientAgent....52.640036599943414
+calling doctor agent...37.47902540001087
+calling patientAgent....27.175925699993968
+calling doctor agent...32.054627000004984
+calling patientAgent....29.929346599965356
+calling doctor agent...41.185380399925634
+calling patientAgent....27.20377899997402
+calling doctor agent...34.76747149997391
+calling patientAgent....31.27917290001642
+calling doctor agent...41.99156639992725
+calling patientAgent....29.06751780002378
+calling doctor agent...42.40205659996718
+calling patientAgent....6.154471399961039
+calling doctor agent...35.535687700030394
+calling patientAgent....32.5000810000347
+calling doctor agent...37.047975299996324
+calling patientAgent....27.20159870001953
+calling doctor agent...40.408778300043195
+dialogue no : 27ended in....646.1602122000186
+
+selecting disease....
+10.14477120002266
+generating scenario....generating scenario....generating scenario....generating scenario....41.99766359990463
+calling patientAgent....48.46770399995148
+calling doctor agent...35.19705159997102
+calling patientAgent....26.211931399884634
+calling doctor agent...37.8578422999708
+calling patientAgent....32.11216440005228
+calling doctor agent...35.08670640003402
+calling patientAgent....35.68676919990685
+calling doctor agent...39.248761099996045
+calling patientAgent....31.89122720004525
+calling doctor agent...37.08353720000014
+calling patientAgent....33.076251399936154
+calling doctor agent...39.22682849992998
+calling patientAgent....32.98651990003418
+calling doctor agent...44.28698740003165
+calling patientAgent....33.69083650002722
+calling doctor agent...38.92427700001281
+calling patientAgent....7.140792199992575
+calling doctor agent...39.08148059993982
+calling patientAgent....32.19864299998153
+calling doctor agent...41.41867669997737
+calling patientAgent....34.27268379996531
+calling doctor agent...34.089959600009024
+dialogue no : 28ended in....821.4188520000316
+
+selecting disease....
+10.229468099889345
+generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....66.60578680003528
+calling patientAgent....49.738293100032024
+calling doctor agent...43.02309020003304
+calling patientAgent....29.377101400052197
+calling doctor agent...39.83938600006513
+calling patientAgent....31.325948900077492
+calling doctor agent...45.512248200015165
+calling patientAgent....36.32838149997406
+calling doctor agent...35.605356900021434
+calling patientAgent....32.7316316999495
+calling doctor agent...43.68518949998543
+calling patientAgent....32.49794369994197
+calling doctor agent...38.28465599997435
+calling patientAgent....37.535919500049204
+calling doctor agent...45.40203899994958
+calling patientAgent....30.26018869993277
+calling doctor agent...35.340009700041264
+calling patientAgent....31.408750799950212
+calling doctor agent...36.6727587999776
+calling patientAgent....30.03585009998642
+calling doctor agent...43.106500800000504
+calling patientAgent....34.19954079994932
+calling doctor agent...35.266804400016554
+calling patientAgent....32.38593620003667
+calling doctor agent...calling doctor agent...78.52146670001093
+dialogue no : 29ended in....1004.9710840999614
+
+selecting disease....
+10.238067699945532
+generating scenario....generating scenario....24.510544399963692
+calling patientAgent....47.783426900045015
+calling doctor agent...35.960698700044304
+calling patientAgent....30.5943297999911
+calling doctor agent...41.771590099902824
+calling patientAgent....25.981226600008085
+calling doctor agent...calling doctor agent...78.96929629996885
+calling patientAgent....57.78411030001007
+calling doctor agent...42.256088799913414
+calling patientAgent....30.686835199943744
+calling doctor agent...47.25873860006686
+calling patientAgent....32.960517000057735
+calling doctor agent...38.444564100005664
+calling patientAgent....27.93010839994531
+calling doctor agent...45.106121900025755
+calling patientAgent....28.783176199998707
+calling doctor agent...39.44551520003006
+calling patientAgent....32.18110639997758
+calling doctor agent...48.19577470002696
+calling patientAgent....32.53779620002024
+calling doctor agent...45.17891940008849
+calling patientAgent....33.121129899984226
+calling doctor agent...42.24974140000995
+dialogue no : 30ended in....920.0249028999824
+
+selecting disease....
+3.1763423000011244
+generating scenario....13.419288799999777
+calling patientAgent....47.40314930000022
+calling doctor agent...27.379379199999676
+calling patientAgent....28.880899700001464
+calling doctor agent...39.32088170000134
+calling patientAgent....33.75822859999971
+calling doctor agent...38.02707869999722
+calling patientAgent....34.2681147000003
+calling doctor agent...39.16468700000041
+calling patientAgent....35.73076629999923
+calling doctor agent...42.740603199999896
+calling patientAgent....36.76754159999837
+calling doctor agent...34.008682800002134
+calling patientAgent....32.652576899999985
+calling doctor agent...41.05463020000025
+calling patientAgent....31.642350900001475
+calling doctor agent...41.47048319999885
+calling patientAgent....31.312407900000835
+calling doctor agent...43.729015299999446
+calling patientAgent....36.44922790000055
+calling doctor agent...43.29897379999966
+dialogue no : 31ended in....755.7264128999996
+
+selecting disease....
+9.867911599998479
+generating scenario....13.444575800000166
+calling patientAgent....44.31379320000269
+calling doctor agent...26.480290200001036
+calling patientAgent....29.517017000001943
+calling doctor agent...33.775209299998096
+calling patientAgent....29.306158100000175
+calling doctor agent...41.51927010000145
+calling patientAgent....31.798292300001776
+calling doctor agent...38.19753320000018
+calling patientAgent....33.55023789999905
+calling doctor agent...43.064422899999045
+calling patientAgent....33.300348299999314
+calling doctor agent...40.04489100000137
+calling patientAgent....31.705657500002417
+calling doctor agent...44.71118920000299
+calling patientAgent....28.28570540000146
+calling doctor agent...49.76578270000027
+calling patientAgent....34.55102410000109
+calling doctor agent...47.32943510000041
+calling patientAgent....29.062977800000226
+calling doctor agent...48.57083740000235
+dialogue no : 32ended in....762.3210849999996
+
+selecting disease....
+10.418230699997366
+generating scenario....9.572170999999798
+calling patientAgent....57.030241399999795
+calling doctor agent...calling doctor agent...70.57304759999897
+calling patientAgent....33.471076800000446
+calling doctor agent...35.77379540000038
+calling patientAgent....27.985352700001386
+calling doctor agent...41.254193900000246
+calling patientAgent....28.61651200000051
+calling doctor agent...35.59191270000156
+calling patientAgent....29.61322939999809
+calling doctor agent...44.16533499999787
+calling patientAgent....30.699726000002556
+calling doctor agent...36.46980029999759
+calling patientAgent....27.01387479999903
+calling doctor agent...34.48151040000084
+calling patientAgent....32.524550300000556
+calling doctor agent...39.533514300001116
+calling patientAgent....33.92534990000058
+calling doctor agent...32.32887000000119
+calling patientAgent....31.78801210000165
+calling doctor agent...33.7377224999982
+calling patientAgent....25.295304999999644
+calling doctor agent...46.24523560000307
+calling patientAgent....28.546167599997716
+calling doctor agent...41.17368019999776
+dialogue no : 33ended in....897.9031415999998
+
+selecting disease....
+10.266707200000383
+generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....74.86450909999985
+calling patientAgent....42.49961460000122
+calling doctor agent...30.976558500002284
+calling patientAgent....25.416159000000334
+calling doctor agent...28.567555800000264
+calling patientAgent....28.28447270000106
+calling doctor agent...36.841264099999535
+calling patientAgent....27.63851380000051
+calling doctor agent...33.735101599999325
+calling patientAgent....39.790741599998
+calling doctor agent...38.58592339999814
+calling patientAgent....33.067889699999796
+calling doctor agent...42.058354300002975
+calling patientAgent....37.10124010000072
+calling doctor agent...42.09097739999925
+calling patientAgent....28.41081139999733
+calling doctor agent...41.66459939999913
+calling patientAgent....24.471312300000136
+calling doctor agent...32.88297109999985
+dialogue no : 34ended in....699.2560266999972
+
+selecting disease....
+10.40887759999896
+generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....57.54716339999868
+calling patientAgent....48.397965600001044
+calling doctor agent...31.940258900001936
+calling patientAgent....32.85841219999929
+calling doctor agent...33.94216530000267
+calling patientAgent....29.238622400000168
+calling doctor agent...38.155043800001295
+calling patientAgent....29.804496500000823
+calling doctor agent...45.232375099996716
+calling patientAgent....35.131406500000594
+calling doctor agent...43.29560649999985
+calling patientAgent....27.410300299998198
+calling doctor agent...42.014555399997334
+calling patientAgent....34.948690299999726
+calling doctor agent...39.447580000000016
+calling patientAgent....29.979295799999818
+calling doctor agent...39.17208219999884
+calling patientAgent....32.967868499999895
+calling doctor agent...42.62669410000308
+calling patientAgent....29.15944750000199
+calling doctor agent...33.66773660000035
+calling patientAgent....23.623992100001487
+calling doctor agent...36.404919299999165
+dialogue no : 35ended in....847.4181649999991
+
+selecting disease....
+10.650775800000702
+generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....selecting disease....
+10.804236899995885
+generating scenario....generating scenario....
+selecting disease....
+9.895061300005182
+generating scenario....12.991433900002448
+calling patientAgent....44.94710269999632
+calling doctor agent...27.916012200003024
+calling patientAgent....23.240626300001168
+calling doctor agent...25.699301900000137
+calling patientAgent....26.490689099999145
+calling doctor agent...32.00751019999734
+calling patientAgent....30.860767299993313
+calling doctor agent...42.337290100003884
+calling patientAgent....24.5896270000012
+calling doctor agent...30.945626799999445
+calling patientAgent....24.177068599994527
+calling doctor agent...31.42742459999863
+calling patientAgent....31.185021199999028
+calling doctor agent...44.60728039999958
+calling patientAgent....29.995982000000367
+calling doctor agent...42.89686090000032
+calling patientAgent....25.875327100002323
+calling doctor agent...39.03477479999856
+calling patientAgent....28.01504600000044
+calling doctor agent...35.30742949999694
+dialogue no : 36ended in....664.5093372000047
+
+selecting disease....
+9.805891600000905
+generating scenario....10.657176000000618
+calling patientAgent....46.26739049999742
+calling doctor agent...34.67980009999883
+calling patientAgent....30.574768099999346
+calling doctor agent...36.83028729999933
+calling patientAgent....28.467929899998126
+calling doctor agent...42.85067870000057
+calling patientAgent....29.388875099997676
+calling doctor agent...41.419674299999315
+calling patientAgent....32.75262369999837
+calling doctor agent...35.69802730000083
+calling patientAgent....32.24590790000366
+calling doctor agent...40.380616599999485
+calling patientAgent....35.466558299995086
+calling doctor agent...40.44240629999695
+calling patientAgent....37.678567800001474
+calling doctor agent...42.79707390000112
+calling patientAgent....32.89946559999953
+calling doctor agent...47.48416170000564
+dialogue no : 37ended in....688.8410201000006
+
+selecting disease....
+10.691989599996305
+generating scenario....13.255491700001585
+calling patientAgent....43.61024290000205
+calling doctor agent...40.382725800001936
+calling patientAgent....31.32371989999956
+calling doctor agent...36.759063600002264
+calling patientAgent....28.78386429999955
+calling doctor agent...40.414182900000014
+calling patientAgent....34.730405399997835
+calling doctor agent...39.160618100002466
+calling patientAgent....30.26523830000224
+calling doctor agent...40.03334570000152
+calling patientAgent....32.37087669999892
+calling doctor agent...34.75419929999771
+calling patientAgent....28.66292870000325
+calling doctor agent...28.765227500000037
+calling patientAgent....29.257962199997564
+calling doctor agent...calling doctor agent...86.41977510000288
+calling patientAgent....33.235415200004354
+calling doctor agent...46.12648810000246
+calling patientAgent....26.635813699998835
+calling doctor agent...38.87863490000018
+calling patientAgent....32.62850069999695
+calling doctor agent...calling doctor agent...84.7631459999975
+calling patientAgent....32.71950559999823
+calling doctor agent...43.540494999993825
+dialogue no : 38ended in....968.2108994000009
+
+selecting disease....
+10.365332400004263
+generating scenario....generating scenario....generating scenario....generating scenario....generating scenario....248.9045186999938
+calling patientAgent....42.69865530000243
+calling doctor agent...33.00381499999639
+calling patientAgent....29.432222999996156
+calling doctor agent...34.75607200000377
+calling patientAgent....31.54230490000191
+calling doctor agent...34.71850669999549
+calling patientAgent....28.65511770000012
+calling doctor agent...calling doctor agent...69.25192809999862
+calling patientAgent....26.858053399999335
+calling doctor agent...36.78133950000483
+calling patientAgent....5.649294499999087
+calling doctor agent...calling doctor agent...76.8803182000047
+calling patientAgent....26.07477089999884
+calling doctor agent...42.25300440000137
+calling patientAgent....28.2487226000012
+calling doctor agent...41.784774100000504
+calling patientAgent....30.995788800006267
+calling doctor agent...37.67464270000346
+calling patientAgent....29.432095500000287
+calling doctor agent...45.37701179999567
+dialogue no : 39ended in....991.3744661999954
+
+selecting disease....
+10.834749500005273
+generating scenario....13.800490400004492
+calling patientAgent....44.45519069999864
+calling doctor agent...34.16303419999895
+calling patientAgent....34.538759299997764
+calling doctor agent...33.160639900001115
+calling patientAgent....27.229513099999167
+calling doctor agent...33.919048000003386
+calling patientAgent....23.92944119999447
+calling doctor agent...49.031377400002384
+calling patientAgent....28.85594320000382
+calling doctor agent...35.03370580000046
+calling patientAgent....32.52723729999707
+calling doctor agent...39.70075530000031
+calling patientAgent....33.19372039999871
+calling doctor agent...30.543600299999525
+calling patientAgent....31.009771199998795
+calling doctor agent...47.28506190000189
+calling patientAgent....33.95187209999858
+calling doctor agent...40.181608300001244
+calling patientAgent....32.571894300002896
+calling doctor agent...36.27282019999984
+dialogue no : 40ended in....726.2695575999969
+
+selecting disease....
+10.27333180000278
+generating scenario....12.01339949999965
+calling patientAgent....48.380327800005034
+calling doctor agent...36.83373929999652
+calling patientAgent....29.649776099999144
+calling doctor agent...41.20282469999802
+calling patientAgent....34.93627600000036
+calling doctor agent...38.45880400000169
+calling patientAgent....36.60702370000217
+calling doctor agent...43.25309589999961
+calling patientAgent....34.92371909999929
+calling doctor agent...42.33860170000116
+calling patientAgent....32.71178379999765
+calling doctor agent...41.50480740000057
+calling patientAgent....28.270943499999703
+calling doctor agent...41.48350159999973
+calling patientAgent....27.274627599996165
+calling doctor agent...42.04386139999406
+calling patientAgent....30.24971099999675
+calling doctor agent...calling doctor agent...87.1705254999979
+calling patientAgent....31.189959900002577
+calling doctor agent...36.22413169999345
+calling patientAgent....31.300724700005958
+calling doctor agent...45.08194640000147
+dialogue no : 41ended in....883.5193395000024
+
+selecting disease....
+10.874464399996214
+generating scenario....generating scenario....33.1118157000019
+calling patientAgent....49.5091298000043
+calling doctor agent...33.951496299996506
+calling patientAgent....25.334526400001778
+calling doctor agent...34.61004449999746
+calling patientAgent....29.707339699998556
+calling doctor agent...36.66558179999993
+calling patientAgent....34.51244539999607
+calling doctor agent...35.12155860000348
+calling patientAgent....27.12764660000539
+calling doctor agent...33.25134409999737
+calling patientAgent....30.71053750000283
+calling doctor agent...34.79290949999995
+calling patientAgent....45.782771400001366
+calling doctor agent...39.06063189999986
+calling patientAgent....30.558342999996967
+calling doctor agent...40.69158790000074
+calling patientAgent....7.246306600005482
+calling doctor agent...44.606695099995704
+dialogue no : 42ended in....657.286437900002
+
+selecting disease....
+10.526726600000984
+generating scenario....15.253958700006478
+calling patientAgent....41.40235810000013
+calling doctor agent...35.509865300002275
+calling patientAgent....25.549420099996496
+calling doctor agent...32.93131919999723
+calling patientAgent....28.957516000002215
+calling doctor agent...37.08252750000247
+calling patientAgent....31.46963710000273
+calling doctor agent...33.59096280000085
+calling patientAgent....30.55878319999465
+calling doctor agent...37.60401209999691
+calling patientAgent....34.75306940000155
+calling doctor agent...calling doctor agent...74.78263690000313
+calling patientAgent....27.83302199999889
+calling doctor agent...37.59172050000052
+calling patientAgent....30.001120900000387
+calling doctor agent...41.33873660000245
+calling patientAgent....27.797915800001647
+calling doctor agent...39.12361950000195
+calling patientAgent....30.858523499999137
+calling doctor agent...42.54445069999929
+dialogue no : 43ended in....747.1068321999992
+
+selecting disease....
+10.871818100000382
+generating scenario....13.329481399996439
+calling patientAgent....48.728726099994674
+calling doctor agent...36.767105599996285
+calling patientAgent....32.375534899998456
+calling doctor agent...32.5373352999959
+calling patientAgent....28.58980039999733
+calling doctor agent...40.21421429999464
+calling patientAgent....36.04093859999557
+calling doctor agent...41.78695390000212
+calling patientAgent....33.08798119999847
+calling doctor agent...47.51974820000032
+calling patientAgent....34.18256989999645
+calling doctor agent...41.239334499994584
+calling patientAgent....32.956287399996654
+calling doctor agent...44.26995209999586
+calling patientAgent....33.11410639999667
+calling doctor agent...34.44136820000131
+calling patientAgent....33.2553079000063
+calling doctor agent...53.619405299999926
+calling patientAgent....32.86208980000083
+calling doctor agent...45.57213790000242
+dialogue no : 44ended in....787.4275671000069
+
+selecting disease....
+10.698833099995682
+generating scenario....12.241405599997961
+calling patientAgent....46.358030899995356
+calling doctor agent...34.28428140000324
+calling patientAgent....31.161913600000844
+calling doctor agent...37.464788600002066
+calling patientAgent....30.560333000001265
+calling doctor agent...32.64902019999863
+calling patientAgent....27.642245700000785
+calling doctor agent...43.50811899999826
+calling patientAgent....27.860197599999083
+calling doctor agent...42.45271959999809
+calling patientAgent....26.44740940000338
+calling doctor agent...42.261302299993986
+calling patientAgent....30.388194399994973
+calling doctor agent...39.68284489999496
+calling patientAgent....29.69517800000176
+calling doctor agent...34.717862099998456
+calling patientAgent....28.428385699997307
+calling doctor agent...36.47557469999447
+calling patientAgent....29.042267700002412
+calling doctor agent...36.66691490000085
+dialogue no : 45ended in....710.7332995000033
+

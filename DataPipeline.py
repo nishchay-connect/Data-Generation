@@ -14,7 +14,7 @@ from os import getenv
 
 load_dotenv()
 
-client=genai.Client(api_key=f"{getenv("GEMINI_API_KEY_1")}")
+client=genai.Client(api_key=f"{getenv("GEMINI_API_KEY_3")}")
 
 doc_flag=False
 patient_flag=True
@@ -187,8 +187,7 @@ def scenarioGen(disease):
 
     start_s=time.perf_counter()
 
-    while True:
-
+    for i in range(1,11): ## to try 10 times times max 
         try:
 
             print("generating scenario....")
