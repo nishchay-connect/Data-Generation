@@ -161,3 +161,5 @@ Diabetes, Migraine, UTI, Gastritis, Hypertension, Tuberculosis, Dengue, Typhoid,
 - Pediatric dialogue track with parent child dynamic
 - Disease specific must elicit checklists for doctor agent. (set of ques or symptoms must explored for particular disease).
 - Expansion to 200+ dialogues across 30+ diseases
+
+NISHCHAY
